@@ -1,0 +1,19 @@
+#+TITLE: Election Project
+
+* Inbox
+Father asked me to make him some websites for the Election
+
+
+* How to make a website
+Non-Webapp
+
+** Bootstrap
+CSS/HTML library 
++ Good for mobile structured sites
+
+
+** DONE React + AngularJS
+Propbably not the best ideas - way more in depth -> not completely necessary for a simple website
+
+
+
