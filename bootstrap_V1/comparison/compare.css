@@ -1,0 +1,22 @@
+#comparison-chart {
+  text-align: center;
+}
+
+.issue {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#lgbtq h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+#gay-marriage {
+  background-image: url("../images/american-flag.jpg")
+}
+
+#gay-marriage:hover {
+  filter: blur(4px);
+}
