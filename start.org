@@ -1,19 +1,20 @@
 #+TITLE: Election Project
 
 * Inbox
-Father asked me to make him some websites for the Election
-
 ** TODO Need to be able to serve dynamic HTML pages to users
 where *http://absenteevoting.org/florida* would return the site as *compiled to florida*
 
+** TODO State urls
+(missing a few)
 
-* How to make a website
-Non-Webapp
+** TODO Are page3 and page4 really different?
+Get involved vs Different Groups
 
+
+* Frameworkds
 ** Bootstrap
 CSS/HTML library 
 + Good for mobile structured sites
-
 
 ** DONE React + AngularJS
 Propbably not the best ideas - way more in depth -> not completely necessary for a simple website
@@ -31,5 +32,7 @@ CSS library - prebuilt objects I can throw into the website - built for smartpho
 ** Page1: 
 ** Page2: Other voting issues per state.
 ** Comparison Chart
-
+** Page3: Get Involved
+** Page4: Other Groups
+** Page5: FAQs
 

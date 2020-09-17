@@ -71,7 +71,7 @@ function stateSelectOption(state) {
   return "<a><option value='" + stateID + "'>" + stateName + "</option></a>";
 }
 
-docStateSelectString = "<option class='text-muted' value='None'>--Select State--</option>";
+docStateSelectString = "<option class='text-muted' value='None'><p style='font-weight=600'>--Select State--</p></option>";
 for(i in STATELINKS){
   docStateSelectString += stateSelectOption(i);
 }
@@ -85,5 +85,3 @@ docStateSelect.addEventListener('change', (event) => {
     console.log(result + newStateLink);
   }
 });
-
-

@@ -5,118 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="John Leddy, Harrison Quarry">
-    <title>Vote!</title>
+    <title>Vote</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- <style>
-         .bd-placeholder-img {
-         font-size: 1.125rem;
-         text-anchor: middle;
-       -webkit-user-select: none;
-       -moz-user-select: none;
-       -ms-user-select: none;
-         user-select: none;
-         }
-         @media (min-width: 768px) {
-         .bd-placeholder-img-lg {
-         font-size: 3.5rem;
-         }
-         }
-         </style> -->
-    <!-- Custom styles for this template -->
     <link href="index.css" rel="stylesheet">
   </head>
 
 <body>
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">Vote</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
   </nav>
-
 </header>
-
-<main role="main">
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container text-white row margin-auto">
-      <div class="col-md-10 container bg-black">
+      <div class="col-md container bg-black">
         <h1 class="display-4 hero-text">Vote!</h1>
         <p class="lead hero-text">The leaders we elect make decisions that affect our daily lives. Elections are our chance to stand up for what matters most to us and to have an impact on the issues that affect us, our communities, our families and our future.</p>
       </div>
     </div>
-  </div>
-
-  <div class="container">
-    <h1>Go Vote</h1>
-    <h6 style="color:grey">(Text taken from LWV)</h6>
-    <p>
-      Voting is a sacred right. For nearly 100 years, we have fought to protect the rights of eligible voters and expand access for those who’ve been left out of our democratic process. Our volunteers spearhead efforts to enact common-sense voting reforms and we are the first to fight back when voters’ rights are threatened. We protect millions of voters every year through aggressive advocacy and education efforts and we have been at the forefront of major voting rights court cases over the last decade.
-    </p>
-
-    <h1>Why it matters</h1>
-    <h6 style="color:grey">(Text taken from LWV)</h6>
-    <p>The leaders we elect make decisions that affect our daily lives. Elections are our chance to stand up for what matters most to us and to have an impact on the issues that affect us, our communities, our families and our future. </p>
-  </div>
-
-
   <div class="container info-links">
     <div class="row">
-      <div class="vote-link col-md-6">
+      <div class="vote-link col-md-4">
         <a href="#" role="button">
-          <svg id="voting-box" class="bd-placeholder-img rounded-circle" width="240" height="240" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
+          <svg id="voting-box" class="bd-placeholder-img image-rounded" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
         </a>
         <h2>Register to Vote</h2>
-        <p>Register to vote online or find out if you're already registered</p>
+        <!-- <p>Register to vote online or find out if you're already registered</p> -->
       </div>
-      <div class="vote-link col-md-6">
+      <div class="vote-link col-md-4">
         <a href="#" role="button">
-          <div class="image-cropper">
+          <div class="image-rounded">
             <img src="images/voting_box.jpg" alt="voting" class="profile-pic">
           </div>
         </a>
         <h2>Request VBM Ballot</h2>
-        <p>Donec sed odio dui</p>
+        <!-- <p>Donec sed odio dui</p> -->
       </div>
-      <div class="vote-link col-md-6">
+      <div class="vote-link col-md-4">
         <a href="#" role="button">
-          <svg id="voting-box" class="bd-placeholder-img rounded-circle" width="240" height="240" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
+          <svg id="voting-box" class="bd-placeholder-img image-rounded" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
         </a>
         <h2>Early Voting</h2>
-        <p>Find out more about Early Voting</p>
+        <!-- <p>Find out more about Early Voting</p> -->
       </div>
     </div>
   </div>
 
+</div>
+
+<main role="main">
+
 
     <!-- START THE FEATURETTES -->
   <div class="container">
-    <hr class="featurette-divider">
-
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Find Your State</h2>
-        <select id="state-select" style="width:30%;min-width:250px" class=""></select>
-      </div>
       <div class="col-md-5">
-        <img alt="" src="images/lwv-logo.png" class="featurette-image img-fluid" />
+        <h2 class="featurette-heading">Find Your State</h2>
+        <select id="state-select" class=""></select>
+      </div>
+      <div class="col-md-7">
+        <img alt="" src="images/america_map.jpg" class="featurette-image img-fluid" />
         <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
       </div>
     </div>
@@ -152,9 +100,9 @@
 
 
   <!-- US Map - src:[usmap/*.js] -->
-  <div>
+  <div class="container center">
     <h1>HTML5/JavaScript USA Map</h1>
-    <div id="map"></div>
+    <div id="map" style="margin:auto"></div>
     <div>Please read the <a href="http://simplemaps.com/docs">documentation</a> to learn how to customize this map.</div>
   </div>
 
@@ -171,5 +119,6 @@
 <script src="usmap/mapdata.js"></script>
 <script src="usmap/usmap.js"></script>
 <script src="index.js"></script>
+<script src="navbar.js"></script>
 <!-- <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
 </html>
