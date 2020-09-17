@@ -26,11 +26,14 @@ nav {
 
 /* HERO
 -------------------------------------------------- */
+.full-screen {
+  min-height: 80vh;
+}
+
 .jumbotron {
   background-image: url("images/american-flag-dark.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 80vh;
   max-height: none;
 }
 
