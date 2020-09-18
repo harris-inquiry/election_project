@@ -13,6 +13,8 @@ Get involved vs Different Groups
 ** TODO Count number of visitors?
 -> Hopefully webhost provides these statistics?
 
+** TODO Countdown to Election
+
 * TODO Questions/Comments
 ** Template Sites
 https://templated.co/

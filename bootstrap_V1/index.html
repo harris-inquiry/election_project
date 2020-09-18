@@ -10,115 +10,115 @@
     <link href="index.css" rel="stylesheet">
   </head>
 
-<body>
-<header>
-  <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
-  </nav>
-</header>
+  <body>
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+      </nav>
+    </header>
 
-  <div class="jumbotron jumbotron-fluid full-screen">
-    <div class="container text-white row margin-auto">
-      <div class="col-md container bg-black">
-        <h1 class="display-4 hero-text">Vote!</h1>
-        <p class="lead hero-text">The leaders we elect make decisions that affect our daily lives. Elections are our chance to stand up for what matters most to us and to have an impact on the issues that affect us, our communities, our families and our future.</p>
+    <div class="jumbotron jumbotron-fluid full-screen">
+      <div class="container text-white row margin-auto" >
+        <div class="col-md-4 container bg-black" style="margin:auto 0;">
+          <h1 class="display-4 hero-text">Vote!</h1>
+          <p class="lead hero-text">The leaders we elect make decisions that affect our daily lives. Elections are our chance to stand up for what matters most to us and to have an impact on the issues that affect us, our communities, our families and our future.</p>
+        </div>
+        <!-- US Map - src:[usmap/*.js] -->
+        <div class="container center col-md-6">
+          <div id="map" style="margin:auto"></div>
+        </div>
       </div>
+      <div class="container info-links">
+        <div class="row">
+
+        </div>
+      </div>
+
     </div>
-  <div class="container info-links">
-    <div class="row">
-      <div class="vote-link col-md-4">
-        <a href="#" role="button">
-          <svg id="voting-box" class="bd-placeholder-img image-rounded" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
-        </a>
-        <h2>Register to Vote</h2>
-        <!-- <p>Register to vote online or find out if you're already registered</p> -->
-      </div>
-      <div class="vote-link col-md-4">
-        <a href="#" role="button">
-          <div class="image-rounded">
-            <img src="images/voting_box.jpg" alt="voting" class="profile-pic">
+
+    <main role="main">
+
+
+      <!-- START THE FEATURETTES -->
+      <div class="container">
+
+        <div id="stateCoverData" class="featurette">
+          <div class="row">
+            <div class="col">
+              <h2 class="featurette-heading">Find Your State</h2>
+              <select id="state-select" class="" style="font-size:1.5rem"></select>
+            </div>
           </div>
-        </a>
-        <h2>Request VBM Ballot</h2>
-        <!-- <p>Donec sed odio dui</p> -->
-      </div>
-      <div class="vote-link col-md-4">
-        <a href="#" role="button">
-          <svg id="voting-box" class="bd-placeholder-img image-rounded" xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" ></svg>
-        </a>
-        <h2>Early Voting</h2>
-        <!-- <p>Find out more about Early Voting</p> -->
-      </div>
-    </div>
-  </div>
+          <div class="row">
+            <div id="state-national-map_container" class="center full-width" style="margin:1rem auto">
+              <img id="state-national-map" alt="" src="images/us.svg" class="featurette-image img-fluid" />
+            </div>
+            <div class="col">
+              <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Offical Website</button> -->
+              <div id="importantDates" class="card" style="margin:1rem auto;">
+                <div class="card-body">
+                  <h2>Important Dates</h2>
+                  <hr></hr>
+                  <div class="electionDates">
+                    <h3 class="card-text">General Election</h3>
+                    <h3>Nov 3, 2020</h3>
+                  </div>
+                  <div id="stateElectionDate" style="margin:1rem 0">
+                    <h5>Voter Registration Deadline</h5>
+                    <span>Online by Mon Oct 19, 2020</span><br>
+                    <span>Postmarked by Mon Oct 19, 2020</span><br>
+                    <span>Conditional Registration Begins on Tue Oct 20, 2020</span>
+                  </div>
+                  <div id="election-result-absentee-ballot_request">
+                    <strong>Deadline to Request an Absentee Ballot:</strong>
+                    <br>Received by Tue Oct 27, 2020
+                  </div>
+                  <div id="election-result-absentee-ballot_return">
+                    <strong>Deadline to Return Completed Absentee Ballot:</strong>
+                    <br>Hand Delivered by Tue Nov 3, 2020 8:00PM PST
+                  </div>
+                  <hr></hr>
+                </div>
+              </div>
+              <a id="officialStateLink" href="#" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Offical Website</button>
+              </a>
+            </div>
+          </div>
 
-</div>
+          <div id="votingInfo" class="collapse show container" style="margin:1rem auto;">
+            <div class="row card" style="flex-direction:row;">
+              <h3 class="col col-md-2 card-title center" style="min-width:300px">All States</h3>
+              <div class="col" style="min-width:400px; ">
+                <ul>
+                  <li>blah 1</li>
+                  <li>blah 2</li>
+                  <li>blah 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-<main role="main">
-
-
-    <!-- START THE FEATURETTES -->
-  <div class="container">
-    <div class="row featurette">
-      <div class="col-md-5">
-        <h2 class="featurette-heading">Find Your State</h2>
-        <select id="state-select" class=""></select>
-      </div>
-      <div class="col-md-7">
-        <img alt="" src="images/america_map.jpg" class="featurette-image img-fluid" />
-        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">VOTE411</h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img alt="" src="images/VOTE411-logo.png" class="featurette-image img-fluid" />
-        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-    <!-- /END THE FEATURETTES -->
-  </div><!-- /.container -->
+        </div>
 
 
-  <!-- US Map - src:[usmap/*.js] -->
-  <div class="container center">
-    <h1>HTML5/JavaScript USA Map</h1>
-    <div id="map" style="margin:auto"></div>
-    <div>Please read the <a href="http://simplemaps.com/docs">documentation</a> to learn how to customize this map.</div>
-  </div>
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+      </div><!-- /.container -->
 
 
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="usmap/mapdata.js"></script>
-<script src="usmap/usmap.js"></script>
-<script src="index.js"></script>
-<script src="navbar.js"></script>
-<!-- <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="usmap/mapdata.js"></script>
+    <script src="usmap/usmap.js"></script>
+    <script src="index.js"></script>
+    <script src="navbar.js"></script>
+    <!-- <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
 </html>

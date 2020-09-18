@@ -4,7 +4,7 @@ var LINKS = {
   lwv: "https://www.lwv.org/",
 };
 
-var STATELINKS = {
+var STATE_OFFICIAL_LINKS = {
   Alabama: "https://www.alabamavotes.gov/olvr/default.aspx",
   Alaska: "https://voterregistration.alaska.gov",
   Arizona: "https://servicearizona.com/VoterRegistration/selectLanguage",
@@ -68,11 +68,11 @@ var STATELINKS = {
 function stateSelectOption(state) {
   let stateID = state;
   let stateName = stateID.replace("_", " ");
-  return "<a><option value='" + stateID + "'>" + stateName + "</option></a>";
+  return "<option value='" + stateID + "'>" + stateName + "</option>";
 }
 
 docStateSelectString = "<option class='text-muted' value='None'><p style='font-weight=600'>--Select State--</p></option>";
-for(i in STATELINKS){
+for(i in STATE_OFFICIAL_LINKS){
   docStateSelectString += stateSelectOption(i);
 }
 docStateSelect = document.getElementById("state-select");
@@ -80,8 +80,32 @@ docStateSelect.innerHTML = docStateSelectString;
 docStateSelect.addEventListener('change', (event) => {
   let result = docStateSelect.value;
   if(result != "None"){
-    let newStateLink = STATELINKS[result];
-    // window.location.href = newStateLink;
-    console.log(result + newStateLink);
+    setStateData(result);
+  } else {
+    unSetStateData();
   }
 });
+
+function setStateData(state) {
+  let stateCoverData = document.getElementById("stateCoverData");
+  // change pic
+  stateCoverData.getElementsByTagName("img")[0].src = "images/states/" + state + ".svg";
+  document.getElementById("state-national-map_container").classList.remove("full-width");
+
+  // link
+  let newStateLink = STATE_OFFICIAL_LINKS[state];
+  stateCoverData.getElementsByTagName("a")[0].href = newStateLink;
+}
+
+function unSetStateData() {
+  let stateCoverData = document.getElementById("stateCoverData");
+  // change pic
+  stateCoverData.getElementsByTagName("img")[0].src = "images/us.svg";
+  document.getElementById("state-national-map_container").classList.add("full-width");
+
+  // link
+  stateCoverData.getElementsByTagName("a")[0].href = "#";
+
+}
+
+
