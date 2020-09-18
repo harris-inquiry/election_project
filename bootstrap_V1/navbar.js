@@ -8,13 +8,13 @@ document.getElementById('navbar').innerHTML = `
 <div class="collapse navbar-collapse" id="navbarCollapse">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-      <a id="home-link" class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      <a id="home-link" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a id="page2-link" class="nav-link" href="page2/whyvote.html">Why Vote</a>
+      <a id="page2-link" class="nav-link" href="whyvote.html">Why Vote</a>
     </li>
     <li class="nav-item">
-      <a id="page3-link" class="nav-link" href="page4/different_groups.html">Resources</a>
+      <a id="page3-link" class="nav-link" href="different_groups.html">Resources</a>
     </li>
     <li class="nav-item">
       <a id="page4-link" class="nav-link" href="#">Other</a>

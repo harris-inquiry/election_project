@@ -71,7 +71,7 @@ function stateSelectOption(state) {
   return "<option value='" + stateID + "'>" + stateName + "</option>";
 }
 
-docStateSelectString = "<option class='text-muted' value='None'><p style='font-weight=600'>--Select State--</p></option>";
+docStateSelectString = "<option class='text-black' value='None'><p style='font-weight=600'>--Select State--</p></option>";
 for(i in STATE_OFFICIAL_LINKS){
   docStateSelectString += stateSelectOption(i);
 }
@@ -86,7 +86,7 @@ docStateSelect.addEventListener('change', (event) => {
   }
 });
 
-function setStateData(state) {
+async function setStateData(state) {
   let stateCoverData = document.getElementById("stateCoverData");
   // change pic
   stateCoverData.getElementsByTagName("img")[0].src = "images/states/" + state + ".svg";
@@ -95,6 +95,8 @@ function setStateData(state) {
   // link
   let newStateLink = STATE_OFFICIAL_LINKS[state];
   stateCoverData.getElementsByTagName("a")[0].href = newStateLink;
+
+  document.getElementById("state-info").innerHTML = await fetchStateHTML(state);
 }
 
 function unSetStateData() {
@@ -106,6 +108,20 @@ function unSetStateData() {
   // link
   stateCoverData.getElementsByTagName("a")[0].href = "#";
 
+  document.getElementById("state-info").innerHTML = "";
+}
+
+async function fetchStateHTML(state) {
+  try {
+    let response = await fetch("state_info/" + state + ".html");
+    if(!response.ok){
+      throw Error(response.statusText);
+    }
+    let data = await response.text();
+    return data;
+  } catch(err) {
+    return "<strong>Failed to retrieve State information</strong>";
+  }
 }
 
 

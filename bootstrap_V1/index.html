@@ -23,9 +23,9 @@
           <p class="lead hero-text">The leaders we elect make decisions that affect our daily lives. Elections are our chance to stand up for what matters most to us and to have an impact on the issues that affect us, our communities, our families and our future.</p>
         </div>
         <!-- US Map - src:[usmap/*.js] -->
-        <div class="container center col-md-6">
-          <div id="map" style="margin:auto"></div>
-        </div>
+        <!-- <div class="container center col-md-6">
+             <div id="map" style="margin:auto"></div>
+             </div> -->
       </div>
       <div class="container info-links">
         <div class="row">
@@ -45,57 +45,50 @@
           <div class="row">
             <div class="col">
               <h2 class="featurette-heading">Find Your State</h2>
-              <select id="state-select" class="" style="font-size:1.5rem"></select>
+              <select id="state-select" class="bg-primary text-white" style="font-size:1.5rem"></select>
             </div>
           </div>
           <div class="row">
             <div id="state-national-map_container" class="center full-width" style="margin:1rem auto">
               <img id="state-national-map" alt="" src="images/us.svg" class="featurette-image img-fluid" />
             </div>
-            <div class="col">
-              <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Offical Website</button> -->
+            <div class="col-lg">
               <div id="importantDates" class="card" style="margin:1rem auto;">
                 <div class="card-body">
                   <h2>Important Dates</h2>
                   <hr></hr>
                   <div class="electionDates">
-                    <h3 class="card-text">General Election</h3>
+                    <h3 class="card-text" style="background: #ff00006e;">General Election</h3>
                     <h3>Nov 3, 2020</h3>
                   </div>
                   <div id="stateElectionDate" style="margin:1rem 0">
-                    <h5>Voter Registration Deadline</h5>
+                    <h5 style="background: #ff00006e;">Voter Registration Deadline</h5>
                     <span>Online by Mon Oct 19, 2020</span><br>
                     <span>Postmarked by Mon Oct 19, 2020</span><br>
                     <span>Conditional Registration Begins on Tue Oct 20, 2020</span>
                   </div>
                   <div id="election-result-absentee-ballot_request">
-                    <strong>Deadline to Request an Absentee Ballot:</strong>
+                    <strong style="background: #ff00006e;">Deadline to Request an Absentee Ballot:</strong>
                     <br>Received by Tue Oct 27, 2020
                   </div>
                   <div id="election-result-absentee-ballot_return">
-                    <strong>Deadline to Return Completed Absentee Ballot:</strong>
+                    <strong style="background: #ff00006e;">Deadline to Return Completed Absentee Ballot:</strong>
                     <br>Hand Delivered by Tue Nov 3, 2020 8:00PM PST
                   </div>
                   <hr></hr>
                 </div>
               </div>
-              <a id="officialStateLink" href="#" target="_blank">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Offical Website</button>
+              <a id="officialStateLink" type="button" class="btn btn-primary btn-lg btn-block" href="#" target="_blank" style="margin:1rem 0">
+                Offical Website
+              </a>
+              <a id="share-button" type="button" class="btn btn-primary btn-lg btn-block" href="#" target="_blank" style="margin:1rem 0">
+                Share
               </a>
             </div>
           </div>
 
           <div id="votingInfo" class="collapse show container" style="margin:1rem auto;">
-            <div class="row card" style="flex-direction:row;">
-              <h3 class="col col-md-2 card-title center" style="min-width:300px">All States</h3>
-              <div class="col" style="min-width:400px; ">
-                <ul>
-                  <li>blah 1</li>
-                  <li>blah 2</li>
-                  <li>blah 3</li>
-                </ul>
-              </div>
-            </div>
+            <div id="state-info" class="row card" style="flex-direction:row;"></div>
           </div>
 
         </div>
@@ -103,8 +96,15 @@
 
         <hr class="featurette-divider">
 
+        <div class="featurette">
+          <h1>Find your voting location</h1><br>
+          <input text="blah"/><br>
+          <iframe width="800" height="600" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBdNbZfzv5QvAciyHe5dVLesRTKUHiC2tM&q=United+States" allowfullscreen>
+          </iframe>
+        </div>
+
         <!-- /END THE FEATURETTES -->
-      </div><!-- /.container -->
+      </div>
 
 
       <!-- FOOTER -->
