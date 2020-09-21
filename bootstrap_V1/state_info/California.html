@@ -1,18 +1,75 @@
 <!doctype html>
 <html lang="en">
-  <h3 class="col col-md-2 card-title center" style="min-width:300px">California</h3>
-  <div class="col" style="min-width:400px; ">
-    <h5 style="font-weight:bold">To Register in California, you must:</h5>
-    <ul>
-      <li>Be a US citizen</li>
-      <li>Be a resident of California</li>
-      <li>Be at least 18 years old, or turning 18 by the election</li>
-      <li>Not have been declared “non-compos mentis” or “mentally incompetent” by a court of law</li>
-      <li>Not currently in state or federal prison or on parole for the conviction of a felony</li>
-    </ul>
-    <p>You must register to vote at least 15 days before the election you wish to vote in, or you can register during the early voting period or on Election Day (see more under “Election Day Registration”).</p>
-    <p>If you’re eligible to vote in California but have not yet registered, you can go to your polling location and register on the day of the election.</p>
-    <h5 style="font-weight:bold">Vote-by-mail & Absentee</h5>
-    <p>No excuse is needed to vote by mail in California. Due to COVID-19, all registered voters in California will automatically receive vote by mail ballots for the November 2020 election, so you do not need to request a vote by mail ballot. Register to vote or check your registration status to ensure you receive your ballot.</p>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="../index.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="state-national-map_container" class="center" style="margin:1rem auto">
+        <img id="state-national-map" alt="" src="../images/states/California.svg" class="featurette-image img-fluid" />
+      </div>
+      <div class="col-lg">
+        <div id="importantDates" class="card" style="margin:1rem auto;">
+          <div class="card-body">
+            <h2>Important Dates</h2>
+            <hr></hr>
+            <div class="electionDates">
+              <h3 class="card-text" style="background: #ff00006e;">General Election</h3>
+              <h3>Nov 3, 2020</h3>
+            </div>
+            <div id="stateElectionDate" style="margin:1rem 0">
+              <h5 style="background: #ff00006e;">Voter Registration Deadline</h5>
+              <span>Online by Mon Oct 19, 2020</span><br>
+              <span>Postmarked by Mon Oct 19, 2020</span><br>
+              <span>Conditional Registration Begins on Tue Oct 20, 2020</span>
+            </div>
+            <div id="election-result-absentee-ballot_request">
+              <strong style="background: #ff00006e;">Deadline to Request an Absentee Ballot:</strong>
+              <br>Received by Tue Oct 27, 2020
+            </div>
+            <div id="election-result-absentee-ballot_return">
+              <strong style="background: #ff00006e;">Deadline to Return Completed Absentee Ballot:</strong>
+              <br>Hand Delivered by Tue Nov 3, 2020 8:00PM PST
+            </div>
+            <hr></hr>
+          </div>
+        </div>
+        <a id="officialStateLink" type="button" class="btn btn-primary btn-lg btn-block" href="http://registertovote.ca.gov" target="_blank" style="margin:1rem 0">
+          Offical Website
+        </a>
+        <a id="share-button" type="button" class="btn btn-primary btn-lg btn-block" href="#" target="_blank" style="margin:1rem 0">
+          Share
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div id="votingInfo" class="row" style="margin:1rem auto;">
+        <h3 class="col col-md-2 card-title center" style="min-width:300px">California</h3>
+        <div class="col" style="min-width:400px; ">
+          <h5 style="font-weight:bold">To Register in California, you must:</h5>
+          <ul>
+            <li>Be a US citizen</li>
+            <li>Be a resident of California</li>
+            <li>Be at least 18 years old, or turning 18 by the election</li>
+            <li>Not have been declared “non-compos mentis” or “mentally incompetent” by a court of law</li>
+            <li>Not currently in state or federal prison or on parole for the conviction of a felony</li>
+          </ul>
+          <p>You must register to vote at least 15 days before the election you wish to vote in, or you can register during the early voting period or on Election Day (see more under “Election Day Registration”).</p>
+          <p>If you’re eligible to vote in California but have not yet registered, you can go to your polling location and register on the day of the election.</p>
+          <h5 style="font-weight:bold">Vote-by-mail & Absentee</h5>
+          <p>No excuse is needed to vote by mail in California. Due to COVID-19, all registered voters in California will automatically receive vote by mail ballots for the November 2020 election, so you do not need to request a vote by mail ballot. Register to vote or check your registration status to ensure you receive your ballot.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>

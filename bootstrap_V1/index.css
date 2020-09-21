@@ -32,10 +32,17 @@ nav {
 }
 
 .jumbotron {
-  background-image: url("images/american-flag-dark.jpg");
   background-size: cover;
   background-position: center;
   max-height: none;
+}
+
+.american-flag {
+  background-image: url("images/american-flag-dark.jpg");
+}
+
+.declaration-independence {
+  background-image: url("images/Declaration_of_Independence.jpg");
 }
 
 .hero-text {
@@ -127,11 +134,11 @@ nav {
 }
 
 .featurette {
-  margin: 3em auto;
+  margin: 1em auto;
 }
 
 .featurette-divider {
-  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */

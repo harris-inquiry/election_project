@@ -1,6 +1,7 @@
 #+TITLE: Election Project
 
 * Inbox
+[[file:~/BRAIN/Election-Project-Lessons_200919024557.org]]
 ** TODO Need to be able to serve dynamic HTML pages to users
 where *http://absenteevoting.org/florida* would return the site as *compiled to florida*
 

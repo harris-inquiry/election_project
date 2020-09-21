@@ -71,7 +71,7 @@ function stateSelectOption(state) {
   return "<option value='" + stateID + "'>" + stateName + "</option>";
 }
 
-docStateSelectString = "<option class='text-black' value='None'><p style='font-weight=600'>--Select State--</p></option>";
+docStateSelectString = "<option class='text-black' value='US_all'><p style='font-weight=600'>--Select State--</p></option>";
 for(i in STATE_OFFICIAL_LINKS){
   docStateSelectString += stateSelectOption(i);
 }
@@ -79,36 +79,12 @@ docStateSelect = document.getElementById("state-select");
 docStateSelect.innerHTML = docStateSelectString;
 docStateSelect.addEventListener('change', (event) => {
   let result = docStateSelect.value;
-  if(result != "None"){
-    setStateData(result);
-  } else {
-    unSetStateData();
-  }
+  setStateData(result);
 });
 
 async function setStateData(state) {
   let stateCoverData = document.getElementById("stateCoverData");
-  // change pic
-  stateCoverData.getElementsByTagName("img")[0].src = "images/states/" + state + ".svg";
-  document.getElementById("state-national-map_container").classList.remove("full-width");
-
-  // link
-  let newStateLink = STATE_OFFICIAL_LINKS[state];
-  stateCoverData.getElementsByTagName("a")[0].href = newStateLink;
-
-  document.getElementById("state-info").innerHTML = await fetchStateHTML(state);
-}
-
-function unSetStateData() {
-  let stateCoverData = document.getElementById("stateCoverData");
-  // change pic
-  stateCoverData.getElementsByTagName("img")[0].src = "images/us.svg";
-  document.getElementById("state-national-map_container").classList.add("full-width");
-
-  // link
-  stateCoverData.getElementsByTagName("a")[0].href = "#";
-
-  document.getElementById("state-info").innerHTML = "";
+  stateCoverData.innerHTML = await fetchStateHTML(state);
 }
 
 async function fetchStateHTML(state) {
@@ -124,4 +100,5 @@ async function fetchStateHTML(state) {
   }
 }
 
+setStateData("US_all");
 
