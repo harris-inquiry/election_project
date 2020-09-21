@@ -6,8 +6,6 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import { Row, Col, Container } from 'react-bootstrap';
 
-import "../styles/index.scss"
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Vote" description="Vote today!"/>
