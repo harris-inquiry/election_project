@@ -5,10 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Row, Col, Container } from 'react-bootstrap';
+import Banner from "../components/banner"
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Vote" description="Vote today!"/>
+    <Banner page="home" />
     <Container>
     <Row>
       <Col>
@@ -23,7 +26,7 @@ const IndexPage = () => (
           </div>
         </div>
       </Col>
-      <Col>
+      <Col md>
         <h2>Here's some more</h2>
         <Image imageName="americanFlag"/>
       </Col>
