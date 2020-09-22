@@ -11,13 +11,13 @@ const MyNavbar = () => (
   <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
     <Nav>
       <Nav.Link>
-        <Link to="/">Page1</Link>
+        <Link className="btn btn-primary" to="/">Page1</Link>
       </Nav.Link>
       <Nav.Link>
-        <Link to="page-2">Page2</Link>
+        <Link className="btn btn-primary" to="why_vote">Why Vote</Link>
       </Nav.Link>
       <Nav.Link>
-        <Link to="404">Page3</Link>
+        <Link className="btn btn-primary" to="404">Page3</Link>
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>

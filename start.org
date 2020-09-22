@@ -16,6 +16,9 @@ Get involved vs Different Groups
 
 ** TODO Countdown to Election
 
+** TODO Adapt ~Banner~ element into parent tag
+(wrapping element -> providing only the background image and relative spacing for child elements)
+
 * TODO Questions/Comments
 ** Template Sites
 https://templated.co/

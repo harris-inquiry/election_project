@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
 
@@ -20,15 +19,15 @@ const pages = {
 
 const Banner = ({page}) => (
 <div className="banner">
-  <Image imageName={pages[page].image} style={{height:"100%"}}/>
-  <div className="absolute-top-center container row margin-auto" >
+  <div className="gradient-banner" style={{zIndex:1}}></div>
+  <Image imageName={pages[page].image} objectPosition="top" style={{height:"100%"}}/>
+  <div className="absolute-top-center container row margin-auto" style={{zIndex:2}}>
     <div className="col-lg-6 container bg-black" style={{margin:'auto 0'}}>
       <h1 className="display-4 hero-text">{pages[page].title}</h1>
       <p className="lead hero-text">{pages[page].paragraph}</p>
     </div>
     <div className="col-lg-6">
       <p style={{ fontSize: "30px", textAlign:"right"}}>"{pages[page].quote}"</p>
-      {/*<img className="img-fluid" src="images/I-voted-sticker.png" style={{width:'50%'}} />*/}
     </div>
   </div>
 </div>
