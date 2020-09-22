@@ -10,15 +10,15 @@ const MyNavbar = () => (
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
     <Nav>
-      <Nav.Link>
+      <div className="nav-link">
         <Link className="btn btn-primary" to="/">Page1</Link>
-      </Nav.Link>
-      <Nav.Link>
+      </div>
+      <div className="nav-link">
         <Link className="btn btn-primary" to="why_vote">Why Vote</Link>
-      </Nav.Link>
-      <Nav.Link>
+      </div>
+      <div className="nav-link">
         <Link className="btn btn-primary" to="404">Page3</Link>
-      </Nav.Link>
+      </div>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

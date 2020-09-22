@@ -3,6 +3,19 @@
 
 $nav-height: 70px;
 
+nav {
+  // background: rgb(0,0,0);
+  a {
+    color: white;
+    font-weight: 500;
+  }
+  // .navbar-home {
+  // }
+  .navbar-expand {
+    justify-content: space-between;
+  }
+}
+
 .banner {
   margin-bottom: 1.45rem;
   color: white;
@@ -33,23 +46,6 @@ $nav-height: 70px;
   }
 }
 
-nav {
-  // background: rgb(0,0,0);
-  a {
-    color: white;
-    font-weight: 500;
-  }
-  // .navbar-home {
-  // }
-  .navbar-expand {
-    justify-content: space-between;
-  }
-}
-
-.harrisonTest {
-  background: white;
-}
-
 footer {
   height: 100px;
   background: black;
@@ -59,3 +55,19 @@ footer {
     padding-top: 2rem;
   }
 }
+
+// Content
+.featurette {
+  margin: 1em auto;
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+hr.featurette-divider {
+  @extend .container;
+  margin: 2rem auto; /* Space out the Bootstrap <hr> more */
+}
+

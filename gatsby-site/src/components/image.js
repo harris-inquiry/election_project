@@ -38,6 +38,20 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
+      womenSuffrage: file(relativePath: { eq: "images/Women-Vote-Centennial-feature.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      mlkVotingRights: file(relativePath: { eq: "images/MLK_voting-rights-act.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
