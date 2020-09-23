@@ -24,6 +24,7 @@ const IndexPage = () => (
 
     <Container>
       <h2 className="text-centered">Tell your friends</h2>
+      <p>Talk to Friends and Family about voting</p>
       <Button>Share</Button>
     </Container>
     <br/>

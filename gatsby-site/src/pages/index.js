@@ -8,6 +8,8 @@ import { Row, Col, Container, Card } from 'react-bootstrap'
 import Banner from "../components/banner"
 import InfoCard from "../components/infoCard.js"
 import GeneralElectionInfo from "../components/generalElectionInfo"
+import StateSelect from "../components/stateSelect"
+import StateElectionDates from "../components/stateElectionDates.js"
 
 
 const IndexPage = () => (
@@ -20,22 +22,28 @@ const IndexPage = () => (
         </div>
         <div className="col-md-6">
           <p style={{ fontSize: "30px", textAlign:"right"}}>The only thing necessary for the triumph of evil is for good men to do nothing</p>
+          <StateSelect/>
         </div>
       </Row>
     </Banner>
 
-    <GeneralElectionInfo/>
     <Container>
-      <InfoCard topic="registerToVote"/ >
-        <br/>
-        <InfoCard topic="absenteeVoting"/>
-        <br/>
-        <InfoCard topic="voteByMail"/>
-        <br/>
-        <InfoCard topic="earlyVoting"/>
-        <br/>
-        <InfoCard topic="idLaws"/>
-        <br/>
+      <Row>
+        <Col lg={6} md={5} style={{paddingRight:"10px"}}>
+          <GeneralElectionInfo/>
+        </Col>
+        <Col md style={{paddingLeft:"10px"}}>
+          <StateElectionDates/>
+        </Col>
+      </Row>
+    </Container>
+
+    <Container>
+      <InfoCard className="featurette" topic="registerToVote"/>
+      <InfoCard className="featurette" topic="absenteeVoting"/>
+      <InfoCard className="featurette" topic="voteByMail"/>
+      <InfoCard className="featurette" topic="earlyVoting"/>
+      <InfoCard className="featurette" topic="idLaws"/>
     </Container>
 
   </Layout>

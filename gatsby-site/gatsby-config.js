@@ -3,6 +3,7 @@ module.exports = {
     title: `Vote`,
     description: `Vote`,
     author: `Harrison Quarry`,
+    shareUrl: "https://here.org",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
