@@ -1,7 +1,11 @@
 import React from "react"
-import { Card, Container } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 const Topics = {
+  default: {
+    title: "Default Title",
+    text: "Text Description"
+  },
   registerToVote: {
     title: "Register to Vote",
     text: "Register to Vote now"
@@ -24,15 +28,20 @@ const Topics = {
   }
 }
 
-const InfoCard = ({topic}) => (
-<Container>
-  <Card >
-    <Card.Body>
-      <Card.Title>{Topics[topic].title}</Card.Title>
-      <Card.Text>{Topics[topic].text}</Card.Text>
-    </Card.Body>
-  </Card>
-</Container>
-)
+const InfoCard = ({topic, children}) => {
+  if( Topics[topic] == undefined ){
+    topic = 'default'
+  }
+
+  return (
+    <Card >
+      <Card.Body>
+        <h4>{Topics[topic].title}</h4>
+        <p>{Topics[topic].text}</p>
+        {children}
+      </Card.Body>
+    </Card>
+  )
+}
 
 export default InfoCard

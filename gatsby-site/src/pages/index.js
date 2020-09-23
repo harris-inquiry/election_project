@@ -15,17 +15,18 @@ const IndexPage = () => (
   <Banner page="home" />
 
   <GeneralElectionInfo/>
-
-  <InfoCard topic="registerToVote" />
-  <br/>
-  <InfoCard topic="absenteeVoting"/>
-  <br/>
-  <InfoCard topic="voteByMail"/>
-  <br/>
-  <InfoCard topic="earlyVoting"/>
-  <br/>
-  <InfoCard topic="idLaws"/>
-  <br/>
+  <Container>
+    <InfoCard topic="registerToVote"/ >
+    <br/>
+    <InfoCard topic="absenteeVoting"/>
+    <br/>
+    <InfoCard topic="voteByMail"/>
+    <br/>
+    <InfoCard topic="earlyVoting"/>
+    <br/>
+    <InfoCard topic="idLaws"/>
+    <br/>
+  </Container>
 
 </Layout>
 )

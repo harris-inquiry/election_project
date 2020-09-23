@@ -52,6 +52,27 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
+      lwvLogo: file(relativePath: { eq: "images/lwv-logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      vote411: file(relativePath: { eq: "images/VOTE411-logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      rockTheVote: file(relativePath: { eq: "images/rock-the-vote-logo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
