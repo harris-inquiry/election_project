@@ -73,6 +73,14 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
+      rbg: file(relativePath: { eq: "images/rbg.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
     }
   `)
 

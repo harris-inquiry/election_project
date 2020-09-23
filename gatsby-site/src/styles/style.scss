@@ -3,16 +3,25 @@
 
 $nav-height: 70px;
 
+body {
+  background-color: #F5F5F5;
+}
+
 nav {
-  // background: rgb(0,0,0);
+  position: absolute !important;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
   a {
     color: white;
     font-weight: 500;
   }
-  // .navbar-home {
-  // }
   .navbar-expand {
     justify-content: space-between;
+  }
+  .btn {
+    margin: auto 10px;
   }
 }
 

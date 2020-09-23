@@ -10,7 +10,9 @@ import Banner from "../components/banner"
 const WhyVote = () => (
   <Layout>
     <SEO title="Why Vote" />
-    <Banner page="page2"/>
+    <Banner image="declarationInd">
+      <h2>What inspires you?</h2>
+    </Banner>
     <Container>
       <div className="featurette">
         <h1 className="featurette-heading">Go Vote</h1>

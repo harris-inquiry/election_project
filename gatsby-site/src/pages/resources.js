@@ -18,7 +18,9 @@ const Links = {
 const IndexPage = () => (
   <Layout>
     <SEO title="Resources" description="Get involved"/>
-    <Banner page="home" />
+    <Banner image="americanFlag">
+      <h2>How you can get involved</h2>
+    </Banner>
 
     <Container>
       <h2 className="text-centered">Tell your friends</h2>
