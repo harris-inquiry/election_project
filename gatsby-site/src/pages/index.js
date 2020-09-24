@@ -29,7 +29,7 @@ const IndexPage = () => (
 
     <Container>
       <Row>
-        <Col lg={6} md={5} style={{paddingRight:"10px"}}>
+        <Col md={5} style={{paddingRight:"10px"}}>
           <GeneralElectionInfo/>
         </Col>
         <Col md style={{paddingLeft:"10px"}}>

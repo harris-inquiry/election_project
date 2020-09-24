@@ -53,4 +53,6 @@ const STATE_OFFICIAL_LINKS = {
   Wyoming: "",
 };
 
-export { STATE_OFFICIAL_LINKS }
+const NO_STATE = "NO_STATE";
+
+export { STATE_OFFICIAL_LINKS, NO_STATE }
