@@ -2,26 +2,36 @@ import React, { useState } from "react"
 import { Card, Button } from "react-bootstrap"
 
 import StateSelect from "../components/stateSelect"
-import { STATE_OFFICIAL_LINKS, NO_STATE } from "../data/states"
+import { STATES_DATA, NO_STATE } from "../data/states"
 
 
-const stateList = Object.keys(STATE_OFFICIAL_LINKS)
-const dateData = {
-  voterRegistration: "[REGISTRATION::OBJECT:DATE]",
-  requestAbsentee: function(state){
-    return "[" + state + "_ABSENTEE::OBJECT:DATE]"
-  },
-  returnAbsentee: function(state){
-    return "[" + state + "_ABSENTEE::OBJECT:DATE]"
+const stateList = Object.keys(STATES_DATA)
+
+function getStateInfo(state, info){
+  if( state === NO_STATE ){
+    return NO_STATE
+  }
+  try {
+    return (
+      STATES_DATA[state][info].map((info)=>
+        <p style={{marginBottom:0}}>{info}</p>
+    ))
+  } catch (er) {
+    return "DATA_RETRIEVE_FAILED"
   }
 }
 
-function officialWebsite(usState) {
-  if( usState === NO_STATE ){
-    return "#"
+function getStateLink(state){
+  if( state === NO_STATE ){
+    return NO_STATE
   }
-  return STATE_OFFICIAL_LINKS[usState]
+  try {
+    return STATES_DATA[state]["officialLink"]
+  } catch (er) {
+    return "DATA_RETRIEVE_FAILED"
+  }
 }
+
 
 const StateElectionDates = () => {
   const [usState, setUSState] = useState(NO_STATE)
@@ -37,25 +47,24 @@ const StateElectionDates = () => {
   }
 
   return (
-  <Card style={{height:"100%"}}>
-    <Card.Body>
-      <h2>State Info: {usState.replace("_", " ")}</h2>
-      <div style={{display:"flex"}}>
-        <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{width:"100%"}} />
-        <Button href={officialWebsite(usState)}>More</Button>
-      </div>
-      <div style={{marginTop:'1rem', display:displayStateInfo}}>
-        <h3>Voter Registration</h3>
-        <p>{dateData.voterRegistration}</p>
-        <hr/>
-        <p><strong>Deadline to Request an Absentee Ballot</strong></p>
-        <p>{dateData.requestAbsentee(usState)}</p>
-        <p><strong>Deadline to Return an Absentee Ballot</strong></p>
-        <p>{dateData.returnAbsentee(usState)}</p>
-      </div>
-    </Card.Body>
-  </Card>
+    <Card style={{height:"100%"}}>
+      <Card.Body>
+        <h2>State Info</h2>
+        <div style={{display:"flex"}}>
+          <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{width:"100%"}} />
+          <Button href={getStateLink(usState)} style={{display:displayStateInfo}} >More</Button>
+        </div>
+        <div style={{marginTop:'1rem', display:displayStateInfo}}>
+          <h3>{usState.replace("_", " ")}</h3>
+          {getStateInfo(usState,"genInfo")}
+          <h4 style={{marginTop:"1rem"}}>Voter Registration</h4>
+          {getStateInfo(usState,"voterRegistrationDeadlines")}
+          <hr/>
+          {getStateInfo(usState,"absenteeInfo")}
+        </div>
+      </Card.Body>
+    </Card>
   )
- }
+}
 
 export default StateElectionDates

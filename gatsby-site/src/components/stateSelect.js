@@ -2,9 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import { Form } from "react-bootstrap"
-import { STATE_OFFICIAL_LINKS, NO_STATE } from "../data/states"
+import { STATES_DATA, NO_STATE } from "../data/states"
 
-const stateList = Object.keys(STATE_OFFICIAL_LINKS)
+const stateList = Object.keys(STATES_DATA)
 
 const StateSelect = ({onChange, style}) => (
   <Form style={style}>
