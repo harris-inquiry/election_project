@@ -80,7 +80,13 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
-
+      clipboard: file(relativePath: { eq: "images/clipboard.svg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 

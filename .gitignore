@@ -11,3 +11,6 @@ build/
 # Emacs-Files
 .#*
 .tern-project
+
+# other
+notes.org

@@ -49,10 +49,10 @@ const StateElectionDates = () => {
   return (
     <Card style={{height:"100%"}}>
       <Card.Body>
-        <h2>State Info</h2>
+        <h2 style={{fontSize:"3rem"}}>State Info</h2>
         <div style={{display:"flex"}}>
           <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{width:"100%"}} />
-          <Button href={getStateLink(usState)} style={{display:displayStateInfo}} >More</Button>
+          <Button size="lg" href={getStateLink(usState)} style={{display:displayStateInfo}} >More</Button>
         </div>
         <div style={{marginTop:'1rem', display:displayStateInfo}}>
           <h3>{usState.replace("_", " ")}</h3>

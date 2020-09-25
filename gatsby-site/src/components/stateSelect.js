@@ -10,7 +10,7 @@ const StateSelect = ({onChange, style}) => (
   <Form style={style}>
     <Form.Group controlId="stateSelectForm">
       <Form.Label srOnly>State Select</Form.Label>
-      <Form.Control defaultValue={NO_STATE} as="select" custom
+      <Form.Control size="lg" defaultValue={NO_STATE} as="select" custom
                     onChange={onChange}>
         <option className="text-black" value={NO_STATE}>--Select State--</option>
         {stateList.map((state) =>

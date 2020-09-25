@@ -18,11 +18,13 @@ const IndexPage = () => (
     <Banner image="americanFlag">
       <Row>
         <div className="col-md-6 container bg-black" style={{margin:'auto 0'}}>
-          <h1 className="display-4 hero-text">Vote!</h1>
+          <h1 className="hero-text">Vote!</h1>
+          <h4 className="sub-hero-text">For some reason...</h4>
         </div>
         <div className="col-md-6">
-          <p style={{ fontSize: "30px", textAlign:"right"}}>The only thing necessary for the triumph of evil is for good men to do nothing</p>
-          <StateSelect/>
+          <p className="header-quote" style={{ fontSize:"1.4rem", textAlign:"right"}}>
+            The only thing necessary for the triumph of <span style={{color:"red"}}>evil</span> is for good men and women to do <span style={{color:"yellow"}}>nothing</span>
+          </p>
         </div>
       </Row>
     </Banner>
@@ -32,13 +34,13 @@ const IndexPage = () => (
         <Col md={5} style={{paddingRight:"10px"}}>
           <GeneralElectionInfo/>
         </Col>
-        <Col md style={{paddingLeft:"10px"}}>
+        <Col xs={{ order:"first" }} md style={{paddingLeft:"10px"}}>
           <StateElectionDates/>
         </Col>
       </Row>
     </Container>
 
-    <Container>
+    <Container style={{marginBottom:"2rem"}}>
       <InfoCard className="featurette" topic="registerToVote"/>
       <InfoCard className="featurette" topic="absenteeVoting"/>
       <InfoCard className="featurette" topic="voteByMail"/>
