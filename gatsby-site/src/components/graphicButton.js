@@ -14,11 +14,11 @@ function getImage(name){
   }
 }
 
-const GraphicButton = ({ name, color, style }) => (
-  <a href="#"><div style={{height:"6rem", minWidth:"8rem", background:color, borderRadius:"1rem", margin:4, ...style}}>
-    <img src={getImage(name)} height="80%" style={{marginTop:"4px"}} />
-    <p style={{color:"white", marginBottom:0, fontSize:"1.5rem", fontWeight:"bold", position:"relative", bottom:21 }}>{name}</p>
-  </div></a>
+const GraphicButton = ({ name, style }) => (
+  <a href="#" className="graphic-button btn" style={{...style}}>
+    <img src={getImage(name)} height="75%" style={{marginTop:"4px"}} />
+    <p>{name}</p>
+  </a>
 )
 
 GraphicButton.propTypes = {

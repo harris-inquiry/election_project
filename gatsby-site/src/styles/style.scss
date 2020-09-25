@@ -97,6 +97,22 @@ nav {
     right: 0;
     margin: auto;
   }
+  .graphic-button {
+    @extend .btn-primary;
+    background: #2e60d7;
+    height:8rem;
+    min-width:8rem;
+    border-radius:0.8rem;
+    margin:4px;
+    p {
+      color: white;
+      margin-bottom: 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      position:relative;
+      bottom:.5rem;
+    }
+  }
 }
 
 footer {
@@ -135,3 +151,4 @@ hr.featurette-divider {
     margin-top: 1rem;
   }
 }
+

@@ -12,7 +12,7 @@ const Banner = ({image, children}) => (
   <div className="absolute-top-center container" style={{zIndex:2}}>
     {children}
   </div>
-  <Row style={{position:"absolute", bottom:10, right:30, zIndex:1, textAlign:"center"}}>
+  <Row style={{position:"absolute", bottom:10, left:30, right:30, zIndex:1, textAlign:"center"}}>
     <GraphicButton name="Register"/>
     <GraphicButton name="Info" />
     <GraphicButton />
