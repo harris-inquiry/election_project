@@ -22,7 +22,7 @@ const GraphicButton = ({ name, color, style }) => (
 )
 
 GraphicButton.propTypes = {
-  name: PropTypes.oneOf(['clipboard', 'question']),
+  name: PropTypes.oneOf(['Register', 'Info']),
   color: PropTypes.string
 }
 

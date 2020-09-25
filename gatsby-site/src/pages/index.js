@@ -1,28 +1,42 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState } from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import { Row, Col, Container, Card } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import Banner from "../components/banner"
 import InfoCard from "../components/infoCard.js"
 import GeneralElectionInfo from "../components/generalElectionInfo"
-import StateSelect from "../components/stateSelect"
 import StateElectionDates from "../components/stateElectionDates.js"
 
 
-const IndexPage = () => (
+const taglines = ["Confidence", "Safety", "Reliability", "etc"]
+
+
+const IndexPage = () => {
+  const [tagline, setTagline] = useState("Confidence")
+
+  /* const i = setInterval(() => {
+   *   let newLoc = taglines.indexOf(tagline) + 1;
+   *   if( newLoc >= taglines.length ){
+   *     setTagline(taglines[0]);
+   *   } else {
+   *     setTagline(taglines[newLoc]);
+   *   }
+   * }, 2000 ) */
+
+
+  return (
   <Layout>
     <SEO title="Vote" description="Vote today!"/>
     <Banner image="americanFlag">
       <Row>
         <div className="col-md-6 container bg-black" style={{margin:'auto 0'}}>
           <h1 className="hero-text">Vote!</h1>
-          <h4 className="sub-hero-text">For some reason...</h4>
+          <p id="sub-hero-text">With...</p>
+          <p id="hero-phrase">{tagline}</p>
         </div>
         <div className="col-md-6">
-          <p className="header-quote" style={{ fontSize:"1.4rem", textAlign:"right"}}>
+          <p className="header-quote">
             The only thing necessary for the triumph of <span style={{color:"red"}}>evil</span> is for good men and women to do <span style={{color:"yellow"}}>nothing</span>
           </p>
         </div>
@@ -49,6 +63,7 @@ const IndexPage = () => (
     </Container>
 
   </Layout>
-)
+  )
+}
 
 export default IndexPage

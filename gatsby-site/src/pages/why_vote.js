@@ -33,7 +33,7 @@ const WhyVote = () => (
       </div>
       <hr className="featurette-divider" />
 
-      <div className="featurette">
+      <div className="featurette container" style={{background:"white", borderRadius:".5rem", paddingBottom:".1rem"}}>
         <Image imageName="mlkVotingRights"/>
         <h1 className="featurette-heading">Voting Rights Act</h1>
         <h6 style={{color:"grey"}}>(Text taken from LWV)</h6>
