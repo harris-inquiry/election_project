@@ -6,6 +6,7 @@ import Image from "../components/image.js"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Banner from "../components/banner"
+import ComparisonChart from "../components/comparison_chart.js"
 
 const WhyVote = () => (
   <Layout>
@@ -15,14 +16,13 @@ const WhyVote = () => (
     </Banner>
     <Container>
       <div className="featurette">
-        <h1 className="featurette-heading">Go Vote</h1>
-        <h6 style={{color:"grey"}}>(Text taken from LWV)</h6>
-        <p>Voting is a sacred right. For nearly 100 years, we have fought to protect the rights of eligible voters and expand access for those who’ve been left out of our democratic process. Our volunteers spearhead efforts to enact common-sense voting reforms and we are the first to fight back when voters’ rights are threatened. We protect millions of voters every year through aggressive advocacy and education efforts and we have been at the forefront of major voting rights court cases over the last decade.</p>
+        <h1 className="featurette-heading">On Voting</h1>
+        <p></p>
       </div>
       <hr className="featurette-divider" />
 
       <h3>See how your representatives vote</h3>
-      <Button>Link</Button>
+      <ComparisonChart />
       <hr className="featurette-divider" />
 
       <div className="featurette">
