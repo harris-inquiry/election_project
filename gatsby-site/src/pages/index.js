@@ -29,18 +29,14 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Vote" description="Vote today!"/>
       <Banner image="americanFlag">
-        <Row>
-          <div className="col-md-6 container bg-black" style={{margin:'auto 0'}}>
-            <h1 className="hero-text">Vote!</h1>
-            <p id="sub-hero-text">With...</p>
-            <p id="hero-phrase">{tagline}</p>
-          </div>
-          <div className="col-md-6">
-            <p className="header-quote">
-              The only thing necessary for the triumph of <span style={{color:"red"}}>evil</span> is for good men and women to do <span style={{color:"yellow"}}>nothing</span>
-            </p>
-          </div>
-        </Row>
+        <div className="container" style={{margin:'auto 0'}}>
+          <h1 className="hero-text">Vote!</h1>
+          <p id="sub-hero-text">With...</p>
+          <p id="hero-phrase">{tagline}</p>
+        </div>
+        <p className="header-quote">
+          The only thing necessary for the triumph of <span style={{color:"red"}}>evil</span> is for good men and women to do <span style={{color:"yellow"}}>nothing</span>
+        </p>
       </Banner>
 
       <Container>
@@ -81,7 +77,7 @@ const IndexPage = () => {
               <ul>
                 <li>Most states have early voting. This lets registered voters vote on specified dates before Election Day.</li>
                 <li>You don't need an excuse to vote early.</li>
-                <li>In some states, you may cast an absentee ballot in person before Election Day. To do this, you must request an absentee ballot from your state. Your state may require you to submit a valid excuse too.</li> 
+                <li>In some states, you may cast an absentee ballot in person before Election Day. To do this, you must request an absentee ballot from your state. Your state may require you to submit a valid excuse too.</li>
               </ul>
             </Col>
           </Row>
