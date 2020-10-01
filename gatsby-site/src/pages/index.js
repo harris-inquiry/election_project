@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,38 +9,35 @@ import GeneralElectionInfo from "../components/generalElectionInfo"
 import StateElectionDates from "../components/stateElectionDates.js"
 
 
-const taglines = ["Confidence", "Safety", "Reliability", "etc"]
+const taglines = ["Smart", "Confidence", "Safety", "Reliability", "etc"]
 
 
 const IndexPage = () => {
-  const [tagline, setTagline] = useState("Confidence")
+  const [tagline, setTagline] = useState(taglines[0])
 
-  /* const i = setInterval(() => {
-   *   let newLoc = taglines.indexOf(tagline) + 1;
-   *   if( newLoc >= taglines.length ){
-   *     setTagline(taglines[0]);
-   *   } else {
-   *     setTagline(taglines[newLoc]);
-   *   }
-   * }, 2000 ) */
+  useEffect(() => {
+    const i = setInterval(() => {
+      let newTag = tagline + '.'
+      console.log("set: " + tagline + " to " + newTag)
+      setTagline(newTag)
+    }, 2000 )
+    return () => clearInterval(i)
+  }, [])
 
 
   return (
     <Layout>
       <SEO title="Vote" description="Vote today!"/>
       <Banner image="americanFlag">
-        <div className="container" style={{margin:'auto 0'}}>
+        <div className="container">
           <h1 className="hero-text">Vote!</h1>
-          <p id="sub-hero-text">With...</p>
-          <p id="hero-phrase">{tagline}</p>
+          {/* <span id="sub-hero-text">With...</span> */}
+          <span id="hero-phrase">{tagline}</span>
         </div>
-        <p className="header-quote">
-          The only thing necessary for the triumph of <span style={{color:"red"}}>evil</span> is for good men and women to do <span style={{color:"yellow"}}>nothing</span>
-        </p>
       </Banner>
 
-      <Container>
-        <Row>
+      <Container style={{minHeight:300}}>
+        <Row style={{height:"100%"}}>
           <Col md >
             <StateElectionDates/>
           </Col>
@@ -85,7 +82,10 @@ const IndexPage = () => {
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3"><h4>ID laws</h4></Col>
-            <Col><p>Other stuff</p></Col>
+            <Col>
+              <p>A total of 36 states have laws requesting or requiring voters to show some form of identification at the polls, 35 of which are in force in 2020. The remaining 14 states use other methods to verify the identity of voters. Most frequently, other identifying information provided at the polling place, such as a signature, is checked against information on file.</p>
+              <p>Check with your state's requirements.</p>
+            </Col>
           </Row>
         </InfoCard>
       </Container>

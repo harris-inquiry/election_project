@@ -1,34 +1,35 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
 import clipboard from "../data/images/clipboard.svg"
 import question from "../data/images/question.svg"
 
-function getImage(name){
-  if( name === "Register"){
+function getImage(title){
+  if( title === "Register"){
     return clipboard;
-  } else if ( name === "Info"){
+  } else if ( title === "Info"){
     return question;
   } else {
     return question;
   }
 }
 
-const GraphicButton = ({ name, style }) => (
-  <a href="#" className="graphic-button btn" style={{...style}}>
-    <img src={getImage(name)} height="75%" style={{marginTop:"4px"}} />
-    <p>{name}</p>
-  </a>
+const GraphicButton = ({ title, to, style, className }) => (
+  <Link to={to} className={"graphic-button btn " + className} style={{...style}}>
+    <img src={getImage(title)} height="75%" style={{marginTop:"4px"}} />
+    <p>{title}</p>
+  </Link>
 )
 
 GraphicButton.propTypes = {
-  name: PropTypes.oneOf(['Register', 'Info']),
-  color: PropTypes.string
+  title: PropTypes.oneOf(['Register', 'Info', "Resources"])
 }
 
 GraphicButton.defaultProps = {
-  name: `Info`,
-  color: "crimson"
+  title: "Info",
+  color: "crimson",
+  to: "/"
 }
 
 export default GraphicButton

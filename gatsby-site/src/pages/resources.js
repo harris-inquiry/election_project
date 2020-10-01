@@ -19,17 +19,23 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Resources" description="Get involved"/>
     <Banner image="americanFlag">
-      <h2>How you can get involved</h2>
+      <h1 className="hero-text" style={{fontSize:"5rem"}}>Get involved</h1>
     </Banner>
 
-    <Container>
-      <h2 className="text-centered">Tell your friends</h2>
-      <p>Talk to Friends and Family about voting</p>
-      <Button>Share</Button>
+    <Container style={{height:300}}>
+      <Row style={{height:"100%"}}>
+        <Col style={{display:"flex",flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+          <h2 className="text-centered">Tell your friends</h2>
+          <p>Talk to Friends and Family about voting</p>
+          <Button style={{width:"50%"}}>Share</Button>
+        </Col>
+        <Col>
+        </Col>
+      </Row>
+      <br/>
     </Container>
-    <br/>
 
-    <Container>
+    <Container className="resource-cards">
       <Card>
         <Card.Body>
           <Row>
@@ -37,7 +43,7 @@ const IndexPage = () => (
               <a href={Links.leagueWV}><Image imageName="lwvLogo"/></a>
             </Col>
             <Col>
-              <a href={Links.leagueWV}><h3>League of Women Voters</h3></a>
+              <a href={Links.leagueWV}>League of Women Voters</a>
               <p>The League is proud to be nonpartisan, neither supporting nor opposing candidates or political parties at any level of government, but always working on vital issues of concern to members and the public.</p>
             </Col>
           </Row>
@@ -52,7 +58,7 @@ const IndexPage = () => (
               <a href={Links.vote411}><Image imageName="vote411" /></a>
             </Col>
             <Col>
-              <a href={Links.vote411}><h3>Vote411</h3></a>
+              <a href={Links.vote411}>Vote411</a>
               <p>Launched by the League of Women Voters Education Fund (LWVEF) in October of 2006, VOTE411.org is a "one-stop-shop" for election related information. It provides nonpartisan information to the public with both general and state-specific information on the following aspects of the election process</p>
             </Col>
           </Row>
@@ -67,7 +73,7 @@ const IndexPage = () => (
               <a href={Links.rockTheVote}><Image imageName="rockTheVote"/></a>
             </Col>
             <Col>
-              <a href={Links.rockTheVote}><h3>Rock the Vote</h3></a>
+              <a href={Links.rockTheVote}>Rock the Vote</a>
               <p>Rock the Vote is the most trusted and effective nonpartisan nonprofit dedicated to building the political power of young people</p>
             </Col>
           </Row>
