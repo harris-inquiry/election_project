@@ -211,10 +211,12 @@ hr.featurette-divider {
     font-weight: 600;
     font-size: 1.2rem;
     @include media-breakpoint-down(sm){
-      width:10%;
-      writing-mode: vertical-lr;
-      text-orientation: sideways;
-      padding: 1rem 0;
+      width:100%;
+      position: absolute;
+      left: 0;
+      /* writing-mode: vertical-lr; */
+      /* text-orientation: sideways; */
+      /* padding: 1rem 0; */
     }
   }
   .dem {
@@ -225,7 +227,8 @@ hr.featurette-divider {
     font-weight: 700;
     @include media-breakpoint-down(sm){
       font-size:1.2rem;
-      width:45%;
+      width:50%;
+      padding-top: 2.5rem;
     }
   }
   .rep {
@@ -236,7 +239,8 @@ hr.featurette-divider {
     font-weight: 700;
     @include media-breakpoint-down(sm){
       font-size:1.2rem;
-      width:45%;
+      width:50%;
+      padding-top: 2.5rem;
     }
   }
   .more-info {

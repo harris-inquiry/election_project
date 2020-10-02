@@ -9,7 +9,7 @@ const ComparisonChart = () => (
     <thead>
       <tr>
         <th className="dem">DEMOCRATS</th>
-        <th></th>
+        <th style={{padding:0}}></th>
         <th className="rep">REPUBLICANS</th>
       </tr>
     </thead>
