@@ -4,9 +4,6 @@ import { Navbar, Nav  } from "react-bootstrap"
 
 const MyNavbar = () => (
     <Navbar expand="xl" variant="dark">
-      {/* <Navbar.Brand>
-          <Link className="btn btn-danger btn-lg" to="/">Vote</Link>
-          </Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>

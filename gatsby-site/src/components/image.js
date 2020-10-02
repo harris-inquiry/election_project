@@ -87,6 +87,13 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
+      votefriends: file(relativePath: { eq: "images/votefriends.jpg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 

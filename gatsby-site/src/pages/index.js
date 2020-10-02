@@ -9,7 +9,12 @@ import GeneralElectionInfo from "../components/generalElectionInfo"
 import StateElectionDates from "../components/stateElectionDates.js"
 
 
-const taglines = ["Smart", "Confidence", "Safety", "Reliability", "etc"]
+const taglines = ["Knowledge", "Confidence", "Safety", "Reliability"]
+
+
+function getNewTagline(oldTagLine){
+  return taglines[(taglines.indexOf(oldTagLine) + 1) % taglines.length];
+}
 
 
 const IndexPage = () => {
@@ -17,9 +22,7 @@ const IndexPage = () => {
 
   useEffect(() => {
     const i = setInterval(() => {
-      let newTag = tagline + '.'
-      console.log("set: " + tagline + " to " + newTag)
-      setTagline(newTag)
+      setTagline(prevTag => getNewTagline(prevTag))
     }, 2000 )
     return () => clearInterval(i)
   }, [])
@@ -31,13 +34,13 @@ const IndexPage = () => {
       <Banner image="americanFlag">
         <div className="container">
           <h1 className="hero-text">Vote!</h1>
-          {/* <span id="sub-hero-text">With...</span> */}
+          <span id="sub-hero-text">With...</span>
           <span id="hero-phrase">{tagline}</span>
         </div>
       </Banner>
 
       <Container style={{minHeight:300}}>
-        <Row style={{height:"100%"}}>
+        <Row>
           <Col md >
             <StateElectionDates/>
           </Col>

@@ -22,14 +22,14 @@ const IndexPage = () => (
       <h1 className="hero-text" style={{fontSize:"5rem"}}>Get involved</h1>
     </Banner>
 
-    <Container style={{height:300}}>
+    <Container className="share" style={{minHeight:300, margin:"1rem auto"}}>
       <Row style={{height:"100%"}}>
-        <Col style={{display:"flex",flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-          <h2 className="text-centered">Tell your friends</h2>
-          <p>Talk to Friends and Family about voting</p>
+        <Col md={5} className="share-body" >
+          <h2 className="share-text text-centered">Talk with your friends</h2>
           <Button style={{width:"50%"}}>Share</Button>
         </Col>
         <Col>
+          <Image imageName="votefriends" />
         </Col>
       </Row>
       <br/>
