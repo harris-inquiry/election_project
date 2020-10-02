@@ -17,7 +17,7 @@ function getImage(title){
 
 const GraphicButton = ({ title, to, style, className }) => (
   <Link to={to} className={"graphic-button btn " + className} style={{...style}}>
-    <img src={getImage(title)} height="75%" style={{marginTop:"4px"}} />
+    <img alt={title + "-button"} src={getImage(title)} height="75%" style={{marginTop:"4px"}} />
     <p>{title}</p>
   </Link>
 )

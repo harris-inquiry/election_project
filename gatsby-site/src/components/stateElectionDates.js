@@ -5,7 +5,7 @@ import StateSelect from "../components/stateSelect"
 import { STATES_DATA, NO_STATE } from "../data/states"
 
 
-const stateList = Object.keys(STATES_DATA)
+/* const stateList = Object.keys(STATES_DATA) */
 
 function getStateInfo(state, info){
   if( state === NO_STATE ){
@@ -14,7 +14,7 @@ function getStateInfo(state, info){
   try {
     return (
       STATES_DATA[state][info].map((info)=>
-        <p style={{marginBottom:0}}>{info}</p>
+        <p key={state + "_" + info} style={{marginBottom:0}}>{info}</p>
     ))
   } catch (er) {
     return "DATA_RETRIEVE_FAILED"

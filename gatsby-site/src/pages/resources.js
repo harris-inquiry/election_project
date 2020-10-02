@@ -1,13 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Row, Col, Container, Card, Button} from 'react-bootstrap'
 import Banner from "../components/banner"
-import InfoCard from "../components/infoCard.js"
-import GeneralElectionInfo from "../components/generalElectionInfo"
 
 const Links = {
   leagueWV: "https://www.lwv.org/",
@@ -36,6 +33,7 @@ const IndexPage = () => (
     </Container>
 
     <Container className="resource-cards">
+      <h1>Get involved</h1>
       <Card>
         <Card.Body>
           <Row>
@@ -54,7 +52,7 @@ const IndexPage = () => (
       <Card>
         <Card.Body>
           <Row>
-            <Col lg="4" md="6" md={{order:2}}>
+            <Col lg="4" md={{span: 6, order:2}}>
               <a href={Links.vote411}><Image imageName="vote411" /></a>
             </Col>
             <Col>

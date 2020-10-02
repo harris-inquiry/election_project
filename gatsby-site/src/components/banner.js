@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "./image"
-import { Col, Row } from "react-bootstrap"
+import { Row } from "react-bootstrap"
 
 import GraphicButton from "./graphicButton"
 

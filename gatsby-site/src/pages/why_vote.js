@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Container, Button, Row, Col} from "react-bootstrap"
+import { Container, Row, Col} from "react-bootstrap"
 
 import Image from "../components/image.js"
 import Layout from "../components/layout"
@@ -15,13 +14,13 @@ const WhyVote = () => (
       <h1 className="hero-text" style={{fontSize:"5rem"}}>On the Politics</h1>
     </Banner>
     <Container>
-      <div className="featurette">
-        <h1 className="featurette-heading">On Voting</h1>
-        <p></p>
-      </div>
-      <hr className="featurette-divider" />
-
-      <h2>See how your representatives vote</h2>
+      {/* <div className="featurette">
+          <h1 className="featurette-heading">On Voting</h1>
+          <p></p>
+          </div>
+          <hr className="featurette-divider" />
+        */}
+      <h2 style={{textAlign:"center"}}>How the parties vote</h2>
       <ComparisonChart />
       <hr className="featurette-divider" />
 

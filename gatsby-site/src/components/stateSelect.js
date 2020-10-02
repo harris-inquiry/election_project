@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import { Form } from "react-bootstrap"
 import { STATES_DATA, NO_STATE } from "../data/states"

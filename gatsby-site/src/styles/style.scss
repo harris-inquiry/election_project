@@ -111,27 +111,28 @@ nav {
     right: 0;
     margin: auto;
   }
-  .graphic-button {
-    @extend .btn-primary;
-    background: #153a91ab;
-    height:7rem;
-    min-width:8rem;
-    border-radius:0.8rem;
-    margin:4px;
-    p {
-      color: white;
-      margin-bottom: 0;
-      font-size: 1.5rem;
-      font-weight: bold;
-      position:relative;
-      bottom:.5rem;
-    }
-  }
   .banner-buttons {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    margin: 0 auto;
+    .graphic-button {
+      @extend .btn-primary;
+      background: #153a91ab;
+      height:7rem;
+      min-width:8rem;
+      border-radius:0.8rem;
+      margin:4px;
+      p {
+        color: white;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position:relative;
+        bottom:.5rem;
+      }
+    }
   }
 }
 
@@ -200,5 +201,47 @@ hr.featurette-divider {
     @include media-breakpoint-only(md) {
       font-size:1.8rem;
     }
+  }
+}
+
+.dem-rep-comparison {
+  .topic {
+    text-align: center;
+    width: 20%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    @include media-breakpoint-down(sm){
+      width:10%;
+      writing-mode: vertical-lr;
+      text-orientation: sideways;
+      padding: 1rem 0;
+    }
+  }
+  .dem {
+    width: 40%;
+    text-align: end;
+    font-size: 1.4rem;
+    color: blue;
+    font-weight: 700;
+    @include media-breakpoint-down(sm){
+      font-size:1.2rem;
+      width:45%;
+    }
+  }
+  .rep {
+    width: 40%;
+    text-align: start;
+    font-size: 1.4rem;
+    color: red;
+    font-weight: 700;
+    @include media-breakpoint-down(sm){
+      font-size:1.2rem;
+      width:45%;
+    }
+  }
+  .more-info {
+    color: black;
+    font-size: 1rem;
+    font-weight: initial;
   }
 }
