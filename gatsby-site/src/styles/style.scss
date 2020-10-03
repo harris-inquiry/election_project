@@ -1,12 +1,13 @@
 // @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "~bootstrap/scss/bootstrap";
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Satisfy&family=Montserrat:wght@600&display=swap);
 
 
 $nav-height: 70px;
 
 $quote-font: "Playfair Display", serif;
 $poppins-font: "Poppins", sans-serif;
+$calendar-font: "Montserrat", sans-serif;
 
 body {
   /* background-color: #F5F5F5; */
@@ -41,8 +42,29 @@ nav {
   color: white;
   position: relative;
   padding: 0 0;
-  height: 500px;
+  height: 560px;
   text-align: start;
+  @include media-breakpoint-up(md){
+    height:500px;
+  }
+
+  .banner-body {
+    .calendar {
+      font-family: $calendar-font;
+      font-size: 3rem;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        position: relative;
+        top: 2rem;
+      }
+      /* background-color:blue; */
+      /* height: 50%; */
+      /* border-radius: .5rem; */
+      /* @include media-breakpoint-down(sm) { */
+      /*   height: 100px; */
+      /* } */
+    }
+  }
 
   .hero-text {
     font-family: $poppins-font;
@@ -58,42 +80,6 @@ nav {
     top:-3.4rem;
     margin-bottom: 0;
     font-size:3.0rem;
-  }
-
-  #sub-hero-text {
-    @extend .hero-text;
-    font-size: 1.5rem;
-    position: relative;
-    top: -4.3rem;
-    left: 3rem;
-    margin-bottom: 0;
-  }
-
-  .header-quote {
-    font-family: $quote-font;
-    font-size: 1.4rem;
-    text-align: right;
-    @include media-breakpoint-up(md) {
-      font-size:1.8rem;
-    }
-    @include media-breakpoint-down(sm){
-      position: relative;
-      bottom: -.8rem;
-    }
-  }
-
-  .calendar {
-    height: 80%;
-    .calendar-top {
-      background-color:blue;
-      height: 50%;
-      border-radius: .5rem .5rem 0 0;
-    }
-    .calendar-bottom {
-      background-color:white;
-      height: 50%;
-      border-radius: 0 0 .5rem .5rem;
-    }
   }
 
   .absolute-top-center {
@@ -169,7 +155,6 @@ footer {
     margin: 1rem auto;
     background: white;
     border-radius: 0.8rem;
-    /* Thin out the marketing headings */
     .featurette-heading {
       font-size: 2.2rem;
     }
@@ -255,11 +240,12 @@ hr.featurette-divider {
       text-align: end;
       font-size: 1.4rem;
       color: white;
-      background-color: blue;
+      background: linear-gradient(to right, #0000ff 50%, #7f7fff 100%);
       font-weight: 700;
       @include media-breakpoint-down(sm){
         font-size:1.6rem;
         width:50%;
+        background: linear-gradient(to right, #0000ff 50%, #7f307f 100%);
       }
     }
     .rep {
@@ -267,11 +253,12 @@ hr.featurette-divider {
       text-align: start;
       font-size: 1.4rem;
       color: white;
-      background-color: red;
+      background: linear-gradient(to left, #ff0000 50%, #ff7f7f 100%);
       font-weight: 700;
       @include media-breakpoint-down(sm){
         font-size:1.6rem;
         width:50%;
+        background: linear-gradient(to left, #ff0000 50%, #7f307f 100%);
       }
     }
     .more-info {

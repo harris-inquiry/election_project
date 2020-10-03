@@ -32,27 +32,18 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Vote" description="Vote today!"/>
       <Banner image="americanFlag">
-        <Container>
-          <Row>
-            <Col>
-              <h1 className="hero-text">Vote!</h1>
-              <span id="hero-phrase">{tagline}</span>
-            </Col>
-            {/* <Col>
-                <div className="calendar" >
-                <div className="calendar-top" >
-                November 3rd
-                </div>
-                <div className="calendar-bottom" >
-                General Election
-                </div>
-                </div>
-                </Col> */}
-          </Row>
-        </Container>
+        <Row className="banner-body">
+          <Col md>
+            <h1 className="hero-text">Vote!</h1>
+            <span id="hero-phrase">{tagline}</span>
+          </Col>
+          <Col md="4">
+            <div className="calendar" >November 3rd</div>
+          </Col>
+        </Row>
       </Banner>
 
-      <Container style={{minHeight:300}}>
+      <Container>
         <StateElectionDates/>
       </Container>
 
