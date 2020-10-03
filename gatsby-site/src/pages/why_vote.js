@@ -43,7 +43,6 @@ const WhyVote = () => (
         </Col>
       </Row>
     </Container>
-    <hr className="featurette-divider" />
 
   </Layout>
 )
