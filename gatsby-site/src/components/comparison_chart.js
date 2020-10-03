@@ -37,7 +37,7 @@ const ComparisonChart = () => (
                           republican="Private for-profit companies can provide healthcare services more efficiently than government-run programs. Oppose the Affordable Care Act and Obamacare while also seeking budget cuts to Medicare and Medicaid" />
       <ComparisonTableRow topic="Reasonable Gun Control"
                           democrat="Democrats support the 2nd Amendment in addition to a wide range of reasonable firearms regulatory laws intended to decrease gun violence"
-                          repulican="Republicans support the 2nd Amendment. Republicans oppose virtually all reasonable proposals to effectively regulate firearms or reduce gun violence, citing their support for the 2nd Amendment." />
+                          republican="Republicans support the 2nd Amendment. Republicans oppose virtually all reasonable proposals to effectively regulate firearms or reduce gun violence, citing their support for the 2nd Amendment." />
       <ComparisonTableRow topic="Science re Global Warming"
                           democrat="Democrats support the science demonstrating the disastrous results of global warming on economies and worldwide eco-systems. Supports the U.S. commitment to the Paris Agreement the leading, global treaty to address climate change."
                           republican="Republicans deny and oppose the science of climate change resulting from global warming. Republicans opposed the Paris Agreement and abandoned the treaty and our International allies." />

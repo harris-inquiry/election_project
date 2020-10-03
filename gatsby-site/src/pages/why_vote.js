@@ -13,17 +13,14 @@ const WhyVote = () => (
     <Banner image="mlkVotingRights">
       <h1 className="hero-text" style={{fontSize:"5rem"}}>On the Politics</h1>
     </Banner>
-    <Container>
-      {/* <div className="featurette">
-          <h1 className="featurette-heading">On Voting</h1>
-          <p></p>
-          </div>
-          <hr className="featurette-divider" />
-        */}
-      <h2 style={{textAlign:"center"}}>How the parties vote</h2>
+
+    <Container className="compare">
+      <h2>How the parties vote</h2>
       <ComparisonChart />
       <hr className="featurette-divider" />
+    </Container>
 
+    <Container className="featurettes">
       <Row>
         <Col lg className="featurette">
           <Image className="featurette-image" imageName="womenSuffrage"/>

@@ -12,9 +12,9 @@ const Banner = ({image, children}) => (
     <div className="absolute-top-center container" style={{zIndex:1}}>
       {children}
       <Row className="justify-content-end banner-buttons">
-        <GraphicButton className="col-lg-2 col-md-3 col" title="Register" to="/" />
-        <GraphicButton className="col-lg-2 col-md-3 col" title="Info" to="/why_vote" />
-        <GraphicButton className="col-lg-2 col-md-3 col" title="Resources" to="/resources" />
+        <GraphicButton className="col-md-2 col" title="Register" to="/" />
+        <GraphicButton className="col-md-2 col" title="Info" to="/why_vote" />
+        <GraphicButton className="col-md-2 col" title="Resources" to="/resources" />
       </Row>
     </div>
   </div>

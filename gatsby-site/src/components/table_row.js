@@ -7,7 +7,7 @@ const ComparisonTableRow = ({ topic, democrat, republican  }) => {
 
   return (
     <tr onClick={() => setOpen(!open)} style={{cursor:"pointer"}}>
-      <td className="dem">
+      <td className="dem padding-small">
         YES
         <Collapse in={open}>
           <div className="more-info">
@@ -16,7 +16,7 @@ const ComparisonTableRow = ({ topic, democrat, republican  }) => {
         </Collapse>
       </td>
       <td className="topic">{topic}</td>
-      <td className="rep">
+      <td className="rep padding-small">
         NO
         <Collapse in={open}>
           <div className="more-info">

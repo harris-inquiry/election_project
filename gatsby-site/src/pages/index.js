@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col, Container, Card} from 'react-bootstrap'
 import Banner from "../components/banner"
 import InfoCard from "../components/infoCard.js"
 import GeneralElectionInfo from "../components/generalElectionInfo"
 import StateElectionDates from "../components/stateElectionDates.js"
 
 
-const taglines = ["Knowledge", "Confidence", "Safety", "Reliability"]
+const taglines = ["Smart", "Confident", "Safe"]
 
 
 function getNewTagline(oldTagLine){
@@ -32,25 +32,31 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Vote" description="Vote today!"/>
       <Banner image="americanFlag">
-        <div className="container">
-          <h1 className="hero-text">Vote!</h1>
-          <span id="sub-hero-text">With...</span>
-          <span id="hero-phrase">{tagline}</span>
-        </div>
+        <Container>
+          <Row>
+            <Col>
+              <h1 className="hero-text">Vote!</h1>
+              <span id="hero-phrase">{tagline}</span>
+            </Col>
+            {/* <Col>
+                <div className="calendar" >
+                <div className="calendar-top" >
+                November 3rd
+                </div>
+                <div className="calendar-bottom" >
+                General Election
+                </div>
+                </div>
+                </Col> */}
+          </Row>
+        </Container>
       </Banner>
 
       <Container style={{minHeight:300}}>
-        <Row>
-          <Col md >
-            <StateElectionDates/>
-          </Col>
-          <Col id="genElectionInfo" md={5}>
-            <GeneralElectionInfo/>
-          </Col>
-        </Row>
+        <StateElectionDates/>
       </Container>
 
-      <Container style={{marginBottom:"2rem"}}>
+      <Container className="featurettes" style={{marginBottom:"2rem"}}>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3"><h4>Register to Vote</h4></Col>
