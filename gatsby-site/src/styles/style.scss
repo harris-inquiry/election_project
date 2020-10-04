@@ -9,6 +9,8 @@ $quote-font: "Playfair Display", serif;
 $poppins-font: "Poppins", sans-serif;
 $calendar-font: "Montserrat", sans-serif;
 
+$banner-image-z-index: -2;
+
 body {
   /* background-color: #F5F5F5; */
   background-image: url("../data/images/whitehouseFaded.jpg");
@@ -37,6 +39,25 @@ nav {
   }
 }
 
+header {
+  a {
+    z-index: 2;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  img {
+    height: 50px;
+    &:hover {
+      height:55px;
+    }
+  }
+  .header-menu {
+    background:black;
+    height:100
+  }
+}
+
 .banner {
   margin-bottom: 1.45rem;
   color: white;
@@ -57,6 +78,9 @@ nav {
         position: relative;
         top: 2rem;
       }
+      @media (max-width: 410px) {
+        display: none;
+      }
       /* background-color:blue; */
       /* height: 50%; */
       /* border-radius: .5rem; */
@@ -70,6 +94,9 @@ nav {
     font-family: $poppins-font;
     font-size: 10rem;
     margin-bottom:0;
+    @media (max-width: 400px) {
+      font-size: 9rem;
+    }
   }
 
   #hero-phrase {
@@ -90,6 +117,10 @@ nav {
     left: 0;
     bottom: 0;
   }
+  .banner-image {
+    height: 100%;
+    z-index: $banner-image-z-index;
+  }
   .gradient-banner {
     background:rgba(0, 0, 115,.6);
     position: absolute;
@@ -99,6 +130,7 @@ nav {
     left: 0;
     right: 0;
     margin: auto;
+    z-index: $banner-image-z-index + 1;
   }
   .banner-buttons {
     position: absolute;
@@ -165,7 +197,6 @@ footer {
 }
 
 hr.featurette-divider {
-  @extend .container;
   margin: 2rem auto; /* Space out the Bootstrap <hr> more */
 }
 
@@ -247,6 +278,9 @@ hr.featurette-divider {
         width:50%;
         background: linear-gradient(to right, #0000ff 50%, #7f307f 100%);
       }
+      @media (max-width: 400px) {
+        font-size: 1.3rem;
+      }
     }
     .rep {
       width: 40%;
@@ -259,6 +293,9 @@ hr.featurette-divider {
         font-size:1.6rem;
         width:50%;
         background: linear-gradient(to left, #ff0000 50%, #7f307f 100%);
+      }
+      @media (max-width: 400px) {
+        font-size: 1.3rem;
       }
     }
     .more-info {

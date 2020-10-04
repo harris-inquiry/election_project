@@ -30,11 +30,11 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Vote" description="Vote today!"/>
+      <SEO title="Home" description="Vote today!"/>
       <Banner image="americanFlag">
         <Row className="banner-body">
           <Col md>
-            <h1 className="hero-text">Vote!</h1>
+            <h1 className="hero-text">Vote</h1>
             <span id="hero-phrase">{tagline}</span>
           </Col>
           <Col md="4">

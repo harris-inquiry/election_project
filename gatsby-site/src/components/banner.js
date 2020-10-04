@@ -7,8 +7,8 @@ import GraphicButton from "./graphicButton"
 
 const Banner = ({image, children}) => (
   <div className="banner">
-    <div className="gradient-banner" style={{zIndex:1}}></div>
-    <Image imageName={image} objectPosition="top" style={{height:"100%"}}/>
+    <div className="gradient-banner" ></div>
+    <Image className="banner-image" imageName={image} objectPosition="top" />
     <Container className="absolute-top-center" style={{zIndex:1}}>
       {children}
       <Row className="justify-content-end banner-buttons">

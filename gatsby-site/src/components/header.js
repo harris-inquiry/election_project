@@ -1,10 +1,20 @@
 import PropTypes from "prop-types"
 import React from "react"
-import MyNavbar from "./navbar"
+import { Link } from "gatsby"
+import { Collapse } from "react-bootstrap"
+/* import MyNavbar from "./navbar" */
+import IVotedSticker from "../data/images/IVotedSticker.png"
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <MyNavbar/>
+  <header >
+    <Link to="/" >
+      <img src={IVotedSticker} />
+    </Link>
+    <Collapse>
+      <div className="header-menu">
+        blah
+      </div>
+    </Collapse>
   </header>
 )
 
