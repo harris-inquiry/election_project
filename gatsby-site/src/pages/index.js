@@ -37,7 +37,7 @@ const IndexPage = () => {
             <h1 className="hero-text">Vote</h1>
             <span id="hero-phrase">{tagline}</span>
           </Col>
-          <Col md="4">
+          <Col md="5" className="calendar-col">
             <div className="calendar">Tuesday, November 3rd</div>
           </Col>
         </Row>
