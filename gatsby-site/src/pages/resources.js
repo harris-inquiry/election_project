@@ -22,7 +22,7 @@ const IndexPage = () => (
     <Container className="share" style={{minHeight:300, margin:"1rem auto"}}>
       <Row style={{height:"100%"}}>
         <Col md={5} className="share-body" >
-          <h2 className="share-text text-centered">Talk with your friends</h2>
+          <h2 className="share-text text-centered">Spread the Word</h2>
           <Button style={{width:"50%"}}>Share</Button>
         </Col>
         <Col>

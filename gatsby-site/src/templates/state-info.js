@@ -1,15 +1,34 @@
 import React from "react"
-// import { Link } from "gatsby"
-// import Image from "image"
+import { graphql } from "gatsby"
 
-const StateInfo = ({ stateId }) => {
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Banner from "../components/banner"
+
+
+export default function StateInfo({data:{ file }}) {
+  console.log(file)
 
   return (
-    <div>
-      <h1>{stateId}</h1>
-      <p>Some information on {stateId}</p>
-    </div>
+    <Layout>
+      <SEO title={ file.name } />
+      <Banner image="americanFlag">
+        <p>Hello</p>
+      </Banner>
+      <div style={{ height: 500}}>
+        <h1>{ file.name }</h1>
+        <p>Some information on { file.name } in { file.relativePath }</p>
+      </div>
+    </Layout>
   )
 }
 
-export default StateInfo
+export const query = graphql`
+  query($slug: String!) {
+    file: file(name: {eq: $slug}) {
+      name
+      relativePath
+    }
+  }
+`
+

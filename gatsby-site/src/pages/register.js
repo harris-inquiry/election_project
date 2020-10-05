@@ -8,11 +8,15 @@ import Banner from "../components/banner"
 import { STATES_DATA } from "../data/states"
 
 
+function stateName(state) {
+  return state.replace("_", " ");
+}
+
 const RegisterPage = () => {
 
   const tbody = Object.keys(STATES_DATA).map((state) =>
     <tr>
-      <td>{ state }</td>
+      <td>{ stateName(state) }</td>
       <td>
         <a target="_blank" href={ STATES_DATA[state].officialLink }>{ STATES_DATA[state].officialLink }</a>
       </td>

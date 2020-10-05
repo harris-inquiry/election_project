@@ -188,7 +188,7 @@
                      "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020 4:30PM CST"]
   },
   "Maine": {
-    "officialLink": "",
+    "officialLink": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "genInfo": ["Early Voting: Not available",
                 "In-Person Absentee Voting: Oct 12, 2020 - Oct 29, 2020"],
     "voterRegistrationDeadlines": ["Post received by Tue Oct 13, 2020",
@@ -239,7 +239,7 @@
                      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 3:00PM"]
   },
   "Mississippi": {
-    "officialLink": "",
+    "officialLink": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
     "genInfo": ["Early Voting: Not available",
                 "In-Person Absentee Voting: Oct 21, 2019 - Oct 31, 2020"],
     "voterRegistrationDeadlines": ["Postmarked by Mon Oct 5, 2020",

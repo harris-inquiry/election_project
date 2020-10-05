@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Vote`,
     description: `Vote`,
-    author: `Harrison Quarry`,
+    author: ``,
     shareUrl: "https://here.org",
   },
   plugins: [

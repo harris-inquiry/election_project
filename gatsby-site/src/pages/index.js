@@ -38,7 +38,7 @@ const IndexPage = () => {
             <span id="hero-phrase">{tagline}</span>
           </Col>
           <Col md="4">
-            <div className="calendar" >November 3rd</div>
+            <div className="calendar">Tuesday, November 3rd</div>
           </Col>
         </Row>
       </Banner>
@@ -59,7 +59,7 @@ const IndexPage = () => {
         </InfoCard>
         <InfoCard className="featurette">
           <Row>
-            <Col md="4" lg="3"><h4>Absentee Voting</h4><h4>+ Vote By Mail</h4></Col>
+            <Col md="4" lg="3"><h4>Absentee Voting / Vote by Mail</h4></Col>
             <Col>
               <p>Absentee voting (aka “mail-in voting” and “by-mail voting”) is conducted by mail-in ballot before the day of Election Day. All states will mail a ballot to voters if certain conditions are met. The voter may return the ballot in person or by mail. Some states will let voters apply for an absentee ballot in person before Election Day and then vote the ballot that same day.</p>
             </Col>

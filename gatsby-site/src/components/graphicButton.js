@@ -23,7 +23,7 @@ const GraphicButton = ({ title, to, style, className }) => (
 )
 
 GraphicButton.propTypes = {
-  title: PropTypes.oneOf(['Register', 'Info', "Resources"])
+  title: PropTypes.oneOf(['Home', 'Register', 'Info', "Resources"])
 }
 
 GraphicButton.defaultProps = {
