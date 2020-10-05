@@ -39,12 +39,13 @@ nav {
   }
 }
 
-header {
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
   a {
     z-index: 2;
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
   }
   img {
     height: 50px;
@@ -52,9 +53,21 @@ header {
       height:55px;
     }
   }
-  .header-menu {
-    background:black;
-    height:100
+  .header-container {
+    color: white;
+    flex: 100%;
+    .nav-link {
+      font-size: 1.5rem;
+    }
+  }
+  .btn-hamburger {
+    z-index: $banner-image-z-index + 4;
+    border: none;
+    background: none;
+    .my-hamburger {
+      color: white;
+      font-size: 2rem;
+    }
   }
 }
 

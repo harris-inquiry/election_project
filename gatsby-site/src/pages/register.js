@@ -15,7 +15,7 @@ function stateName(state) {
 const RegisterPage = () => {
 
   const tbody = Object.keys(STATES_DATA).map((state) =>
-    <tr>
+    <tr key={state + "_tableRow"}>
       <td>{ stateName(state) }</td>
       <td>
         <a target="_blank" href={ STATES_DATA[state].officialLink }>{ STATES_DATA[state].officialLink }</a>

@@ -8,9 +8,6 @@ where *http://absenteevoting.org/florida* would return the site as *compiled to 
 ** TODO State urls
 (missing a few)
 
-** TODO Are page3 and page4 really different?
-Get involved vs Different Groups
-
 ** TODO Count number of visitors?
 -> Hopefully webhost provides these statistics?
 
@@ -52,10 +49,9 @@ CSS library - prebuilt objects I can throw into the website - built for smartpho
 ** Page4: Other Groups
 ** Page5: FAQs
 
-* Hosting
-HostGator - 10$/month
-
 * Google Civic API
 https://developers.google.com/civic-information
+
+
 
 
