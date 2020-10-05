@@ -11,7 +11,7 @@ const WhyVote = () => (
   <Layout>
     <SEO title="Why Vote" />
     <Banner image="mlkVotingRights">
-      <h1 className="hero-text" style={{fontSize:"5rem"}}>Get Inspired</h1>
+      <h1 className="hero-text" style={{fontSize:"5rem"}}>On The Issues</h1>
     </Banner>
 
     <Container className="compare">

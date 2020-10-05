@@ -94,7 +94,7 @@ nav {
     .calendar-col {
       @include media-breakpoint-down(sm) {
         position: relative;
-        top: -2rem;
+        top: -1.7rem;
       }
     }
     .calendar {
@@ -105,16 +105,13 @@ nav {
         font-size: 2.6rem;
         line-height: 90%;
       }
-      @media (max-width: 410px) {
-        display: none;
-      }
     }
   }
 
   .hero-text {
-    line-height:130px;
+    line-height: 1;
     font-family: $poppins-font;
-    font-size: 10rem;
+    font-size: 5rem;
     margin-bottom:0;
     @media (max-width: 400px) {
       font-size: 9rem;
@@ -162,6 +159,7 @@ nav {
     margin: 0 auto;
     .graphic-button {
       @extend .btn-primary;
+      line-height: 1;
       background: #153a91ab;
       height:10rem;
       min-width:8rem;

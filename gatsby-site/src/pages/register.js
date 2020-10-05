@@ -8,17 +8,16 @@ import Banner from "../components/banner"
 import { STATES_DATA } from "../data/states"
 
 
-function stateName(state) {
-  return state.replace("_", " ");
-}
-
 const RegisterPage = () => {
 
   const tbody = Object.keys(STATES_DATA).map((state) =>
     <tr key={state + "_tableRow"}>
-      <td>{ stateName(state) }</td>
+      <td><a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") }</a></td>
       <td>
-        <a target="_blank" href={ STATES_DATA[state].officialLink }>{ STATES_DATA[state].officialLink }</a>
+        {
+          STATES_DATA[state].voterRegistrationDeadlines.map((info) =>
+            <p style={{marginBottom:0}}>{info}</p>
+        )}
       </td>
     </tr>
   )
@@ -35,7 +34,7 @@ const RegisterPage = () => {
         <Table id="register-chart" style={{background:"white", borderRadius:".5rem"}}>
           <thead>
             <th>State</th>
-            <th>Official Link</th>
+            <th>Registration</th>
           </thead>
           <tbody>
             {tbody}

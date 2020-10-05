@@ -22,12 +22,12 @@ const GraphicButton = ({ title, to, style, className }) => (
   </Link>
 )
 
-GraphicButton.propTypes = {
-  title: PropTypes.oneOf(['Home', 'Register', 'Info', "Resources"])
-}
-
+/* GraphicButton.propTypes = {
+ *   title: PropTypes.oneOf(['Home', 'Register', 'The Issues', "Resources"])
+ * }
+ *  */
 GraphicButton.defaultProps = {
-  title: "Info",
+  title: "The Issues",
   color: "crimson",
   to: "/"
 }

@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => {
           <div className="header-container">
             <Col sm>
               <Link to="/" className="nav-link">Home</Link>
-              <Link to="/why_vote" className="nav-link">Get inspired</Link>
+              <Link to="/Issues" className="nav-link">On the Issues</Link>
               <Link to="/resources" className="nav-link">Resources</Link>
             </Col>
             <Col sm></Col>

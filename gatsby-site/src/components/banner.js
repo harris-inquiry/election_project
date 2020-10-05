@@ -14,8 +14,8 @@ const Banner = ({image, children}) => (
       <Row className="justify-content-end banner-buttons">
         <GraphicButton className="col-md-2 col" title="Home" to="/" />
         <GraphicButton className="col-md-2 col" title="Register" to="/register" />
-        <GraphicButton className="col-md-2 col" title="Info" to="/why_vote" />
-        <GraphicButton className="col-md-2 col" title="Resources" to="/resources" />
+        <GraphicButton className="col-md-2 col" title="Early Voting" to="/EarlyVoting" />
+        <GraphicButton className="col-md-2 col" title="Absentee Voting" to="/AbsenteeVoting" />
       </Row>
     </Container>
   </div>

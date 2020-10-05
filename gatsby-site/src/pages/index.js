@@ -34,7 +34,7 @@ const IndexPage = () => {
       <Banner image="americanFlag">
         <Row className="banner-body">
           <Col md>
-            <h1 className="hero-text">Vote</h1>
+            <h1 className="hero-text" style={{fontSize:"10rem", lineHeight:0.8}}>Vote</h1>
             <span id="hero-phrase">{tagline}</span>
           </Col>
           <Col md="5" className="calendar-col">
