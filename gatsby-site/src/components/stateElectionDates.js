@@ -32,6 +32,14 @@ function getStateLink(state){
   }
 }
 
+function getStateInitials(state) {
+  if( state === NO_STATE ){
+    return ""
+  } else {
+    return STATES_DATA[state]["initials"]
+  }
+}
+
 
 const StateElectionDates = () => {
   const [usState, setUSState] = useState(NO_STATE)
@@ -51,8 +59,8 @@ const StateElectionDates = () => {
       <Card.Body>
         <h2 style={{fontSize:"3rem"}}>State Info</h2>
         <div style={{display:"flex"}}>
-          <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{width:"100%"}} />
-          <Button size="lg" href={getStateLink(usState)} target="_blank" style={{display:displayStateInfo}} >More</Button>
+          <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{flex:1}} />
+          <Button size="lg" href={getStateLink(usState)} target="_blank" style={{display:displayStateInfo}} >Vote {getStateInitials(usState)}</Button>
         </div>
         <div style={{marginTop:'1rem', display:displayStateInfo}}>
           <h3>{usState.replace("_", " ")}</h3>

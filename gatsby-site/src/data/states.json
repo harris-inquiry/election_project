@@ -1,6 +1,7 @@
 {
   "Alabama": {
     "officialLink": "https://www.alabamavotes.gov/olvr/default.aspx",
+    "initials": "AL",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Sep 9, 2020 - Oct 29, 2020"
@@ -16,11 +17,14 @@
   },
   "Alaska": {
     "officialLink": "https://voterregistration.alaska.gov",
+    "initials": "AK",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Oct 19, 2020 - Nov 1, 2020"
     ],
-    "voterRegistrationDeadlines": ["Sun Oct 4, 2020"],
+    "voterRegistrationDeadlines": [
+      "Sun Oct 4, 2020"
+    ],
     "absenteeInfo": [
       "Deadline to Request an Absentee Ballot: Request for Online or Fax Ballot by Mon Nov 2, 2020 5:00PM AKST",
       "Deadline to Return Completed Absentee Ballot: Email or Fax by Tue Nov 3, 2020"
@@ -28,11 +32,14 @@
   },
   "Arizona": {
     "officialLink": "https://servicearizona.com/VoterRegistration/selectLanguage",
+    "initials": "AZ",
     "genInfo": [
       "Early Voting: Oct 7, 2020 - Oct 30, 2020",
       "In-Person Absentee Voting: Not available"
     ],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
     "absenteeInfo": [
       "Deadline to Request an Absentee Ballot: Received by Fri Oct 23, 2020 5:00PM MST",
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM MST"
@@ -40,6 +47,7 @@
   },
   "Arkansas": {
     "officialLink": "https://www.sos.arkansas.gov/elections",
+    "initials": "AR",
     "genInfo": [
       "Early Voting: Oct 19, 2020 - Nov 2, 2020",
       "In-Person Absentee Voting: Not available"
@@ -55,6 +63,7 @@
   },
   "California": {
     "officialLink": "http://registertovote.ca.gov",
+    "initials": "CA",
     "genInfo": [
       "Early Voting: Dates Vary by Locality - Contact your local election office",
       "In-Person Absentee Voting: Not available"
@@ -62,438 +71,758 @@
     "voterRegistrationDeadlines": [
       "Online by Mon Oct 19, 2020",
       "Postmarked by Mon Oct 19, 2020",
-      "Conditional Registration Begins on Tue Oct 20, 2020"],
+      "Conditional Registration Begins on Tue Oct 20, 2020"
+    ],
     "absenteeInfo": [
       "Deadline to Request an Absentee Ballot: Received by Tue Oct 27, 2020",
-      "Deadline to Return Completed Absentee Ballot: Hand Delivered by Tue Nov 3, 2020 8:00PM PST"]
+      "Deadline to Return Completed Absentee Ballot: Hand Delivered by Tue Nov 3, 2020 8:00PM PST"
+    ]
   },
   "Colorado": {
     "officialLink": "https://www.sos.state.co.us/voter/pages/pub/olvr/verifyNewVoter.xhtml",
+    "initials": "CO",
     "genInfo": [
       "Early Voting: Oct 26, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"],
+      "In-Person Absentee Voting: Not available"
+    ],
     "voterRegistrationDeadlines": [
       "Request for Postal Ballot by Mon Oct 26, 2020",
-      "Election Day Registration & Voting Tue Nov 3, 2020"],
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
     "absenteeInfo": [
       "Deadline to Request an Absentee Ballot: Automatic",
-      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM MST"]
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM MST"
+    ]
   },
   "Connecticut": {
     "officialLink": "https://voterregistration.ct.gov/OLVR/",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Received by Tue Oct 27, 2020",
-                                   "Postmarked by Tue Oct 27, 2020",
-                                   "In-Person Request by Mon Nov 2, 2020 12:00PM EST",
-                                   "Last Day to Change Party Affiliation Tue Oct 27, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Fax by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Received by Tue Oct 27, 2020",
+      "Postmarked by Tue Oct 27, 2020",
+      "In-Person Request by Mon Nov 2, 2020 12:00PM EST",
+      "Last Day to Change Party Affiliation Tue Oct 27, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: Fax by Tue Nov 3, 2020"
+    ],
+    "initials": "CT"
   },
   "Delaware": {
     "officialLink": "https://ivote.de.gov/voterlogin.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 30, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Sat Oct 10, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Online by Mon Nov 2, 2020 12:00PM EST",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 30, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Sat Oct 10, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Online by Mon Nov 2, 2020 12:00PM EST",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "initials": "DE"
   },
   "Florida": {
     "officialLink": "https://registertovoteflorida.gov/home",
-    "genInfo": ["Early Voting: Oct 24, 2020 - Oct 31, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person, Received by Sat Oct 31, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"]
+    "genInfo": [
+      "Early Voting: Oct 24, 2020 - Oct 31, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person, Received by Sat Oct 31, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
+    ],
+    "initials": "FL"
   },
   "Georgia": {
     "officialLink": "https://registertovote.sos.ga.gov/GAOLVR/#no-back-button",
-    "genInfo": ["Early Voting: Oct 12, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Received by Fri Oct 30, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 12, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Received by Fri Oct 30, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
+    ],
+    "initials": "GA"
   },
   "Hawaii": {
     "officialLink": "https://olvr.hawaii.gov/register.aspx",
-    "genInfo": ["Early Voting: Oct 20, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 20, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
+    ],
+    "initials": "HI"
   },
   "Idaho": {
     "officialLink": "https://apps.idahovotes.gov/OnlineVoterRegistration",
-    "genInfo": ["Early Voting: Oct 19, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Oct 19, 2020 - Oct 30, 2020"],
-    "voterRegistrationDeadlines": ["Online by Fri Oct 9, 2020 11:59PM MDT",
-                                   "Postmarked by Fri Oct 9, 2020 5:00PM MDT",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Fri Oct 23, 2020 5:00PM MDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"]
+    "genInfo": [
+      "Early Voting: Oct 19, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Oct 19, 2020 - Oct 30, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Fri Oct 9, 2020 11:59PM MDT",
+      "Postmarked by Fri Oct 9, 2020 5:00PM MDT",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Fri Oct 23, 2020 5:00PM MDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"
+    ],
+    "initials": "ID"
   },
   "Illinois": {
     "officialLink": "https://ova.elections.il.gov",
-    "genInfo": ["Early Voting: Oct 19, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 6, 2020",
-                                   "Online by Sun Oct 18, 2020",
-                                   "Voter Registration 'Grace Period' Wed Oct 7, 2020 thru Election Day",
-                                   "Election Day Registration & Voting (Call Local Election Office) Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 19, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 6, 2020",
+      "Online by Sun Oct 18, 2020",
+      "Voter Registration 'Grace Period' Wed Oct 7, 2020 thru Election Day",
+      "Election Day Registration & Voting (Call Local Election Office) Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"
+    ],
+    "initials": "IL"
   },
   "Indiana": {
     "officialLink": "https://indianavoters.in.gov/",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Request for Postal Ballot by Thu Oct 22, 2020 11:59PM CDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 12:00PM CST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Request for Postal Ballot by Thu Oct 22, 2020 11:59PM CDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 12:00PM CST"
+    ],
+    "initials": "IN"
   },
   "Iowa": {
     "officialLink": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Sat Oct 24, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Fri Oct 30, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 9:00PM CST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Sat Oct 24, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Fri Oct 30, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 9:00PM CST"
+    ],
+    "initials": "IA"
   },
   "Kansas": {
     "officialLink": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
-    "genInfo": ["Early Voting: Oct 14, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Tue Oct 13, 2020",
-                                   "Postmarked by Tue Oct 13, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 14, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Tue Oct 13, 2020",
+      "Postmarked by Tue Oct 13, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
+      "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"
+    ],
+    "initials": "KS"
   },
   "Kentucky": {
     "officialLink": "https://vrsws.sos.ky.gov/ovrweb/",
-    "genInfo": ["Early Voting: Oct 13, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Oct 13, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020 4:00PM EDT"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Fri Oct 9, 2020 Online by Fri Oct 9, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020 6:00PM EST"]
+    "genInfo": [
+      "Early Voting: Oct 13, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Oct 13, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020 4:00PM EDT"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Fri Oct 9, 2020 Online by Fri Oct 9, 2020",
+      "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020 6:00PM EST"
+    ],
+    "initials": "KY"
   },
   "Louisiana": {
     "officialLink": "http://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
-    "genInfo": ["Early Voting: Oct 20, 2020 - Oct 27, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Tue Oct 13, 2020",
-                                   "Post received by Mon Oct 5, 2020",
-                                   "In-Person Request by Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Fri Oct 30, 2020 4:30PM CDT",
-                     "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020 4:30PM CST"]
+    "genInfo": [
+      "Early Voting: Oct 20, 2020 - Oct 27, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Tue Oct 13, 2020",
+      "Post received by Mon Oct 5, 2020",
+      "In-Person Request by Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Fri Oct 30, 2020 4:30PM CDT",
+      "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020 4:30PM CST"
+    ],
+    "initials": "LA"
   },
   "Maine": {
     "officialLink": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 12, 2020 - Oct 29, 2020"],
-    "voterRegistrationDeadlines": ["Post received by Tue Oct 13, 2020",
-                                   "In-Person Request by Tue Nov 3, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020",
-                                   "Contact Local Election Office",
-                                   "Deadline Dates Vary by Locality"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Sat Oct 31, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 12, 2020 - Oct 29, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Post received by Tue Oct 13, 2020",
+      "In-Person Request by Tue Nov 3, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020",
+      "Contact Local Election Office",
+      "Deadline Dates Vary by Locality"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Sat Oct 31, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "initials": "ME"
   },
   "Maryland": {
     "officialLink": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/VoterType",
-    "genInfo": ["Early Voting: Oct 26, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Tue Oct 13, 2020 9:00PM EDT",
-                                   "Postmarked by Tue Oct 13, 2020 9:00PM EDT"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Tue Nov 3, 2020 8:00PM EST Online by Tue Oct 20, 2020 11:59PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 26, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Tue Oct 13, 2020 9:00PM EDT",
+      "Postmarked by Tue Oct 13, 2020 9:00PM EDT"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Tue Nov 3, 2020 8:00PM EST Online by Tue Oct 20, 2020 11:59PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"
+    ],
+    "initials": "MD"
   },
   "Massachusetts": {
     "officialLink": "https://www.sec.state.ma.us/OVR/Pages/MinRequirements.aspx?RMVId=True",
-    "genInfo": ["Early Voting: Oct 17, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Sat Oct 24, 2020 8:00PM EDT",
-                                   "Postmarked by Sat Oct 24, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Wed Oct 28, 2020 12:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM"]
+    "genInfo": [
+      "Early Voting: Oct 17, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Sat Oct 24, 2020 8:00PM EDT",
+      "Postmarked by Sat Oct 24, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Wed Oct 28, 2020 12:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM"
+    ],
+    "initials": "MA"
   },
   "Michigan": {
     "officialLink": "https://mvic.sos.state.mi.us/RegisterVoter",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 24, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Post received by Mon Oct 19, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020",
-                                   "In the Election Office by Mon Nov 2, 2020 4:00PM EST",
-                                   "Same Day Registration & Voting ends Tue Nov 3, 2020 8:00PM EST"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Received by Fri Oct 30, 2020 5:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 24, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Post received by Mon Oct 19, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020",
+      "In the Election Office by Mon Nov 2, 2020 4:00PM EST",
+      "Same Day Registration & Voting ends Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Received by Fri Oct 30, 2020 5:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"
+    ],
+    "initials": "MI"
   },
   "Minnesota": {
     "officialLink": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationStep1.aspx",
-    "genInfo": ["Early Voting: Sep 18, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 13, 2020",
-                                   "Online by Tue Oct 13, 2020 11:59PM CDT",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 3:00PM"]
+    "genInfo": [
+      "Early Voting: Sep 18, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 13, 2020",
+      "Online by Tue Oct 13, 2020 11:59PM CDT",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 3:00PM"
+    ],
+    "initials": "MN"
   },
   "Mississippi": {
     "officialLink": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 21, 2019 - Oct 31, 2020"],
-    "voterRegistrationDeadlines": ["Postmarked by Mon Oct 5, 2020",
-                                   "In-Person, Received by Mon Oct 5, 2020 12:00PM CDT"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: No Deadline",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Sat Oct 31, 2020"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 21, 2019 - Oct 31, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Postmarked by Mon Oct 5, 2020",
+      "In-Person, Received by Mon Oct 5, 2020 12:00PM CDT"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: No Deadline",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Sat Oct 31, 2020"
+    ],
+    "initials": "MS"
   },
   "Missouri": {
     "officialLink": "http://www.sos.mo.gov/elections/goVoteMissouri/register.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 22, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Postmarked by Wed Oct 7, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Received by Wed Oct 21, 2020 5:00PM CDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM CST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 22, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Postmarked by Wed Oct 7, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Received by Wed Oct 21, 2020 5:00PM CDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM CST"
+    ],
+    "initials": "MO"
   },
   "Montana": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 2, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Received by Mon Oct 26, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020 8:00PM MST",
-                                   "Emergency Ballot Period Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020 12:00PM MST",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 2, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Received by Mon Oct 26, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020 8:00PM MST",
+      "Emergency Ballot Period Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020 12:00PM MST",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"
+    ],
+    "initials": "MT"
   },
   "Nebraska": {
     "officialLink": "https://www.nebraska.gov/apps-sos-voter-registration/eligibility/citizen",
-    "genInfo": ["Early Voting: Oct 5, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Fri Oct 16, 2020 5:00PM CDT",
-                                   "Postmarked by Fri Oct 16, 2020",
-                                   "At DMV and other State Agencies by Fri Oct 16, 2020",
-                                   "In the Election Office by Fri Oct 23, 2020 6:00PM CDT"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Received by Fri Oct 23, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM CST"]
+    "genInfo": [
+      "Early Voting: Oct 5, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Fri Oct 16, 2020 5:00PM CDT",
+      "Postmarked by Fri Oct 16, 2020",
+      "At DMV and other State Agencies by Fri Oct 16, 2020",
+      "In the Election Office by Fri Oct 23, 2020 6:00PM CDT"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Received by Fri Oct 23, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM CST"
+    ],
+    "initials": "NE"
   },
   "Nevada": {
     "officialLink": "http://www.registertovotenv.gov",
-    "genInfo": ["Early Voting: Oct 17, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Thu Oct 29, 2020",
-                                   "Postmarked by Tue Oct 6, 2020",
-                                   "In-Person, Received by Tue Oct 6, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Post received by Tue Oct 20, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"]
+    "genInfo": [
+      "Early Voting: Oct 17, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Thu Oct 29, 2020",
+      "Postmarked by Tue Oct 6, 2020",
+      "In-Person, Received by Tue Oct 6, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Post received by Tue Oct 20, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"
+    ],
+    "initials": "NV"
   },
   "New_Hampshire": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 27, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person Request by Mon Nov 2, 2020 5:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 27, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person Request by Mon Nov 2, 2020 5:00PM EST"
+    ],
+    "initials": "NH"
   },
   "New_Jersey": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 13, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020 3:00PM EST",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 13, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020 3:00PM EST",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "initials": "NJ"
   },
   "New_Mexico": {
     "officialLink": "https://portal.sos.state.nm.us/OVR/(S(od4445h5uj2f5tyucvvhszdf))/WebPages/InstructionsStep1.aspx",
-    "genInfo": ["Early Voting: Oct 17, 2020 - Oct 31, 2020",
-                "In-Person Absentee Voting: Oct 6, 2020 - Oct 30, 2020"],
-    "voterRegistrationDeadlines": ["Tue Oct 6, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Tue Oct 20, 2020 5:00PM MDT Online by Tue Oct 20, 2020 5:00PM MDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 17, 2020 - Oct 31, 2020",
+      "In-Person Absentee Voting: Oct 6, 2020 - Oct 30, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 6, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Tue Oct 20, 2020 5:00PM MDT Online by Tue Oct 20, 2020 5:00PM MDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
+    ],
+    "initials": "NM"
   },
   "New_York": {
     "officialLink": "http://dmv.ny.gov/org/more-info/electronic-voter-registration-application",
-    "genInfo": ["Early Voting: Oct 24, 2020 - Nov 1, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Postmarked by Fri Oct 9, 2020",
-                                   "Post received by Wed Oct 14, 2020",
-                                   "In-Person Request by Fri Oct 9, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Wed Nov 4, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 24, 2020 - Nov 1, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Postmarked by Fri Oct 9, 2020",
+      "Post received by Wed Oct 14, 2020",
+      "In-Person Request by Fri Oct 9, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Wed Nov 4, 2020"
+    ],
+    "initials": "NY"
   },
   "North_Carolina": {
     "officialLink": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
-    "genInfo": ["Early Voting: Oct 15, 2020 - Oct 31, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Fri Oct 9, 2020",
-                                   "Same-Day Registration & Voting Available during Early Voting Period"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 5:00PM"]
+    "genInfo": [
+      "Early Voting: Oct 15, 2020 - Oct 31, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Fri Oct 9, 2020",
+      "Same-Day Registration & Voting Available during Early Voting Period"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 5:00PM"
+    ],
+    "initials": "NC"
   },
   "North_Dakota": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Contact your local election office",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Not Required"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020"]
+    "genInfo": [
+      "Early Voting: Contact your local election office",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Not Required"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020"
+    ],
+    "initials": "ND"
   },
   "Ohio": {
     "officialLink": "https://olvr.sos.state.oh.us/ovru/Modify.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Received by Sat Oct 31, 2020 12:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:30PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Received by Sat Oct 31, 2020 12:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:30PM EST"
+    ],
+    "initials": "OH"
   },
   "Oklahoma": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Oct 29, 2020 - Oct 31, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Fri Oct 9, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020 5:00PM CDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"]
+    "genInfo": [
+      "Early Voting: Oct 29, 2020 - Oct 31, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Fri Oct 9, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020 5:00PM CDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"
+    ],
+    "initials": "OK"
   },
   "Oregon": {
     "officialLink": "https://secure.sos.state.or.us/orestar/vr/register.do?lang=eng&amp;source=RTV",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 13, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Thu Oct 29, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM PST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 13, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Thu Oct 29, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM PST"
+    ],
+    "initials": "OR"
   },
   "Pennsylvania": {
     "officialLink": "https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationApplication.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 14, 2020"],
-    "voterRegistrationDeadlines": ["Mon Oct 19, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020 5:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 14, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 19, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020 5:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"
+    ],
+    "initials": "PA"
   },
   "Rhode_Island": {
     "officialLink": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
-    "genInfo": ["Early Voting: Oct 14, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Sun Oct 4, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 13, 2020 4:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"]
+    "genInfo": [
+      "Early Voting: Oct 14, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Sun Oct 4, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 13, 2020 4:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "initials": "RI"
   },
   "South_Carolina": {
     "officialLink": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Postmarked by Mon Oct 5, 2020",
-                                   "In-Person Request by Fri Oct 2, 2020 5:00PM EDT",
-                                   "Email or Fax by Sun Oct 4, 2020 11:59PM EDT"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Fri Oct 30, 2020 5:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Postmarked by Mon Oct 5, 2020",
+      "In-Person Request by Fri Oct 2, 2020 5:00PM EDT",
+      "Email or Fax by Sun Oct 4, 2020 11:59PM EDT"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Fri Oct 30, 2020 5:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
+    ],
+    "initials": "SC"
   },
   "South_Dakota": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 18, 2020 - Nov 2, 2020"],
-    "voterRegistrationDeadlines": ["Mon Oct 19, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020 5:00PM",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 18, 2020 - Nov 2, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 19, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020 5:00PM",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"
+    ],
+    "initials": "SD"
   },
   "Tennessee": {
     "officialLink": "https://ovr.govote.tn.gov/",
-    "genInfo": ["Early Voting: Oct 14, 2020 - Oct 29, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"]
+    "genInfo": [
+      "Early Voting: Oct 14, 2020 - Oct 29, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
+    ],
+    "initials": "TN"
   },
   "Texas": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Oct 13, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Mon Oct 5, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Post received by Fri Oct 23, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Wed Nov 4, 2020 5:00PM CST"]
+    "genInfo": [
+      "Early Voting: Oct 13, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Mon Oct 5, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Post received by Fri Oct 23, 2020",
+      "Deadline to Return Completed Absentee Ballot: Post received by Wed Nov 4, 2020 5:00PM CST"
+    ],
+    "initials": "TX"
   },
   "Utah": {
     "officialLink": "https://secure.utah.gov/voterreg/login.html?selection=REGISTER",
-    "genInfo": ["Early Voting: Oct 20, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Fri Oct 23, 2020",
-                                   "Post received by Fri Oct 23, 2020",
-                                   "In-Person Request by Fri Oct 23, 2020",
-                                   "Email by Fri Oct 23, 2020",
-                                   "Election Day Registration + Early Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Wed Oct 28, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 20, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Fri Oct 23, 2020",
+      "Post received by Fri Oct 23, 2020",
+      "In-Person Request by Fri Oct 23, 2020",
+      "Email by Fri Oct 23, 2020",
+      "Election Day Registration + Early Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Wed Oct 28, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020"
+    ],
+    "initials": "UT"
   },
   "Vermont": {
     "officialLink": "https://olvr.sec.state.vt.us/Registration/",
-    "genInfo": ["Early Voting: Sep 20, 2020 - Nov 2, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Election Day Registration & Voting Tue Nov 3, 2020",
-                                   "No Deadline"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"]
+    "genInfo": [
+      "Early Voting: Sep 20, 2020 - Nov 2, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Election Day Registration & Voting Tue Nov 3, 2020",
+      "No Deadline"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Mon Nov 2, 2020",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"
+    ],
+    "initials": "VT"
   },
   "Virginia": {
     "officialLink": "https://vote.elections.virginia.gov/VoterInformation",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 18, 2020 - Oct 31, 2020"],
-    "voterRegistrationDeadlines": ["Tue Oct 13, 2020",
-                                   "Online by Tue Oct 13, 2020",
-                                   "Postmarked by Tue Oct 13, 2020",
-                                   "In-Person, Received by Tue Oct 13, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Request for Postal Ballot by Fri Oct 23, 2020 5:00PM EDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 18, 2020 - Oct 31, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 13, 2020",
+      "Online by Tue Oct 13, 2020",
+      "Postmarked by Tue Oct 13, 2020",
+      "In-Person, Received by Tue Oct 13, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Request for Postal Ballot by Fri Oct 23, 2020 5:00PM EDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
+    ],
+    "initials": "VA"
   },
   "Washington": {
     "officialLink": "http://www.sos.wa.gov/elections/myvote/",
-    "genInfo": ["Early Voting: Oct 14, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Mon Oct 26, 2020",
-                                   "Post received by Mon Oct 26, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: In-Person Request by Mon Oct 26, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 14, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Mon Oct 26, 2020",
+      "Post received by Mon Oct 26, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: In-Person Request by Mon Oct 26, 2020",
+      "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"
+    ],
+    "initials": "WA"
   },
   "Washington_DC": {
     "officialLink": "https://www.vote4dc.com/ApplyInstructions/Register",
-    "genInfo": ["Early Voting: Oct 17, 2020 - Oct 30, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Post received by Tue Oct 13, 2020",
-                                   "In-Person, Received by Wed Oct 14, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020 8:00PM EST",
-                                   "Last Day to Change Party Affiliation Fri Nov 13, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 13, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 17, 2020 - Oct 30, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Post received by Tue Oct 13, 2020",
+      "In-Person, Received by Wed Oct 14, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020 8:00PM EST",
+      "Last Day to Change Party Affiliation Fri Nov 13, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
+      "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 13, 2020"
+    ]
   },
   "West_Virginia": {
     "officialLink": "https://ovr.sos.wv.gov/Register#Qualifications",
-    "genInfo": ["Early Voting: Oct 21, 2020 - Oct 31, 2020",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Tue Oct 13, 2020",
-                                   "Post received by Fri Oct 16, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Wed Oct 28, 2020",
-                     "Deadline to Return Completed Absentee Ballot: Hand Delivered by Mon Nov 2, 2020"]
+    "genInfo": [
+      "Early Voting: Oct 21, 2020 - Oct 31, 2020",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Tue Oct 13, 2020",
+      "Post received by Fri Oct 16, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Wed Oct 28, 2020",
+      "Deadline to Return Completed Absentee Ballot: Hand Delivered by Mon Nov 2, 2020"
+    ],
+    "initials": "WV"
   },
   "Wisconsin": {
     "officialLink": "https://myvote.wi.gov/en-us/RegisterToVote",
-    "genInfo": ["Early Voting: Dates Vary by Locality - Contact your local election office",
-                "In-Person Absentee Voting: Not available"],
-    "voterRegistrationDeadlines": ["Online by Wed Oct 14, 2020",
-                                   "Postmarked by Wed Oct 14, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020",
-                                   "In the Election Office by Fri Oct 30, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot: Indefinitely Confined Voters by Fri Oct 30, 2020 5:00PM CDT",
-                     "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM"]
+    "genInfo": [
+      "Early Voting: Dates Vary by Locality - Contact your local election office",
+      "In-Person Absentee Voting: Not available"
+    ],
+    "voterRegistrationDeadlines": [
+      "Online by Wed Oct 14, 2020",
+      "Postmarked by Wed Oct 14, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020",
+      "In the Election Office by Fri Oct 30, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot: Indefinitely Confined Voters by Fri Oct 30, 2020 5:00PM CDT",
+      "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM"
+    ],
+    "initials": "WI"
   },
   "Wyoming": {
     "officialLink": "",
-    "genInfo": ["Early Voting: Not available",
-                "In-Person Absentee Voting: Sep 24, 2020"],
-    "voterRegistrationDeadlines": ["Post received by Mon Oct 19, 2020",
-                                   "In-Person, Received by Mon Oct 19, 2020",
-                                   "Election Day Registration & Voting Tue Nov 3, 2020"],
-    "absenteeInfo": ["Deadline to Request an Absentee Ballot:",
-                     "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM MST"]
+    "genInfo": [
+      "Early Voting: Not available",
+      "In-Person Absentee Voting: Sep 24, 2020"
+    ],
+    "voterRegistrationDeadlines": [
+      "Post received by Mon Oct 19, 2020",
+      "In-Person, Received by Mon Oct 19, 2020",
+      "Election Day Registration & Voting Tue Nov 3, 2020"
+    ],
+    "absenteeInfo": [
+      "Deadline to Request an Absentee Ballot:",
+      "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM MST"
+    ],
+    "initials": "WY"
   }
 }

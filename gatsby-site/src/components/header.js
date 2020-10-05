@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { Collapse, Container, Navbar, Nav, NavDropdown } from "react-bootstrap"
+import { Collapse, Col } from "react-bootstrap"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <div style={{position:"absolute", left:0, right:0, top:0, zIndex:100}}>
-      <div className="header" style={{background:(isMenuOpen ? 'rgba(45, 52, 60, 0.97)':'none')}}>
+      <div className="header" style={{background:(isMenuOpen ? 'rgba(51, 117, 193, 0.97)':'none')}}>
         <Link to="/" >
           <img src={IVotedSticker} />
         </Link>
@@ -24,9 +24,12 @@ const Header = ({ siteTitle }) => {
         </button>
         <Collapse in={isMenuOpen}>
           <div className="header-container">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/why_vote" className="nav-link">Get inspired</Link>
-            <Link to="/resources" className="nav-link">Resources</Link>
+            <Col sm>
+              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/why_vote" className="nav-link">Get inspired</Link>
+              <Link to="/resources" className="nav-link">Resources</Link>
+            </Col>
+            <Col sm></Col>
           </div>
         </Collapse>
       </div>
