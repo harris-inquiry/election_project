@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -45,9 +46,36 @@ const IndexPage = () => {
 
       <Container>
         <StateElectionDates/>
+
+        <Row style={{marginTop:"1rem"}}>
+          <Col sm={6}>
+            <Card style={{height:"100%"}}>
+              <Card.Img variant="top" />
+              <Card.Body>
+                <h4>On the Issues</h4>
+                <Card.Text>
+                  Learn about the issues this November
+                </Card.Text>
+                <Link to="/Issues" className="btn btn-primary btn-lg">Learn More</Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={6}>
+            <Card style={{height:"100%"}}>
+              <Card.Img variant="top" />
+              <Card.Body>
+                <h4>Other Resources</h4>
+                <Card.Text>
+                  Find out how you can help
+                </Card.Text>
+                <Link to="/resources" className="btn btn-primary btn-lg">Learn More</Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
 
-      <Container className="featurettes" style={{marginBottom:"2rem"}}>
+      <Container fluid className="featurettes" style={{marginBottom:"2rem"}}>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3"><h4>Register to Vote</h4></Col>

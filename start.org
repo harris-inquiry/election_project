@@ -16,6 +16,12 @@ where *http://absenteevoting.org/florida* would return the site as *compiled to 
 ** TODO Adapt ~Banner~ element into parent tag
 (wrapping element -> providing only the background image and relative spacing for child elements)
 
+** TODO HTML file size when importing javascript files
+/Does importing large javascript files bulk up size of html files?/
+
+** TODO /Would adding many pages (50 states) lead to major slow down with Gatsby ~Link~ optimization/
+-> since gatsby preloads some of these files for quicker access?
+
 * TODO Questions/Comments
 ** Template Sites
 https://templated.co/

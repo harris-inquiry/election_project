@@ -62,9 +62,16 @@ nav {
       color: white;
       border: white;
       border-bottom-style: solid;
-      width: max-content;
+      width: 100%;
+      transition: width 1s;
       &:hover {
         width:100%;
+      }
+      @include media-breakpoint-up(sm){
+        width:240px;
+      }
+      @include media-breakpoint-up(md){
+        width: 60%;
       }
     }
   }
@@ -105,6 +112,15 @@ nav {
         font-size: 2.6rem;
         line-height: 90%;
       }
+    }
+  }
+
+  .state-text {
+    color: yellow;
+    line-height: 1;
+    font-size: 5rem;
+    @include media-breakpoint-up(sm) {
+      font-size: 7rem;
     }
   }
 
