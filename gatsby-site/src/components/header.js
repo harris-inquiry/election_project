@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <div style={{position:"absolute", left:0, right:0, top:0, zIndex:100}}>
-      <div className="header" style={{background:(isMenuOpen ? 'rgba(51, 117, 193, 0.97)':'none')}}>
+      <div className={"header" + (isMenuOpen ? " is-open" : "")} >
         <Link to="/" >
           <img src={IVotedSticker} />
         </Link>
@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => {
             </Col>
             <Col sm>
               <h1 style={{color:"white"}}>Find your state</h1>
-              <StateSelect style={{flex:1}} />
+              {/* <StateSelect style={{flex:1}} /> */}
               <Link className="btn btn-primary btn-lg" to="/wisconsin">Go</Link>
             </Col>
           </div>

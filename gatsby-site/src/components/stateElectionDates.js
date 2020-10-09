@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Card, Button } from "react-bootstrap"
 
-import StateSelect from "../components/stateSelect"
+import StateSelect from "./stateSelect"
 import { STATES_DATA, NO_STATE } from "../data/states"
 
 
@@ -21,26 +21,6 @@ function getStateInfo(state, info){
   }
 }
 
-function getStateLink(state){
-  if( state === NO_STATE ){
-    return NO_STATE
-  }
-  try {
-    return STATES_DATA[state]["officialLink"]
-  } catch (er) {
-    return "DATA_RETRIEVE_FAILED"
-  }
-}
-
-function getStateInitials(state) {
-  if( state === NO_STATE ){
-    return ""
-  } else {
-    return STATES_DATA[state]["initials"]
-  }
-}
-
-
 const StateElectionDates = () => {
   const [usState, setUSState] = useState(NO_STATE)
   const [displayStateInfo, setDisplayState] = useState("none")
@@ -55,17 +35,14 @@ const StateElectionDates = () => {
   }
 
   return (
-    <Card style={{height:"100%"}}>
+    <Card id="state-dates">
       <Card.Body>
-        <h2 style={{fontSize:"3rem"}}>State Info</h2>
-        <div style={{display:"flex"}}>
-          <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{flex:1}} />
-          <Button size="lg" href={getStateLink(usState)} target="_blank" style={{display:displayStateInfo}} >Vote {getStateInitials(usState)}</Button>
-        </div>
+        <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState != NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
+        <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{flex:1}} />
         <div style={{marginTop:'1rem', display:displayStateInfo}}>
-          <h3>{usState.replace("_", " ")}</h3>
           {getStateInfo(usState,"genInfo")}
-          <h4 style={{marginTop:"1rem"}}>Voter Registration</h4>
+          <hr/>
+          <h3 style={{marginTop:"1rem", fontSize:"2.1rem"}}>Voter Registration</h3>
           {getStateInfo(usState,"voterRegistrationDeadlines")}
           <hr/>
           {getStateInfo(usState,"absenteeInfo")}

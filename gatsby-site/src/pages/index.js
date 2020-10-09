@@ -75,7 +75,7 @@ const IndexPage = () => {
         </Row>
       </Container>
 
-      <Container fluid className="featurettes" style={{marginBottom:"2rem"}}>
+      <Container className="featurettes" style={{marginBottom:"2rem"}}>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3"><h4>Register to Vote</h4></Col>
@@ -109,7 +109,7 @@ const IndexPage = () => {
         </InfoCard>
         <InfoCard className="featurette">
           <Row>
-            <Col md="4" lg="3"><h4>ID laws</h4></Col>
+            <Col md="4" lg="3"><h4>Voter ID laws</h4></Col>
             <Col>
               <p>A total of 36 states have laws requesting or requiring voters to show some form of identification at the polls, 35 of which are in force in 2020. The remaining 14 states use other methods to verify the identity of voters. Most frequently, other identifying information provided at the polling place, such as a signature, is checked against information on file.</p>
               <p>Check with your state's requirements.</p>

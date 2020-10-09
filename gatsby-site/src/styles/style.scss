@@ -11,6 +11,8 @@ $calendar-font: "Montserrat", sans-serif;
 
 $banner-image-z-index: -2;
 
+$light-blue: #4E8BEC;
+
 body {
   /* background-color: #F5F5F5; */
   background-image: url("../data/images/whitehouseFaded.jpg");
@@ -44,6 +46,9 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem;
+  &.is-open{
+    background: $light-blue + F8;
+  }
   a {
     z-index: 2;
   }
@@ -204,6 +209,26 @@ nav {
         font-weight: bold;
       }
     }
+  }
+}
+
+#state-dates {
+  background:$light-blue + FF;
+  color:white;
+  h2 {
+    font-weight: 700;
+  }
+  p {
+    font-weight:600;
+    font-size: 1.2rem;
+  }
+}
+
+#state-svg {
+  margin: 1rem 0;
+  width: 100%;
+  @include media-breakpoint-down(sm){
+    display: none;
   }
 }
 
