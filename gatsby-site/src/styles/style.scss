@@ -230,6 +230,14 @@ nav {
   @include media-breakpoint-down(sm){
     display: none;
   }
+  .state {
+    path {
+      cursor: pointer;
+      &:hover{
+        fill: blue;
+      }
+    }
+  }
 }
 
 footer {
