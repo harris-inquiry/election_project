@@ -38,7 +38,7 @@ const StateElectionDates = () => {
     <Card id="state-dates">
       <Card.Body>
         <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState != NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
-        <StateSelect onChange={(evt) => changeUSState(evt.target.value)} style={{flex:1}} />
+        <StateSelect onChange={(state) => changeUSState(state)} style={{flex:1}} />
         <div style={{marginTop:'1rem', display:displayStateInfo}}>
           {getStateInfo(usState,"genInfo")}
           <hr/>

@@ -34,9 +34,8 @@ const Header = ({ siteTitle }) => {
               <Link to="/EarlyVoting" className="nav-link">Early Voting</Link>
             </Col>
             <Col sm>
-              <h1 style={{color:"white"}}>Find your state</h1>
-              {/* <StateSelect style={{flex:1}} /> */}
-              <Link className="btn btn-primary btn-lg" to="/wisconsin">Go</Link>
+              <h1 style={{color:"white"}}>The battleground states</h1>
+              <Link className="btn btn-danger btn-lg" to="/wisconsin">Wisconsin</Link>
             </Col>
           </div>
         </Collapse>

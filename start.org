@@ -22,6 +22,10 @@ where *http://absenteevoting.org/florida* would return the site as *compiled to 
 ** TODO /Would adding many pages (50 states) lead to major slow down with Gatsby ~Link~ optimization/
 -> since gatsby preloads some of these files for quicker access?
 
+** TODO *Alabama* state select isn't working
+-> other states are working fine---
+
+
 * TODO Questions/Comments
 ** Template Sites
 https://templated.co/
