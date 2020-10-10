@@ -51,24 +51,20 @@ const IndexPage = () => {
         <Row style={{margin:"4rem -15px"}}>
           <Col md={6}>
             <Card style={{height:"100%"}}>
-              <Image className="featurette-image" imageName="womenSuffrage"/>
+              <Image imageName="womenSuffrage" style={{height:"80%"}}/>
               <Card.Body>
-                <h4>On the Issues</h4>
+                <h4 style={{fontSize:"2.4rem"}}>On the Issues</h4>
                 <Card.Text>
-                  Learn about the issues this November
+                  <Link to="/Issues" className="btn btn-primary btn-lg">Learn More</Link>
                 </Card.Text>
-                <Link to="/Issues" className="btn btn-primary btn-lg">Learn More</Link>
               </Card.Body>
             </Card>
           </Col>
           <Col md={6}>
             <Card style={{height:"100%"}}>
-              <Image imageName="votefriends" />
+              <Image imageName="votefriends" style={{height:"80%"}} />
               <Card.Body>
-                <h4>Other Resources</h4>
-                <Card.Text>
-                  Find out how you can help
-                </Card.Text>
+                <h4 style={{fontSize:"2.4rem"}}>Other Resources</h4>
                 <Link to="/resources" className="btn btn-primary btn-lg">Learn More</Link>
               </Card.Body>
             </Card>

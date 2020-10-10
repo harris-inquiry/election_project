@@ -17,15 +17,15 @@ const EarlyVoting = () => {
         <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov" }</a>
       </td>
       <td>
-        {STATES_DATA[state].genInfo.map((info) => {
+        {STATES_DATA[state].genInfo.map((info, key) => {
           const start = info.indexOf(":")
           if( start > 0 ){
             return (
-              <p style={{marginBottom:0}}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
+              <p key={state + "_info" + key}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
             )
           } else {
             return (
-              <p style={{marginBottom:0}}>{info}</p>
+              <p key={state + "_info" + key}>{info}</p>
           )}
         }
         )}
@@ -37,19 +37,22 @@ const EarlyVoting = () => {
     <Layout>
       <SEO title="EarlyVoting" description="Vote Early"/>
       <Banner image="americanFlag">
-        <h1 className="hero-text" style={{fontSize:"5rem"}}>Early Voting Info!</h1>
+        <h1 className="hero-text" style={{fontSize:"5rem"}}>Early Voting Info</h1>
       </Banner>
 
       <Container>
         <div style={{margin:"2rem auto"}}>
-          <h1>By State</h1>
-          <p>Want to Vote Early? Check your State's Early Voting Dates.</p>
-          <p>For Early Voting location listings check with the Secretary of State’s office or County Registrar in your state.</p>
+          <h2 style={{fontSize:"3rem"}}>Early Voting By State</h2>
+          <h4 style={{position:"relative", top:-10, color:"#6c757d"}}>Check your State's Early Voting Dates.</h4>
+          <p>Sometimes circumstances make it hard or impossible for you to vote on Election Day. But your state may let you vote during a designated early voting period.
+            For Early Voting location listings check with the Secretary of State’s office or County Registrar in your state.</p>
         </div>
-        <Table style={{background:"white", borderRadius:".5rem"}}>
+        <Table className="state-table">
           <thead>
-            <th>State</th>
-            <th>Info</th>
+            <tr>
+              <th>State</th>
+              <th>Info</th>
+            </tr>
           </thead>
           <tbody>
             {all_state_early_voting}

@@ -48,20 +48,20 @@ nav {
   padding: 1rem;
   &.is-open{
     background: $light-blue + F8;
+    border: solid black
   }
   a {
     z-index: 2;
   }
   img {
     height: 50px;
-    &:hover {
-      height:55px;
-    }
   }
   .header-container {
     @extend .row;
     margin: 1rem 0;
     flex: 100%;
+    border: 10px solid rgb(94, 169, 249);
+    padding: 10px 0;
     .nav-link {
       font-size: 1.5rem;
       font-weight: 800;
@@ -77,11 +77,11 @@ nav {
         text-align: center;
         background: rebeccapurple;
       }
-      @include media-breakpoint-up(sm){
+      @include media-breakpoint-only(sm){
         width:240px;
       }
       @include media-breakpoint-up(md){
-        width: 60%;
+        width: 80%;
       }
     }
   }
@@ -195,13 +195,19 @@ nav {
         height: 7rem;
       }
       &:hover {
-        img {
-          height: 55%;
+        svg {
+          font-size: 5.2rem;
+          @include media-breakpoint-down(sm) {
+            font-size: 4rem;
+          }
         }
       }
-      img {
-        height: 50%;
+      svg {
+        font-size: 5rem;
         margin-top: 4px;
+        @include media-breakpoint-down(sm) {
+          font-size: 3.8rem;
+        }
       }
       p {
         position: absolute;
@@ -335,6 +341,13 @@ hr.featurette-divider {
         font-size: 1.4rem;
       }
     }
+    .topic-title {
+      @include media-breakpoint-down(sm) {
+        span{
+          display:none;
+        }
+      }
+    }
     .padding-small {
       @include media-breakpoint-down(sm){
         padding-top: 2.5rem;
@@ -350,7 +363,7 @@ hr.featurette-divider {
       @include media-breakpoint-down(sm){
         font-size:1.6rem;
         width:50%;
-        background: linear-gradient(to right, #0000ff 50%, #7f307f 100%);
+        /* background: linear-gradient(to right, #0000ff 50%, #7f307f 100%); */
       }
       @media (max-width: 400px) {
         font-size: 1.3rem;
@@ -366,7 +379,7 @@ hr.featurette-divider {
       @include media-breakpoint-down(sm){
         font-size:1.6rem;
         width:50%;
-        background: linear-gradient(to left, #ff0000 50%, #7f307f 100%);
+        /* background: linear-gradient(to left, #ff0000 50%, #7f307f 100%); */
       }
       @media (max-width: 400px) {
         font-size: 1.3rem;
@@ -380,6 +393,24 @@ hr.featurette-divider {
     p {
       color: white;
       font-weight: 600;
+    }
+  }
+}
+
+.state-table {
+  background: white;
+  border-radius: 0.5rem;
+  tbody {
+    p:last-child {
+      margin-bottom:0;
+    }
+    @include media-breakpoint-down(xs) {
+      h3 {
+        font-size:1.4rem;
+      }
+      td:first-child {
+        max-width: 160px;
+      }
     }
   }
 }

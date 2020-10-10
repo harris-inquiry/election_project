@@ -17,15 +17,15 @@ const EarlyVoting = () => {
         <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
-        {STATES_DATA[state].absenteeInfo.map((info) => {
+        {STATES_DATA[state].absenteeInfo.map((info, key) => {
           const start = info.indexOf(":")
           if( start > 0 ){
             return (
-              <p style={{marginBottom:0}}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
+              <p key={"state_info" + key}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
             )
           } else {
             return (
-              <p style={{marginBottom:0}}>{info}</p>
+              <p key={state + "_info" + key}>{info}</p>
           )}
         }
         )}
@@ -42,13 +42,21 @@ const EarlyVoting = () => {
 
       <Container>
         <div style={{margin:"2rem auto"}}>
-          <h1>By State</h1>
-          <p>Vote by Mail</p>
+          <h2 style={{fontSize:"3rem"}}>Absentee Voting</h2>
+          <h4 style={{position:"relative", top:-10, color:"#6c757d"}}>Vote by Mail today!</h4>
+          <p>
+            Absentee voting (aka “mail-in voting” and “by-mail voting”) is conducted by mail-in ballot before the day of Election Day.
+            All states will mail a ballot to voters if certain conditions are met.
+            The voter may return the ballot in person or by mail.
+            Check with your state's conditions.
+          </p>
         </div>
-        <Table style={{background:"white", borderRadius:".5rem"}}>
+        <Table className="state-table">
           <thead>
-            <th>State</th>
-            <th>Absentee Voting</th>
+            <tr>
+              <th>State</th>
+              <th>Absentee Voting</th>
+            </tr>
           </thead>
           <tbody>
             {all_state_early_voting}

@@ -10,9 +10,9 @@ function BasicGraphicButtons() {
   return (
     <Row className="justify-content-end banner-buttons">
       <GraphicButton className="col-md-2 col-6" title="Home" to="/" icon="home" />
-      <GraphicButton className="col-md-2 col" title="Register" to="/register" />
-      <GraphicButton className="col-md-2 col-6" title="Early Voting" to="/EarlyVoting" />
-      <GraphicButton className="col-md-2 col" title="Absentee Voting" to="/AbsenteeVoting" />
+      <GraphicButton className="col-md-2 col" title="Register" to="/register" icon="clipboard" />
+      <GraphicButton className="col-md-2 col-6" title="Early Voting" to="/EarlyVoting" icon="voteyea" />
+      <GraphicButton className="col-md-2 col" title="Absentee Voting" to="/AbsenteeVoting" icon="envelope" />
     </Row>
   )
 }

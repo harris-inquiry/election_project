@@ -29,13 +29,13 @@ const Header = ({ siteTitle }) => {
               <Link to="/" className="nav-link">Home</Link>
               <Link to="/Issues" className="nav-link">On the Issues</Link>
               <Link to="/resources" className="nav-link">Get Involved</Link>
+            </Col>
+            <Col sm>
               <Link to="/register" className="nav-link">Register to Vote</Link>
               <Link to="/AbsenteeVoting" className="nav-link">Absentee Voting</Link>
               <Link to="/EarlyVoting" className="nav-link">Early Voting</Link>
-            </Col>
-            <Col sm>
-              <h1 style={{color:"white"}}>The battleground states</h1>
-              <Link className="btn btn-danger btn-lg" to="/wisconsin">Wisconsin</Link>
+              {/* <h1 style={{color:"white"}}>The battleground states</h1>
+                  <Link className="btn btn-danger btn-lg" to="/wisconsin">Wisconsin</Link> */}
             </Col>
           </div>
         </Collapse>

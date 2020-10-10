@@ -3,24 +3,21 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faClipboardCheck, faHome } from '@fortawesome/free-solid-svg-icons'
-
-import clipboard from "../data/images/clipboard.svg"
-import question from "../data/images/question.svg"
+import { faClipboardCheck, faHome, faEnvelope, faVoteYea} from '@fortawesome/free-solid-svg-icons'
 
 function getImage(icon){
-  if( icon == "clipboard"){
-    return clipboard;
-  } else if( icon == "home" ) {
-    return faHome;
-  } else {
-    return faClipboardCheck;
+  switch(icon) {
+    case "clipboard": return faClipboardCheck;
+    case "home": return faHome;
+    case "envelope": return faEnvelope;
+    case "voteyea": return faVoteYea;
+    default: return faClipboardCheck;
   }
 }
 
 const GraphicButton = ({ title, to, style, className, icon}) => (
   <Link to={to} className={"graphic-button btn " + className} style={{...style}}>
-    <FontAwesomeIcon icon={ getImage(icon) } className="hamburger" style={{color:"white", fontSize:"5rem"}} />
+    <FontAwesomeIcon icon={ getImage(icon) } />
     <p>{title}</p>
   </Link>
 )
