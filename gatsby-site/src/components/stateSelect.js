@@ -32,10 +32,9 @@ function getStateInitials(state) {
 
 const StateSelect = ({onChange, style}) => {
   const [usState, setUSState] = useState(NO_STATE)
-  const [displayStateInfo, setDisplayState] = useState("none")
 
   function changeUSState(newUSState) {
-    if( stateList.indexOf(newUSState) ){
+    if( stateList.indexOf(newUSState) >= 0 || newUSState == NO_STATE ){
       setUSState(newUSState)
       onChange(newUSState)
     }
@@ -47,7 +46,7 @@ const StateSelect = ({onChange, style}) => {
         <Form style={{flex:1, ...style}}>
           <Form.Group controlId="stateSelectForm">
             <Form.Label srOnly>State Select</Form.Label>
-            <Form.Control size="lg" defaultValue={NO_STATE} as="select" custom
+            <Form.Control size="lg" as="select" custom value={usState}
                           onChange={(evt) => changeUSState(evt.target.value)}>
               <option className="text-black" value={NO_STATE}>--Select State--</option>
               {stateList.map((state) =>

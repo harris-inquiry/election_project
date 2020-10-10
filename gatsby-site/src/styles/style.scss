@@ -64,11 +64,12 @@ nav {
     flex: 100%;
     .nav-link {
       font-size: 1.5rem;
+      font-weight: 800;
       color: white;
       border: white;
       border-bottom-style: solid;
       width: 100%;
-      transition: width 1s;
+      transition: width 0.5s;
       &:hover {
         width:100%;
       }

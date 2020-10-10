@@ -5,9 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Container, Card} from 'react-bootstrap'
 import Banner from "../components/banner"
-import InfoCard from "../components/infoCard.js"
+import InfoCard from "../components/infoCard"
 import GeneralElectionInfo from "../components/generalElectionInfo"
-import StateElectionDates from "../components/stateElectionDates.js"
+import StateElectionDates from "../components/stateElectionDates"
+import Image from "../components/image"
 
 
 const taglines = ["Smart", "Confident", "Safe"]
@@ -47,10 +48,10 @@ const IndexPage = () => {
       <Container>
         <StateElectionDates/>
 
-        <Row style={{marginTop:"1rem"}}>
-          <Col sm={6}>
+        <Row style={{margin:"4rem -15px"}}>
+          <Col md={6}>
             <Card style={{height:"100%"}}>
-              <Card.Img variant="top" />
+              <Image className="featurette-image" imageName="womenSuffrage"/>
               <Card.Body>
                 <h4>On the Issues</h4>
                 <Card.Text>
@@ -60,9 +61,9 @@ const IndexPage = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={6}>
+          <Col md={6}>
             <Card style={{height:"100%"}}>
-              <Card.Img variant="top" />
+              <Image imageName="votefriends" />
               <Card.Body>
                 <h4>Other Resources</h4>
                 <Card.Text>
@@ -75,7 +76,8 @@ const IndexPage = () => {
         </Row>
       </Container>
 
-      <Container className="featurettes" style={{marginBottom:"2rem"}}>
+      <Container className="featurettes" style={{margin:"2rem auto"}}>
+        <h2 style={{fontSize:"4rem", fontWeight:200}}>Learn More</h2>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3"><h4>Register to Vote</h4></Col>
