@@ -66,12 +66,16 @@ nav {
       font-size: 1.5rem;
       font-weight: 800;
       color: white;
+      background: #329cea;
       border: white;
+      border-radius: 1rem;
       border-bottom-style: solid;
       width: 100%;
-      transition: width 0.5s;
+      transition: 0.5s;
       &:hover {
         width:100%;
+        text-align: center;
+        background: rebeccapurple;
       }
       @include media-breakpoint-up(sm){
         width:240px;

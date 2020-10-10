@@ -2,22 +2,25 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faClipboardCheck, faHome } from '@fortawesome/free-solid-svg-icons'
+
 import clipboard from "../data/images/clipboard.svg"
 import question from "../data/images/question.svg"
 
-function getImage(title){
-  if( title === "Register"){
+function getImage(icon){
+  if( icon == "clipboard"){
     return clipboard;
-  } else if ( title === "Info"){
-    return question;
+  } else if( icon == "home" ) {
+    return faHome;
   } else {
-    return question;
+    return faClipboardCheck;
   }
 }
 
-const GraphicButton = ({ title, to, style, className }) => (
+const GraphicButton = ({ title, to, style, className, icon}) => (
   <Link to={to} className={"graphic-button btn " + className} style={{...style}}>
-    <img alt={title + "-button"} src={getImage(title)} />
+    <FontAwesomeIcon icon={ getImage(icon) } className="hamburger" style={{color:"white", fontSize:"5rem"}} />
     <p>{title}</p>
   </Link>
 )

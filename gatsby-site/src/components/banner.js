@@ -9,7 +9,7 @@ import StateFlags from "./state_flags.js"
 function BasicGraphicButtons() {
   return (
     <Row className="justify-content-end banner-buttons">
-      <GraphicButton className="col-md-2 col-6" title="Home" to="/" />
+      <GraphicButton className="col-md-2 col-6" title="Home" to="/" icon="home" />
       <GraphicButton className="col-md-2 col" title="Register" to="/register" />
       <GraphicButton className="col-md-2 col-6" title="Early Voting" to="/EarlyVoting" />
       <GraphicButton className="col-md-2 col" title="Absentee Voting" to="/AbsenteeVoting" />

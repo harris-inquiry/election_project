@@ -12,7 +12,10 @@ const EarlyVoting = () => {
 
   const all_state_early_voting = Object.keys(STATES_DATA).map((state) =>
     <tr key={state}>
-      <td><a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") }</a></td>
+      <td>
+        <h3>{ state.replace("_", " ") }</h3>
+        <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+      </td>
       <td>
         {STATES_DATA[state].absenteeInfo.map((info) => {
           const start = info.indexOf(":")

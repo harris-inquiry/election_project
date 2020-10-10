@@ -12,7 +12,10 @@ const RegisterPage = () => {
 
   const tbody = Object.keys(STATES_DATA).map((state) =>
     <tr key={state + "_tableRow"}>
-      <td><a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") }</a></td>
+      <td>
+        <h3>{ state.replace("_", " ") }</h3>
+        <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+      </td>
       <td>
         {
           STATES_DATA[state].voterRegistrationDeadlines.map((info) =>
