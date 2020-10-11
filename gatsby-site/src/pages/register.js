@@ -14,7 +14,7 @@ const RegisterPage = () => {
     <tr key={state + "_tableRow"}>
       <td>
         <h3>{ state.replace("_", " ") }</h3>
-        <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+        <a href={STATES_DATA[state].registerLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
         {STATES_DATA[state].voterRegistrationDeadlines.map((info, index) =>
