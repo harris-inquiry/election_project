@@ -44,8 +44,8 @@ const EarlyVoting = () => {
         <div style={{margin:"2rem auto"}}>
           <h2 style={{fontSize:"3rem"}}>Early Voting By State</h2>
           <h4 style={{position:"relative", top:-10, color:"#6c757d"}}>Check your State's Early Voting Dates.</h4>
-          <p>Sometimes circumstances make it hard or impossible for you to vote on Election Day. But your state may let you vote during a designated early voting period.
-            For Early Voting location listings check with the Secretary of State’s office or County Registrar in your state.</p>
+          <p>Early voting, also called advance polling or pre-poll voting, is a convenience voting process by which voters in a public election can vote prior to the scheduled election day. 
+            Early voting can take place remotely, such as via postal voting, or in person, usually in designated early voting polling stations.</p>
         </div>
         <Table className="state-table">
           <thead>
