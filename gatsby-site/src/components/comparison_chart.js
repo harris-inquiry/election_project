@@ -41,9 +41,15 @@ const ComparisonChart = () => (
       <ComparisonTableRow topic="Science re Global Warming"
                           democrat="Democrats support the science demonstrating the disastrous results of global warming on economies and worldwide eco-systems. Supports the U.S. commitment to the Paris Agreement the leading, global treaty to address climate change."
                           republican="Republicans deny and oppose the science of climate change resulting from global warming. Republicans opposed the Paris Agreement and abandoned the treaty and our International allies." />
-      <ComparisonTableRow topic="Environmental protection"/>
-      <ComparisonTableRow topic="Arms Control Measure"/>
-      <ComparisonTableRow topic="US alliances like NATO"/>
+      <ComparisonTableRow topic="Environmental protection"
+                          democrat="Supports more effective government regulations needed to protect the environment and public health. Supports growing clean energy and sustainable technologies creating thousands of new jobs."
+                          republican="Generally opposes government regulations for clean air, clean water, and environmental / economic sustainability. Belief that government regulations hinder free market and job growth." />
+      <ComparisonTableRow topic="Arms Control Measure"
+                          democrat="Supports arms control and force reduction treaties that are verifiable and consistent with U.S. security. Has always favored Presidential global leadership in nuclear arms control dating back to John F. Kennedy."
+                          republican="Current Republican leadership opposes nuclear arms control, has failed to provide global leadership, and actively pulled the U.S. out of lawful agreements written to prevent nuclear war." />
+      <ComparisonTableRow topic="US alliances like NATO"
+                          democrat="In favor of longtime alliances such as NATO, NORAD, ANZUS and others including the United Nations and World Health Organization. Supports U.S. leadership of those alliances."
+                          republican="Opposes NATO and other multi-lateral alliances including the U.N. and WHO. In favor of an “America First” policy resulting in a go-alone position while abdicating American leadership around the world." />
     </tbody>
   </Table>
 )
