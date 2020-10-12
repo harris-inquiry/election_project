@@ -274,6 +274,12 @@ footer {
       height: 300px;
     }
   }
+  .featurette-title {
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
 
 hr.featurette-divider {

@@ -76,7 +76,10 @@ const IndexPage = () => {
         <h2 style={{fontSize:"4rem", fontWeight:200}}>Learn More</h2>
         <InfoCard className="featurette">
           <Row>
-            <Col md="4" lg="3"><h4>Register to Vote</h4></Col>
+            <Col md="4" lg="3" className="featurette-title">
+              <h4>Register to Vote</h4>
+              <Link to="/register" className="btn btn-primary">Check your state</Link>
+            </Col>
             <Col>
               <p>Each state makes its own voting and election rules, including when and how to register. Check with your state or local election office to get the most detailed and up-to-date information for where you live.</p>
               <p>Every state except North Dakota requires citizens to register if they want to become voters. Depending on your state, the registration deadline could be as much as a month before an election.</p>
@@ -85,15 +88,21 @@ const IndexPage = () => {
         </InfoCard>
         <InfoCard className="featurette">
           <Row>
-            <Col md="4" lg="3"><h4>Absentee Voting / Vote by Mail</h4></Col>
+            <Col md="4" lg="3" className="featurette-title">
+              <h4>Absentee Voting</h4>
+              <Link to="/AbsenteeVoting" className="btn btn-primary">Check your state</Link>
+            </Col>
             <Col>
-              <p>Absentee voting (aka “mail-in voting” and “by-mail voting”) is conducted by mail-in ballot before the day of Election Day. All states will mail a ballot to voters if certain conditions are met. The voter may return the ballot in person or by mail. Some states will let voters apply for an absentee ballot in person before Election Day and then vote the ballot that same day.</p>
+              <p>Absentee voting is conducted by mail-in ballot before the day of Election Day. All states will mail a ballot to voters if certain conditions are met. The voter may return the ballot in person or by mail. Some states will let voters apply for an absentee ballot in person before Election Day and then vote the ballot that same day.</p>
             </Col>
           </Row>
         </InfoCard>
         <InfoCard className="featurette">
           <Row>
-            <Col md="4" lg="3"><h4>Early Voting</h4></Col>
+            <Col md="4" lg="3" className="featurette-title">
+              <h4>Early Voting</h4>
+              <Link to="/EarlyVoting" className="btn btn-primary">Check your state</Link>
+            </Col>
             <Col>
               <p>Sometimes circumstances make it hard or impossible for you to vote on Election Day. But your state may let you vote during a designated early voting period.
                 <strong> Please note: Your state's rules and voting dates may change in 2020 due to the coronavirus pandemic</strong></p>

@@ -45,7 +45,7 @@ const EarlyVoting = () => {
           <h2 style={{fontSize:"3rem"}}>Absentee Voting</h2>
           <h4 style={{position:"relative", top:-10, color:"#6c757d"}}>Vote by Mail today!</h4>
           <p>
-            Absentee voting (aka “mail-in voting” and “by-mail voting”) is conducted by mail-in ballot before the day of Election Day.
+            Absentee voting is conducted by mail-in ballot before the day of Election Day.
             All states will mail a ballot to voters if certain conditions are met.
             The voter may return the ballot in person or by mail.
             Check with your state's conditions.
