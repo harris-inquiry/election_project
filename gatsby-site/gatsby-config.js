@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Vote`,
-    description: `Vote`,
+    description: `Find out how you can vote in 2020. Learn how you can register to vote, vote absentee, and vote early`,
     author: ``,
     shareUrl: "https://here.org",
   },

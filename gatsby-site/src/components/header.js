@@ -17,9 +17,7 @@ const Header = ({ siteTitle }) => {
   return (
     <div style={{position:"absolute", left:0, right:0, top:0, zIndex:100}}>
       <div className={"header" + (isMenuOpen ? " is-open" : "")} >
-        <Link to="/" >
-          <img src={IVotedSticker} />
-        </Link>
+        <div style={{color:"white", fontSize:"1.5rem", fontFamily:"Poppins"}}>Vote2020</div>
         <button onClick={() => menuOpen(!isMenuOpen)} className="btn-hamburger">
           <FontAwesomeIcon icon={faBars} className="hamburger" style={{color:"white", fontSize:"2rem"}} />
         </button>

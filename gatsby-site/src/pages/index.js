@@ -45,13 +45,13 @@ const IndexPage = () => {
         </Row>
       </Banner>
 
-      <Container>
-        <StateElectionDates/>
+      <StateElectionDates/>
 
+      <Container>
         <Row style={{margin:"4rem -15px"}}>
           <Col md={6}>
             <Card style={{height:"100%"}}>
-              <Image imageName="womenSuffrage" style={{height:"80%"}}/>
+              <Image imageName="silentSentinels" style={{height:"80%"}}/>
               <Card.Body>
                 <h4 style={{fontSize:"2.4rem"}}>On the Issues</h4>
                 <Card.Text>

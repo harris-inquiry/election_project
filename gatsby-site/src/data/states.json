@@ -585,7 +585,7 @@
     "absenteeLink": "https://vip.sos.nd.gov/pdfs/Portals/Voting-MailBallotAbsentee.pdf"
   },
   "Ohio": {
-    "registerLink": "https://olvr.sos.state.oh.us/ovru/Modify.aspx",
+    "registerLink": "https://olvr.ohiosos.gov/",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"
@@ -751,7 +751,7 @@
     "absenteeLink": "https://voteinfo.utah.gov/learn-about-voting-by-mail-and-absentee-voting/"
   },
   "Vermont": {
-    "registerLink": "https://olvr.sec.state.vt.us/Registration/",
+    "registerLink": "https://sos.vermont.gov/elections/voters/registration/",
     "genInfo": [
       "Early Voting: Sep 20, 2020 - Nov 2, 2020",
       "In-Person Absentee Voting: Not available"
@@ -787,7 +787,7 @@
     "absenteeLink": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/index.html"
   },
   "Washington": {
-    "registerLink": "http://www.sos.wa.gov/elections/myvote/",
+    "registerLink": "https://www.sos.wa.gov/elections/register.aspx",
     "genInfo": [
       "Early Voting: Oct 14, 2020",
       "In-Person Absentee Voting: Not available"

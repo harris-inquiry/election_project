@@ -45,6 +45,13 @@ const Image = ({ imageName, ...rest}) => {
           }
         }
       }
+      silentSentinels: file(relativePath: { eq: "images/silent_sentinels.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       mlkVotingRights: file(relativePath: { eq: "images/MLK_voting-rights-act.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {

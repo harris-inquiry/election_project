@@ -18,7 +18,6 @@ function SEO({ description, lang, meta, title }) {
           siteMetadata {
             title
             description
-            author
           }
         }
       }
@@ -36,10 +35,6 @@ function SEO({ description, lang, meta, title }) {
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
-        {
-          name: `author`,
-          content: site.siteMetadata?.author,
-        },
         {
           name: `description`,
           content: metaDescription,
@@ -59,10 +54,6 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:card`,
           content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
         },
         {
           name: `twitter:title`,

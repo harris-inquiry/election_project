@@ -11,7 +11,7 @@ function getStateLink(state){
     return NO_STATE
   }
   try {
-    return STATES_DATA[state]["officialLink"]
+    return STATES_DATA[state]["registerLink"]
   } catch (er) {
     return "DATA_RETRIEVE_FAILED"
   }
