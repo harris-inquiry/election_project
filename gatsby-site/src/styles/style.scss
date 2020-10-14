@@ -164,16 +164,15 @@ nav {
     height: 100%;
     z-index: $banner-image-z-index;
   }
-  .gradient-banner {
+  &:after {
+    content: '';
+    display: block;
     background:rgba(0, 0, 115,.6);
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    right: 0;
-    margin: auto;
-    z-index: $banner-image-z-index + 1;
   }
   .banner-buttons {
     position: absolute;

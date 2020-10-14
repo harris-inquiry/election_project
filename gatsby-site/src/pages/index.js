@@ -47,7 +47,8 @@ const IndexPage = () => {
 
       <StateElectionDates/>
 
-      <Container>
+      <Container className="featurettes" style={{margin:"2rem auto"}}>
+        <h2 style={{fontSize:"4rem", fontWeight:200}}>Learn More</h2>
         <Row style={{margin:"4rem -15px"}}>
           <Col md={6}>
             <Card style={{height:"100%"}}>
@@ -70,10 +71,7 @@ const IndexPage = () => {
             </Card>
           </Col>
         </Row>
-      </Container>
 
-      <Container className="featurettes" style={{margin:"2rem auto"}}>
-        <h2 style={{fontSize:"4rem", fontWeight:200}}>Learn More</h2>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3" className="featurette-title">

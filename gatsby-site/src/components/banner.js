@@ -20,7 +20,6 @@ function BasicGraphicButtons() {
 
 const Banner = ({image, children}) => (
   <div className="banner">
-    <div className="gradient-banner" ></div>
     <Image className="banner-image" imageName={image} imgStyle={{ objectPosition:"top" }} />
     <Container className="absolute-top-center" style={{zIndex:1}}>
       {children}
@@ -33,7 +32,6 @@ const Banner = ({image, children}) => (
 const StateBanner = ({ state, children }) => {
   return (
     <div className="banner">
-      <div className="gradient-banner"/>
       <StateFlags className="banner-image" imageName={state} imgStyle={{ objectPosition:"top" }} />
       <Container className="absolute-top-center" style={{zIndex:1}}>
         {children}
