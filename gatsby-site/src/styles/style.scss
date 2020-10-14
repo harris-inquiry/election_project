@@ -236,6 +236,7 @@ nav {
 #state-svg {
   margin: 1rem 0;
   width: 100%;
+  text-align: center;
   @include media-breakpoint-down(sm){
     display: none;
   }
