@@ -1,16 +1,5 @@
-@import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Satisfy&family=Montserrat:wght@600&display=swap");
-
-
-$nav-height: 70px;
-
-$quote-font: "Playfair Display", serif;
-$poppins-font: "Poppins", sans-serif;
-$calendar-font: "Montserrat", sans-serif;
-
-$banner-image-z-index: -2;
-
-$light-blue: #4E8BEC;
+@import "variables";
+@import "basic_bootstrap";
 
 body {
   background-image: url("../data/images/whitehouseFaded.jpg");
@@ -21,78 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-nav {
-  position: absolute !important;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  a {
-    color: white;
-    font-weight: 500;
-  }
-  .navbar-expand {
-    justify-content: space-between;
-  }
-  .btn {
-    margin: auto 10px;
-  }
-}
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
-  &.is-open{
-    background: $light-blue + F8;
-    border: solid black
-  }
-  a {
-    z-index: 2;
-  }
-  img {
-    height: 50px;
-  }
-  .header-container {
-    flex-wrap: wrap;
-    margin: 1rem 0;
-    flex: 100%;
-    border: 10px solid rgb(94, 169, 249);
-    padding: 10px 0;
-    .nav-link {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: white;
-      background: #329cea;
-      border: white;
-      border-radius: 1rem;
-      border-bottom-style: solid;
-      width: 100%;
-      transition: 0.5s;
-      &:hover {
-        width:100%;
-        text-align: center;
-        background: rebeccapurple;
-      }
-      @include media-breakpoint-only(sm){
-        width:240px;
-      }
-      @include media-breakpoint-up(md){
-        width: 80%;
-      }
-    }
-  }
-  .btn-hamburger {
-    z-index: $banner-image-z-index + 4;
-    border: none;
-    background: none;
-    .my-hamburger {
-      color: white;
-      font-size: 2rem;
-    }
-  }
-}
 
 .banner {
   color: white;
@@ -154,7 +71,7 @@ header {
   .absolute-top-center {
     position: absolute;
     margin: auto;
-    top: $nav-height;
+    top: 70px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -330,22 +247,6 @@ hr.featurette-divider {
     font-family: $poppins-font;
     margin-bottom: 1rem;
     margin-top: 3rem;
-  }
-  .dem-rep-comparison {
-    .padding-small {
-      @include media-breakpoint-down(sm){
-        padding-top: 2.5rem;
-      }
-    }
-    .more-info {
-      color: black;
-      font-size: 1rem;
-      font-weight: initial;
-    }
-    p {
-      color: white;
-      font-weight: 600;
-    }
   }
 }
 

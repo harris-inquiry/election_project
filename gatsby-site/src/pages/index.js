@@ -9,15 +9,10 @@ import InfoCard from "../components/infoCard"
 import StateElectionDates from "../components/stateElectionDates"
 import ImageCard from "../components/imageCard"
 
-
 import "../styles/index.scss"
-import "../styles/style.scss"
-
 
 
 const taglines = ["Smart", "Confident", "Safe"]
-
-
 function getNewTagline(oldTagLine){
   return taglines[(taglines.indexOf(oldTagLine) + 1) % taglines.length];
 }

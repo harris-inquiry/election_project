@@ -14,22 +14,22 @@ const ComparisonTableRow = ({ topic, democrat, republican  }) => {
   return (
     <tr onClick={() => setOpen(!open)}>
       <td className={style.topic}>{topic}</td>
-      <td className={`${style.dem} padding-small`} style={{ background: open ? "#0000ae" : "" }}>
+      <td className={`${style.dem}`} style={{ background: open ? "#0000ae" : "" }}>
         <div style={{display:"flex", justifyContent:"space-between"}}>
           <FontAwesomeIcon icon={open ? faCaretUp : faCaretDown} style={{fontSize:"2rem"}} />YES
         </div>
         <Collapse in={open}>
-          <div className="more-info">
+          <div>
             <p>{democrat}</p>
           </div>
         </Collapse>
       </td>
-      <td className={`${style.rep} padding-small`} style={{ background: open ? "#ff0000" : "" }}>
+      <td className={`${style.rep}`} style={{ background: open ? "#ff0000" : "" }}>
         <div style={{display:"flex", justifyContent:"space-between"}}>
           NO
         </div>
         <Collapse in={open}>
-          <div className="more-info">
+          <div>
             <p>{republican}</p>
           </div>
         </Collapse>
@@ -47,7 +47,7 @@ ComparisonTableRow.defaultProps = {
 
 
 const ComparisonChart = () => (
-  <Table hover className="dem-rep-comparison">
+  <Table hover className={style.demRepComparison}>
     <thead>
       <tr>
         <th className={`${style.topicTitle} ${style.topic}`}><span>Supports</span></th>

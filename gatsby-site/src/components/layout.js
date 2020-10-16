@@ -11,7 +11,8 @@ import PropTypes from "prop-types"
 import Header from "./header"
 
 /* import "../styles/layout.css" */
-/* import "../styles/style.scss" */
+import "../styles/style.scss"
+import "../styles/_custom_bootstrap.scss"
 
 const Layout = ({ children }) => (
     <>
