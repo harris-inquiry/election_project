@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Row, Col, Container, Card} from 'react-bootstrap'
 import { StateBanner } from "../components/banner"
-import StateFlags from "../components/state_flags"
 import InfoCard from "../components/infoCard"
 import { StateElectionDatesStatic } from "../components/stateElectionDates"
 

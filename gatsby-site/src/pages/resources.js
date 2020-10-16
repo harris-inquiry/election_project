@@ -38,7 +38,9 @@ const IndexPage = () => (
         <Card.Body>
           <Row>
             <Col lg="4" md="6">
-              <a href={Links.leagueWV}><Image imageName="lwvLogo"/></a>
+              <a href={Links.leagueWV}>
+                <Image imageName="lwvLogo"/>
+              </a>
             </Col>
             <Col>
               <a href={Links.leagueWV}>League of Women Voters</a>
@@ -53,7 +55,9 @@ const IndexPage = () => (
         <Card.Body>
           <Row>
             <Col lg="4" md={{span: 6, order:2}}>
-              <a href={Links.vote411}><Image imageName="vote411" /></a>
+              <a href={Links.vote411}>
+                <Image imageName="vote411"/>
+              </a>
             </Col>
             <Col>
               <a href={Links.vote411}>Vote411</a>
@@ -68,7 +72,9 @@ const IndexPage = () => (
         <Card.Body>
           <Row>
             <Col lg="4" md="6">
-              <a href={Links.rockTheVote}><Image imageName="rockTheVote"/></a>
+              <a href={Links.rockTheVote}>
+                <Image imageName="rockTheVote"/>
+              </a>
             </Col>
             <Col>
               <a href={Links.rockTheVote}>Rock the Vote</a>

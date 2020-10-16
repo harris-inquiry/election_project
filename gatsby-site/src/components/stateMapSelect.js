@@ -1,7 +1,5 @@
 import React from "react"
 
-import USState from "../data/USStates.svg"
-
 const StateMapSelect = ({ style, onClick }) => {
   return (
     <div id="state-svg" style={style}>

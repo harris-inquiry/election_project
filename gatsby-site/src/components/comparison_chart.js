@@ -1,16 +1,58 @@
-import React from "react"
-import { Table } from "react-bootstrap"
+import React, { useState } from "react"
+import { Table, Collapse } from "react-bootstrap"
 
-import ComparisonTableRow from "../components/table_row.js"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons"
+
+import style from "../styles/comparisonTable.module.scss"
+
+
+
+const ComparisonTableRow = ({ topic, democrat, republican  }) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <tr onClick={() => setOpen(!open)}>
+      <td className={style.topic}>{topic}</td>
+      <td className={`${style.dem} padding-small`} style={{ background: open ? "#0000ae" : "" }}>
+        <div style={{display:"flex", justifyContent:"space-between"}}>
+          <FontAwesomeIcon icon={open ? faCaretUp : faCaretDown} style={{fontSize:"2rem"}} />YES
+        </div>
+        <Collapse in={open}>
+          <div className="more-info">
+            <p>{democrat}</p>
+          </div>
+        </Collapse>
+      </td>
+      <td className={`${style.rep} padding-small`} style={{ background: open ? "#ff0000" : "" }}>
+        <div style={{display:"flex", justifyContent:"space-between"}}>
+          NO
+        </div>
+        <Collapse in={open}>
+          <div className="more-info">
+            <p>{republican}</p>
+          </div>
+        </Collapse>
+      </td>
+    </tr>
+  )
+}
+
+ComparisonTableRow.defaultProps = {
+  topic: "Views",
+  democrat: "Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio",
+  republican: "Etiam vel tortor sodales tellus ultricies commodo. Nunc porta vulputate tellus."
+}
+
 
 
 const ComparisonChart = () => (
   <Table hover className="dem-rep-comparison">
     <thead>
       <tr>
-        <th className="dem">DEMOCRATS</th>
-        <th className="topic-title topic" style={{padding:0}}><span style={{fontSize:"1.7rem"}}>Supports</span></th>
-        <th className="rep">REPUBLICANS</th>
+        <th className={`${style.topicTitle} ${style.topic}`}><span>Supports</span></th>
+        <th className={style.dem}>DEMOCRATS</th>
+        <th className={style.rep}>REPUBLICANS</th>
       </tr>
     </thead>
     <tbody>

@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Card, Table} from 'react-bootstrap'
+import { Container, Table} from 'react-bootstrap'
 import Banner from "../components/banner"
 
 import { STATES_DATA } from "../data/states"
@@ -14,7 +14,7 @@ const EarlyVoting = () => {
     <tr key={state}>
       <td>
         <h3>{ state.replace("_", " ") }</h3>
-        <a href={STATES_DATA[state].absenteeLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+        <a href={STATES_DATA[state].absenteeLink} rel="noopener noreferrer" target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
         {STATES_DATA[state].absenteeInfo.map((info, key) => {

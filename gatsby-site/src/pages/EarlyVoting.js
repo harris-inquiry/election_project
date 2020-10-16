@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Card, Table} from 'react-bootstrap'
+import { Container, Table} from 'react-bootstrap'
 import Banner from "../components/banner"
 
 import { STATES_DATA } from "../data/states"

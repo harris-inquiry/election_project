@@ -1,13 +1,10 @@
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { Collapse, Col, Button } from "react-bootstrap"
+import { Collapse, Col, Row } from "react-bootstrap"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
-import IVotedSticker from "../data/images/IVotedSticker.png"
-import StateSelect from "../components/stateSelect"
 
 
 const Header = ({ siteTitle }) => {
@@ -16,13 +13,13 @@ const Header = ({ siteTitle }) => {
 
   return (
     <div style={{position:"absolute", left:0, right:0, top:0, zIndex:100}}>
-      <div className={"header" + (isMenuOpen ? " is-open" : "")} >
+      <header className={`${isMenuOpen ? "is-open" : ""}`} >
         <div style={{color:"white", fontSize:"1.5rem", fontFamily:"Poppins"}}>Vote2020</div>
         <button onClick={() => menuOpen(!isMenuOpen)} className="btn-hamburger">
           <FontAwesomeIcon icon={faBars} className="hamburger" style={{color:"white", fontSize:"2rem"}} />
         </button>
         <Collapse in={isMenuOpen}>
-          <div className="header-container">
+          <Row className="header-container">
             <Col sm>
               <Link to="/" className="nav-link">Home</Link>
               <Link to="/Issues" className="nav-link">On the Issues</Link>
@@ -35,9 +32,9 @@ const Header = ({ siteTitle }) => {
               {/* <h1 style={{color:"white"}}>The battleground states</h1>
                   <Link className="btn btn-danger btn-lg" to="/wisconsin">Wisconsin</Link> */}
             </Col>
-          </div>
+          </Row>
         </Collapse>
-      </div>
+      </header>
     </div>
   )
 }

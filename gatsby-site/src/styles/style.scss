@@ -1,6 +1,5 @@
-// @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "~bootstrap/scss/bootstrap";
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Satisfy&family=Montserrat:wght@600&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins&family=Satisfy&family=Montserrat:wght@600&display=swap");
 
 
 $nav-height: 70px;
@@ -40,7 +39,7 @@ nav {
   }
 }
 
-.header {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -56,7 +55,7 @@ nav {
     height: 50px;
   }
   .header-container {
-    @extend .row;
+    flex-wrap: wrap;
     margin: 1rem 0;
     flex: 100%;
     border: 10px solid rgb(94, 169, 249);
@@ -181,7 +180,8 @@ nav {
     right: 0;
     margin: 0 auto;
     .graphic-button {
-      @extend .btn-primary;
+      color: white;
+      border-color: #007bff;
       line-height: 1;
       background: #153a91ab;
       height:10rem;
@@ -326,69 +326,15 @@ hr.featurette-divider {
 .compare{
   h2 {
     text-align: center;
-    test-size: 2.5rem;
+    text-size: 2.5rem;
     font-family: $poppins-font;
     margin-bottom: 1rem;
     margin-top: 3rem;
   }
   .dem-rep-comparison {
-    .topic {
-      text-align: center;
-      width: 20%;
-      font-weight: 600;
-      font-size: 1.2rem;
-      @include media-breakpoint-down(sm){
-        width:100%;
-        position: absolute;
-        left: 0;
-        color: white;
-        font-size: 1.4rem;
-      }
-    }
-    .topic-title {
-      @include media-breakpoint-down(sm) {
-        span{
-          display:none;
-        }
-      }
-    }
     .padding-small {
       @include media-breakpoint-down(sm){
         padding-top: 2.5rem;
-      }
-    }
-    .dem {
-      width: 40%;
-      text-align: end;
-      font-size: 1.4rem;
-      color: white;
-      background: linear-gradient(to right, #0000ae 50%, #7f7fff 100%);
-      font-weight: 700;
-      transition: background 0.5s;
-      @include media-breakpoint-down(sm){
-        font-size:1.6rem;
-        width:50%;
-        /* background: linear-gradient(to right, #0000ff 50%, #7f307f 100%); */
-      }
-      @media (max-width: 400px) {
-        font-size: 1.3rem;
-      }
-    }
-    .rep {
-      width: 40%;
-      text-align: start;
-      font-size: 1.4rem;
-      color: white;
-      background: linear-gradient(to left, #ff0000 50%, #ff7f7f 100%);
-      font-weight: 700;
-      transition: background 0.5s;
-      @include media-breakpoint-down(sm){
-        font-size:1.6rem;
-        width:50%;
-        /* background: linear-gradient(to left, #ff0000 50%, #7f307f 100%); */
-      }
-      @media (max-width: 400px) {
-        font-size: 1.3rem;
       }
     }
     .more-info {

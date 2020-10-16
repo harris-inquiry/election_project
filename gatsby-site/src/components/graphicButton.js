@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -22,10 +21,6 @@ const GraphicButton = ({ title, to, style, className, icon}) => (
   </Link>
 )
 
-/* GraphicButton.propTypes = {
- *   title: PropTypes.oneOf(['Home', 'Register', 'The Issues', "Resources"])
- * }
- *  */
 GraphicButton.defaultProps = {
   title: "The Issues",
   color: "crimson",

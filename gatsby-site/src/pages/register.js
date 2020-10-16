@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,6 +7,7 @@ import Banner from "../components/banner"
 
 import { STATES_DATA } from "../data/states"
 
+import "../styles/style.scss"
 
 const RegisterPage = () => {
 
@@ -14,7 +15,7 @@ const RegisterPage = () => {
     <tr key={state + "_tableRow"}>
       <td>
         <h3>{ state.replace("_", " ") }</h3>
-        <a href={STATES_DATA[state].registerLink} target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+        <a href={STATES_DATA[state].registerLink} rel="noopener noreferrer" target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
         {STATES_DATA[state].voterRegistrationDeadlines.map((info, index) =>

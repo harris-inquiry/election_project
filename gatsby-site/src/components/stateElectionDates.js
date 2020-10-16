@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Card, Button } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 import StateSelect from "./stateSelect"
 import { STATES_DATA, NO_STATE } from "../data/states"
@@ -27,9 +27,9 @@ const StateElectionDates = () => {
   return (
     <Card id="state-dates">
       <Card.Body>
-        <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState != NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
+        <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState !== NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
         <StateSelect onChange={(state) => setUSState(state)} style={{flex:1}} />
-        <div style={{marginTop:'1rem', display:(usState == NO_STATE ? "none" : "inherit")}}>
+        <div style={{marginTop:'1rem', display:(usState === NO_STATE ? "none" : "inherit")}}>
           {getStateInfo(usState,"genInfo")}
           <hr/>
           <h3 style={{marginTop:"1rem", fontSize:"2.1rem"}}>Voter Registration</h3>
@@ -45,8 +45,8 @@ const StateElectionDates = () => {
 const StateElectionDatesStatic = ({ state: usState }) => (
   <Card id="state-dates">
     <Card.Body>
-      <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState != NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
-      <div style={{marginTop:'1rem', display:(usState == NO_STATE ? "none" : "inherit")}}>
+      <h2 style={{fontSize:"3rem"}}>Voting Info: <span style={{color:"yellow", textTransform:"uppercase"}}>{(usState !== NO_STATE) ? usState.replace("_", " ") : "SELECT"}</span></h2>
+      <div style={{marginTop:'1rem', display:(usState === NO_STATE ? "none" : "inherit")}}>
         {getStateInfo(usState,"genInfo")}
         <hr/>
         <h3 style={{marginTop:"1rem", fontSize:"2.1rem"}}>Voter Registration</h3>

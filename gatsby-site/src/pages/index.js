@@ -3,12 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Row, Col, Container, Card} from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import Banner from "../components/banner"
 import InfoCard from "../components/infoCard"
-import GeneralElectionInfo from "../components/generalElectionInfo"
 import StateElectionDates from "../components/stateElectionDates"
-import Image from "../components/image"
+import ImageCard from "../components/imageCard"
+
+
+import "../styles/index.scss"
+import "../styles/style.scss"
+
 
 
 const taglines = ["Smart", "Confident", "Safe"]
@@ -47,31 +51,26 @@ const IndexPage = () => {
 
       <StateElectionDates/>
 
-      <Container className="featurettes" style={{margin:"2rem auto"}}>
-        <h2 style={{fontSize:"4rem", fontWeight:200}}>Learn More</h2>
-        <Row style={{margin:"4rem -15px"}}>
+      <Container fluid>
+        <Row className="imageButtons">
           <Col md={6}>
-            <Card style={{height:"100%"}}>
-              <Image imageName="silentSentinels" style={{height:"80%"}}/>
-              <Card.Body>
-                <h4 style={{fontSize:"2.4rem"}}>On the Issues</h4>
-                <Card.Text>
-                  <Link to="/Issues" className="btn btn-primary btn-lg">Learn More</Link>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Link to="/Issues">
+              <ImageCard imageName="silentSentinels" title="ON THE ISSUES" style={{height:400}}>
+                <p>Find out more about the issues this November</p>
+              </ImageCard>
+            </Link>
           </Col>
           <Col md={6}>
-            <Card style={{height:"100%"}}>
-              <Image imageName="votefriends" style={{height:"80%"}} />
-              <Card.Body>
-                <h4 style={{fontSize:"2.4rem"}}>Other Resources</h4>
-                <Link to="/resources" className="btn btn-primary btn-lg">Learn More</Link>
-              </Card.Body>
-            </Card>
+            <Link to="/resources">
+              <ImageCard imageName="votefriends" title="OTHER RESOURCES" style={{height:400}}>
+                <p>Find out how you can help</p>
+              </ImageCard>
+            </Link>
           </Col>
         </Row>
+      </Container>
 
+      <Container className="featurettes" style={{margin:"2rem auto"}}>
         <InfoCard className="featurette">
           <Row>
             <Col md="4" lg="3" className="featurette-title">
