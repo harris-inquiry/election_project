@@ -14,7 +14,8 @@
       "Deadline to Request an Absentee Ballot: Thu Oct 29, 2020",
       "Deadline to Return Completed Absentee Ballot: Hand Delivered by Mon Nov 2, 2020 5:00PM"
     ],
-    "absenteeLink": "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting"
+    "absenteeLink": "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting",
+    "earlyVoteLink": ""
   },
   "Alaska": {
     "registerLink": "https://voterregistration.alaska.gov",
@@ -30,7 +31,8 @@
       "Deadline to Request an Absentee Ballot: Request for Online or Fax Ballot by Mon Nov 2, 2020 5:00PM AKST",
       "Deadline to Return Completed Absentee Ballot: Email or Fax by Tue Nov 3, 2020"
     ],
-    "absenteeLink": "https://www.elections.alaska.gov/Core/votingbymail.php"
+    "absenteeLink": "https://www.elections.alaska.gov/Core/votingbymail.php",
+    "earlyVoteLink": "https://www.elections.alaska.gov/Core/AKVoteEarly.php"
   },
   "Arizona": {
     "registerLink": "https://servicearizona.com/VoterRegistration/selectLanguage",
@@ -46,7 +48,8 @@
       "Deadline to Request an Absentee Ballot: Received by Fri Oct 23, 2020 5:00PM MST",
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM MST"
     ],
-    "absenteeLink": "https://azsos.gov/votebymail"
+    "absenteeLink": "https://azsos.gov/votebymail",
+    "earlyVoteLink": ""
   },
   "Arkansas": {
     "registerLink": "https://www.sos.arkansas.gov/elections",
@@ -63,7 +66,8 @@
       "Deadline to Request an Absentee Ballot: Email by Tue Oct 27, 2020",
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Mon Nov 2, 2020"
     ],
-    "absenteeLink": "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting"
+    "absenteeLink": "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting",
+    "earlyVoteLink": "https://www.arcounties.org/events/early-voting-general-election/"
   },
   "California": {
     "registerLink": "http://registertovote.ca.gov",
@@ -81,7 +85,8 @@
       "Deadline to Request an Absentee Ballot: Received by Tue Oct 27, 2020",
       "Deadline to Return Completed Absentee Ballot: Hand Delivered by Tue Nov 3, 2020 8:00PM PST"
     ],
-    "absenteeLink": "https://www.sos.ca.gov/elections/voter-registration/vote-mail"
+    "absenteeLink": "https://www.sos.ca.gov/elections/voter-registration/vote-mail",
+    "earlyVoteLink": "https://caearlyvoting.sos.ca.gov/"
   },
   "Colorado": {
     "registerLink": "https://www.sos.state.co.us/voter/pages/pub/olvr/verifyNewVoter.xhtml",
@@ -98,7 +103,8 @@
       "Deadline to Request an Absentee Ballot: Automatic",
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM MST"
     ],
-    "absenteeLink": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html"
+    "absenteeLink": "https://www.sos.state.co.us/pubs/elections/FAQs/mailBallotsFAQ.html",
+    "earlyVoteLink": ""
   },
   "Connecticut": {
     "registerLink": "https://voterregistration.ct.gov/OLVR/",
@@ -117,7 +123,8 @@
       "Deadline to Return Completed Absentee Ballot: Fax by Tue Nov 3, 2020"
     ],
     "initials": "CT",
-    "absenteeLink": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting"
+    "absenteeLink": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting",
+    "earlyVoteLink": ""
   },
   "Delaware": {
     "registerLink": "https://ivote.de.gov/voterlogin.aspx",
@@ -133,7 +140,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
     ],
     "initials": "DE",
-    "absenteeLink": "https://elections.delaware.gov/services/voter/absentee/index.shtml"
+    "absenteeLink": "https://elections.delaware.gov/services/voter/absentee/index.shtml",
+    "earlyVoteLink": ""
   },
   "Florida": {
     "registerLink": "https://registertovoteflorida.gov/home",
@@ -149,7 +157,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
     ],
     "initials": "FL",
-    "absenteeLink": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/"
+    "absenteeLink": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/",
+    "earlyVoteLink": "https://dos.myflorida.com/elections/for-voters/voting/early-voting/"
   },
   "Georgia": {
     "registerLink": "https://registertovote.sos.ga.gov/GAOLVR/#no-back-button",
@@ -165,7 +174,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
     ],
     "initials": "GA",
-    "absenteeLink": "https://georgia.gov/vote-absentee-ballot"
+    "absenteeLink": "https://georgia.gov/vote-absentee-ballot",
+    "earlyVoteLink": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
   },
   "Hawaii": {
     "registerLink": "https://olvr.hawaii.gov/register.aspx",
@@ -181,7 +191,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
     ],
     "initials": "HI",
-    "absenteeLink": "https://elections.hawaii.gov/hawaii-votes-by-mail/"
+    "absenteeLink": "https://elections.hawaii.gov/hawaii-votes-by-mail/",
+    "earlyVoteLink": "http://histategis.maps.arcgis.com/apps/MapSeries/index.html?appid=40a88743b85b4fbfb8cf6128bacfedcf"
   },
   "Idaho": {
     "registerLink": "https://apps.idahovotes.gov/OnlineVoterRegistration",
@@ -199,7 +210,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"
     ],
     "initials": "ID",
-    "absenteeLink": "https://idahovotes.gov/absentee-voter-information/"
+    "absenteeLink": "https://idahovotes.gov/absentee-voter-information/",
+    "earlyVoteLink": "https://idahovotes.gov/county-clerks/"
   },
   "Illinois": {
     "registerLink": "https://ova.elections.il.gov",
@@ -218,7 +230,8 @@
       "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"
     ],
     "initials": "IL",
-    "absenteeLink": "https://www.elections.il.gov/ElectionOperations/VotingByMail.aspx"
+    "absenteeLink": "https://www.elections.il.gov/ElectionOperations/VotingByMail.aspx",
+    "earlyVoteLink": "https://www.elections.il.gov/VotingAndRegistrationSystems/EarlyVotingLocationsSearch.aspx"
   },
   "Indiana": {
     "registerLink": "https://indianavoters.in.gov/",
@@ -234,7 +247,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 12:00PM CST"
     ],
     "initials": "IN",
-    "absenteeLink": "https://www.in.gov/sos/elections/2402.htm"
+    "absenteeLink": "https://www.in.gov/sos/elections/2402.htm",
+    "earlyVoteLink": ""
   },
   "Iowa": {
     "registerLink": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
@@ -251,7 +265,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 9:00PM CST"
     ],
     "initials": "IA",
-    "absenteeLink": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html"
+    "absenteeLink": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html",
+    "earlyVoteLink": "https://sos.iowa.gov/elections/electioninfo/absenteeinperson.html"
   },
   "Kansas": {
     "registerLink": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
@@ -268,7 +283,8 @@
       "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"
     ],
     "initials": "KS",
-    "absenteeLink": "https://www.kssos.org/elections/elections-faq.html#Advance-Voting"
+    "absenteeLink": "https://www.kssos.org/elections/elections-faq.html#Advance-Voting",
+    "earlyVoteLink": "https://www.kssos.org/elections/voter-information.html"
   },
   "Kentucky": {
     "registerLink": "https://vrsws.sos.ky.gov/ovrweb/",
@@ -284,7 +300,8 @@
       "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020 6:00PM EST"
     ],
     "initials": "KY",
-    "absenteeLink": "https://vrsws.sos.ky.gov/abrweb/"
+    "absenteeLink": "https://vrsws.sos.ky.gov/abrweb/",
+    "earlyVoteLink": "https://www.sos.ky.gov/elections/Pages/2020-General-Updates.aspx"
   },
   "Louisiana": {
     "registerLink": "http://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
@@ -302,7 +319,8 @@
       "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020 4:30PM CST"
     ],
     "initials": "LA",
-    "absenteeLink": "https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteByMail/Pages/default.aspx"
+    "absenteeLink": "https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteByMail/Pages/default.aspx",
+    "earlyVoteLink": "https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteEarly/Pages/default.aspx"
   },
   "Maine": {
     "registerLink": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
@@ -322,7 +340,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
     ],
     "initials": "ME",
-    "absenteeLink": "https://www.maine.gov/sos/cec/elec/voter-info/absenteeguide.html"
+    "absenteeLink": "https://www.maine.gov/sos/cec/elec/voter-info/absenteeguide.html",
+    "earlyVoteLink": "https://www.maine.gov/sos/cec/elec/voter-info/absent.html"
   },
   "Maryland": {
     "registerLink": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/VoterType",
@@ -339,7 +358,8 @@
       "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"
     ],
     "initials": "MD",
-    "absenteeLink": "https://elections.maryland.gov/voting/absentee.html"
+    "absenteeLink": "https://elections.maryland.gov/voting/absentee.html",
+    "earlyVoteLink": "https://elections.maryland.gov/voting/early_voting.html"
   },
   "Massachusetts": {
     "registerLink": "https://www.sec.state.ma.us/OVR/Pages/MinRequirements.aspx?RMVId=True",
@@ -356,7 +376,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM"
     ],
     "initials": "MA",
-    "absenteeLink": "https://www.sec.state.ma.us/ele/eleev/early-voting-by-mail.htm"
+    "absenteeLink": "https://www.sec.state.ma.us/ele/eleev/early-voting-by-mail.htm",
+    "earlyVoteLink": "https://www.sec.state.ma.us/earlyvotingweb/earlyvotingsearch.aspx"
   },
   "Michigan": {
     "registerLink": "https://mvic.sos.state.mi.us/RegisterVoter",
@@ -375,7 +396,8 @@
       "Deadline to Return Completed Absentee Ballot: Post received by Tue Nov 17, 2020"
     ],
     "initials": "MI",
-    "absenteeLink": "https://www.michigan.gov/sos/0,4670,7-127-1633_8716_8728-21037--,00.html"
+    "absenteeLink": "https://www.michigan.gov/sos/0,4670,7-127-1633_8716_8728-21037--,00.html",
+    "earlyVoteLink": "https://www.michigan.gov/sos/0,4670,7-127-5647_12539-540401--,00.html"
   },
   "Minnesota": {
     "registerLink": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationStep1.aspx",
@@ -393,7 +415,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 3:00PM"
     ],
     "initials": "MN",
-    "absenteeLink": "https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-by-mail/"
+    "absenteeLink": "https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-by-mail/",
+    "earlyVoteLink": "https://www.sos.state.mn.us/elections-voting/other-ways-to-vote/vote-early-in-person/"
   },
   "Mississippi": {
     "registerLink": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
@@ -410,7 +433,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Sat Oct 31, 2020"
     ],
     "initials": "MS",
-    "absenteeLink": "https://www.sos.ms.gov/content/documents/elections/Step-by-Step%20Guide%20to%20Absentee%20Voting_forweb.pdf"
+    "absenteeLink": "https://www.sos.ms.gov/content/documents/elections/Step-by-Step%20Guide%20to%20Absentee%20Voting_forweb.pdf",
+    "earlyVoteLink": ""
   },
   "Missouri": {
     "registerLink": "http://www.sos.mo.gov/elections/goVoteMissouri/register.aspx",
@@ -426,7 +450,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM CST"
     ],
     "initials": "MO",
-    "absenteeLink": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote#Absentee"
+    "absenteeLink": "https://www.sos.mo.gov/elections/goVoteMissouri/howtovote#Absentee",
+    "earlyVoteLink": ""
   },
   "Montana": {
     "registerLink": "",
@@ -444,7 +469,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM MST"
     ],
     "initials": "MT",
-    "absenteeLink": "https://sosmt.gov/elections/absentee/"
+    "absenteeLink": "https://sosmt.gov/elections/absentee/",
+    "earlyVoteLink": "https://sosmt.gov/elections/absentee/"
   },
   "Nebraska": {
     "registerLink": "https://www.nebraska.gov/apps-sos-voter-registration/eligibility/citizen",
@@ -463,7 +489,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM CST"
     ],
     "initials": "NE",
-    "absenteeLink": "https://sos.nebraska.gov/elections/early-voting-0"
+    "absenteeLink": "https://sos.nebraska.gov/elections/early-voting-0",
+    "earlyVoteLink": "https://sos.nebraska.gov/elections/early-voting-0"
   },
   "Nevada": {
     "registerLink": "http://www.registertovotenv.gov",
@@ -482,7 +509,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"
     ],
     "initials": "NV",
-    "absenteeLink": "https://www.nvsos.gov/sos/elections/voters/absentee-voting"
+    "absenteeLink": "https://www.nvsos.gov/sos/elections/voters/absentee-voting",
+    "earlyVoteLink": "https://www.nvsos.gov/sos/elections/voters/early-voting-information"
   },
   "New_Hampshire": {
     "registerLink": "",
@@ -499,7 +527,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person Request by Mon Nov 2, 2020 5:00PM EST"
     ],
     "initials": "NH",
-    "absenteeLink": "https://sos.nh.gov/elections/voters/absentee-ballots/request-an-absentee-ballot/"
+    "absenteeLink": "https://sos.nh.gov/elections/voters/absentee-ballots/request-an-absentee-ballot/",
+    "earlyVoteLink": ""
   },
   "New_Jersey": {
     "registerLink": "",
@@ -515,7 +544,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 8:00PM EST"
     ],
     "initials": "NJ",
-    "absenteeLink": "https://www.state.nj.us/state/elections/vote-by-mail.shtml"
+    "absenteeLink": "https://www.state.nj.us/state/elections/vote-by-mail.shtml",
+    "earlyVoteLink": ""
   },
   "New_Mexico": {
     "registerLink": "https://portal.sos.state.nm.us/OVR/(S(od4445h5uj2f5tyucvvhszdf))/WebPages/InstructionsStep1.aspx",
@@ -531,7 +561,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020"
     ],
     "initials": "NM",
-    "absenteeLink": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/absentee-and-early-voting/"
+    "absenteeLink": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/absentee-and-early-voting/",
+    "earlyVoteLink": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/absentee-and-early-voting/"
   },
   "New_York": {
     "registerLink": "http://dmv.ny.gov/org/more-info/electronic-voter-registration-application",
@@ -549,7 +580,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Wed Nov 4, 2020"
     ],
     "initials": "NY",
-    "absenteeLink": "https://www.elections.ny.gov/VotingAbsentee.html"
+    "absenteeLink": "https://www.elections.ny.gov/VotingAbsentee.html",
+    "earlyVoteLink": "https://www.ny.gov/early-voting-and-absentee-voting-mail-or-dropbox"
   },
   "North_Carolina": {
     "registerLink": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
@@ -566,7 +598,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 5:00PM"
     ],
     "initials": "NC",
-    "absenteeLink": "https://www.ncsbe.gov/voting/vote-mail"
+    "absenteeLink": "https://www.ncsbe.gov/voting/vote-mail",
+    "earlyVoteLink": "https://www.ncsbe.gov/voting/vote-early-person"
   },
   "North_Dakota": {
     "registerLink": "",
@@ -582,7 +615,8 @@
       "Deadline to Return Completed Absentee Ballot: Mon Nov 2, 2020"
     ],
     "initials": "ND",
-    "absenteeLink": "https://vip.sos.nd.gov/pdfs/Portals/Voting-MailBallotAbsentee.pdf"
+    "absenteeLink": "https://vip.sos.nd.gov/pdfs/Portals/Voting-MailBallotAbsentee.pdf",
+    "earlyVoteLink": "https://vip.sos.nd.gov/Precincts.aspx?eid=313"
   },
   "Ohio": {
     "registerLink": "https://olvr.ohiosos.gov/",
@@ -598,7 +632,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:30PM EST"
     ],
     "initials": "OH",
-    "absenteeLink": "https://www.sos.state.oh.us/elections/voters/absentee-voting/#byMail"
+    "absenteeLink": "https://www.sos.state.oh.us/elections/voters/absentee-voting/#byMail",
+    "earlyVoteLink": "https://www.ohiosos.gov/elections/voters/toolkit/early-voting/"
   },
   "Oklahoma": {
     "registerLink": "",
@@ -614,7 +649,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"
     ],
     "initials": "OK",
-    "absenteeLink": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/index.html"
+    "absenteeLink": "https://www.ok.gov/elections/Voter_Info/Absentee_Voting/index.html",
+    "earlyVoteLink": "https://www.ok.gov/elections/support/earlyvote.html"
   },
   "Oregon": {
     "registerLink": "https://secure.sos.state.or.us/orestar/vr/register.do?lang=eng&amp;source=RTV",
@@ -630,7 +666,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM PST"
     ],
     "initials": "OR",
-    "absenteeLink": "https://sos.oregon.gov/elections/Documents/SEL111.pdf"
+    "absenteeLink": "https://sos.oregon.gov/elections/Documents/SEL111.pdf",
+    "earlyVoteLink": ""
   },
   "Pennsylvania": {
     "registerLink": "https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationApplication.aspx",
@@ -646,7 +683,8 @@
       "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 6, 2020"
     ],
     "initials": "PA",
-    "absenteeLink": "https://www.votespa.com/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx"
+    "absenteeLink": "https://www.votespa.com/Voting-in-PA/Pages/Mail-and-Absentee-Ballot.aspx",
+    "earlyVoteLink": "https://www.pa.gov/guides/voting-and-elections/#EarlyIn-personVoting"
   },
   "Rhode_Island": {
     "registerLink": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
@@ -662,7 +700,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
     ],
     "initials": "RI",
-    "absenteeLink": "https://elections.ri.gov/voting/mailballot.php"
+    "absenteeLink": "https://elections.ri.gov/voting/mailballot.php",
+    "earlyVoteLink": "https://vote.sos.ri.gov/Voter/PersonVotingPage"
   },
   "South_Carolina": {
     "registerLink": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
@@ -680,7 +719,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
     ],
     "initials": "SC",
-    "absenteeLink": "https://www.scvotes.gov/absentee-voting"
+    "absenteeLink": "https://www.scvotes.gov/absentee-voting",
+    "earlyVoteLink": "https://www.scvotes.gov/absentee-voting"
   },
   "South_Dakota": {
     "registerLink": "",
@@ -696,7 +736,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM"
     ],
     "initials": "SD",
-    "absenteeLink": "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx"
+    "absenteeLink": "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx",
+    "earlyVoteLink": "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx"
   },
   "Tennessee": {
     "registerLink": "https://ovr.govote.tn.gov/",
@@ -712,7 +753,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM EST"
     ],
     "initials": "TN",
-    "absenteeLink": "https://sos.tn.gov/products/elections/absentee-voting#2"
+    "absenteeLink": "https://sos.tn.gov/products/elections/absentee-voting#2",
+    "earlyVoteLink": "https://sos.tn.gov/products/elections/early-voting-person"
   },
   "Texas": {
     "registerLink": "",
@@ -728,7 +770,8 @@
       "Deadline to Return Completed Absentee Ballot: Post received by Wed Nov 4, 2020 5:00PM CST"
     ],
     "initials": "TX",
-    "absenteeLink": "https://www.votetexas.gov/voting/when.html#early-voting"
+    "absenteeLink": "https://www.votetexas.gov/voting/when.html#early-voting",
+    "earlyVoteLink": "https://www.votetexas.gov/voting/when.html#early-voting"
   },
   "Utah": {
     "registerLink": "https://secure.utah.gov/voterreg/login.html?selection=REGISTER",
@@ -748,7 +791,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020"
     ],
     "initials": "UT",
-    "absenteeLink": "https://voteinfo.utah.gov/learn-about-voting-by-mail-and-absentee-voting/"
+    "absenteeLink": "https://voteinfo.utah.gov/learn-about-voting-by-mail-and-absentee-voting/",
+    "earlyVoteLink": "https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote"
   },
   "Vermont": {
     "registerLink": "https://sos.vermont.gov/elections/voters/registration/",
@@ -765,7 +809,8 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM"
     ],
     "initials": "VT",
-    "absenteeLink": "https://sos.vermont.gov/elections/voters/early-absentee-voting/"
+    "absenteeLink": "https://sos.vermont.gov/elections/voters/early-absentee-voting/",
+    "earlyVoteLink": "https://sos.vermont.gov/elections/voters/early-absentee-voting/"
   },
   "Virginia": {
     "registerLink": "https://vote.elections.virginia.gov/VoterInformation",
@@ -784,7 +829,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 7:00PM EST"
     ],
     "initials": "VA",
-    "absenteeLink": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/index.html"
+    "absenteeLink": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/index.html",
+    "earlyVoteLink": "https://www.elections.virginia.gov/casting-a-ballot/absentee-voting/"
   },
   "Washington": {
     "registerLink": "https://www.sos.wa.gov/elections/register.aspx",
@@ -802,7 +848,8 @@
       "Deadline to Return Completed Absentee Ballot: Postmarked by Tue Nov 3, 2020"
     ],
     "initials": "WA",
-    "absenteeLink": "https://www.sos.wa.gov/elections/faq_vote_by_mail.aspx"
+    "absenteeLink": "https://www.sos.wa.gov/elections/faq_vote_by_mail.aspx",
+    "earlyVoteLink": "https://www.sos.wa.gov/elections/current-election-information.aspx"
   },
   "Washington_DC": {
     "registerLink": "https://www.vote4dc.com/ApplyInstructions/Register",
@@ -820,7 +867,8 @@
       "Deadline to Request an Absentee Ballot: Tue Oct 27, 2020",
       "Deadline to Return Completed Absentee Ballot: Post received by Fri Nov 13, 2020"
     ],
-    "absenteeLink": "https://www.dcboe.org/Voters/Absentee-Voting/Request-an-Absentee-Ballot"
+    "absenteeLink": "https://www.dcboe.org/Voters/Absentee-Voting/Request-an-Absentee-Ballot",
+    "earlyVoteLink": "https://earlyvoting.dcboe.org/"
   },
   "West_Virginia": {
     "registerLink": "https://ovr.sos.wv.gov/Register#Qualifications",
@@ -837,7 +885,8 @@
       "Deadline to Return Completed Absentee Ballot: Hand Delivered by Mon Nov 2, 2020"
     ],
     "initials": "WV",
-    "absenteeLink": "https://sos.wv.gov/elections/Pages/AbsenteeVotingInformation.aspx"
+    "absenteeLink": "https://sos.wv.gov/elections/Pages/AbsenteeVotingInformation.aspx",
+    "earlyVoteLink": "https://sos.wv.gov/elections/Documents/Early%20Voting%20Locations.pdf"
   },
   "Wisconsin": {
     "registerLink": "https://myvote.wi.gov/en-us/RegisterToVote",
@@ -856,7 +905,8 @@
       "Deadline to Return Completed Absentee Ballot: Received by Tue Nov 3, 2020 8:00PM"
     ],
     "initials": "WI",
-    "absenteeLink": "https://elections.wi.gov/voters/absentee"
+    "absenteeLink": "https://elections.wi.gov/voters/absentee",
+    "earlyVoteLink": "https://elections.wi.gov/voters/absentee"
   },
   "Wyoming": {
     "registerLink": "",
@@ -874,6 +924,7 @@
       "Deadline to Return Completed Absentee Ballot: In-Person, Received by Tue Nov 3, 2020 7:00PM MST"
     ],
     "initials": "WY",
-    "absenteeLink": "https://sos.wyo.gov/Elections/State/AbsenteeVoting.aspx"
+    "absenteeLink": "https://sos.wyo.gov/Elections/State/AbsenteeVoting.aspx",
+    "earlyVoteLink": "https://sos.wyo.gov/elections/state/AbsenteeVoting.aspx"
   }
 }

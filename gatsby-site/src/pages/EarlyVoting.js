@@ -15,6 +15,7 @@ const StateRow = ({ state, children }) => (
       <h3>{ state.replace("_", " ") }</h3>
     </td>
     <td>
+      <p>State Website: <a href={STATES_DATA[state].earlyVoteLink ? STATES_DATA[state].earlyVoteLink : STATES_DATA[state].absenteeLink}>{`${state}.gov`}</a></p>
       {children}
     </td>
   </tr>
@@ -23,7 +24,7 @@ const StateRow = ({ state, children }) => (
 const EarlyVoting = () => {
 
   const all_state_early_voting = Object.keys(STATES_DATA).map((state) =>
-    <StateRow state={state}><p>See your state website for details</p></StateRow>
+    <StateRow state={state}><p></p></StateRow>
   )
 
   return (
