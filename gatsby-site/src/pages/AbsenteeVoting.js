@@ -14,21 +14,10 @@ const EarlyVoting = () => {
     <tr key={state}>
       <td>
         <h3>{ state.replace("_", " ") }</h3>
-        <a href={STATES_DATA[state].absenteeLink} rel="noopener noreferrer" target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
-        {STATES_DATA[state].absenteeInfo.map((info, key) => {
-          const start = info.indexOf(":")
-          if( start > 0 ){
-            return (
-              <p key={"state_info" + key}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
-            )
-          } else {
-            return (
-              <p key={state + "_info" + key}>{info}</p>
-          )}
-        }
-        )}
+        <a className="d-md-none" href={STATES_DATA[state].absenteeLink} rel="noopener noreferrer" target="_blank">{`${state.replace("_", " ")}.gov`}</a>
+        <a className="d-md-inline d-none" href={STATES_DATA[state].absenteeLink} rel="noopener noreferrer" target="_blank">{STATES_DATA[state].absenteeLink}</a>
       </td>
     </tr>
   )

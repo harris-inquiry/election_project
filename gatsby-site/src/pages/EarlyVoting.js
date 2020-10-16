@@ -8,29 +8,22 @@ import Banner from "../components/banner"
 import { STATES_DATA } from "../data/states"
 
 
+
+const StateRow = ({ state, children }) => (
+  <tr key={`early_vote_${state}`}>
+    <td>
+      <h3>{ state.replace("_", " ") }</h3>
+    </td>
+    <td>
+      {children}
+    </td>
+  </tr>
+)
+
 const EarlyVoting = () => {
 
   const all_state_early_voting = Object.keys(STATES_DATA).map((state) =>
-    <tr key={state}>
-      <td>
-        <h3>{ state.replace("_", " ") }</h3>
-        {/* <a href={STATES_DATA[state].officialLink} target="_blank">{ state.replace("_", " ") + ".gov" }</a> */}
-      </td>
-      <td>
-        {STATES_DATA[state].genInfo.map((info, key) => {
-          const start = info.indexOf(":")
-          if( start > 0 ){
-            return (
-              <p key={state + "_info" + key}><strong>{info.slice(0,start)}</strong>{info.slice(start)}</p>
-            )
-          } else {
-            return (
-              <p key={state + "_info" + key}>{info}</p>
-          )}
-        }
-        )}
-      </td>
-    </tr>
+    <StateRow state={state}><p>See your state website for details</p></StateRow>
   )
 
   return (

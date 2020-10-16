@@ -7,20 +7,17 @@ import Banner from "../components/banner"
 
 import { STATES_DATA } from "../data/states"
 
-import "../styles/style.scss"
 
 const RegisterPage = () => {
 
   const tbody = Object.keys(STATES_DATA).map((state) =>
-    <tr key={state + "_tableRow"}>
+    <tr key={`_register_${state}`}>
       <td>
         <h3>{ state.replace("_", " ") }</h3>
-        <a href={STATES_DATA[state].registerLink} rel="noopener noreferrer" target="_blank">{ state.replace("_", " ") + ".gov"}</a>
       </td>
       <td>
-        {STATES_DATA[state].voterRegistrationDeadlines.map((info, index) =>
-          <p key={state + "_info_" + index}>{info}</p>
-        )}
+        <a className="d-sm-none" href={STATES_DATA[state].registerLink} rel="noopener noreferrer" target="_blank">{ state.replace("_", " ") + ".gov"}</a>
+        <a className="d-sm-inline d-none" href={STATES_DATA[state].registerLink} rel="noopener noreferrer" target="_blank">{STATES_DATA[state].registerLink}</a>
       </td>
     </tr>
   )

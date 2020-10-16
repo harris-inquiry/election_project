@@ -253,6 +253,12 @@ hr.featurette-divider {
 .state-table {
   background: white;
   border-radius: 0.5rem;
+  thead {
+    th:first-child {
+      min-width:200px;
+      width:30%;
+    }
+  }
   tbody {
     p:last-child {
       margin-bottom:0;
