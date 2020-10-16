@@ -52,7 +52,7 @@
     "earlyVoteLink": ""
   },
   "Arkansas": {
-    "registerLink": "https://www.sos.arkansas.gov/elections",
+    "registerLink": "https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information/",
     "initials": "AR",
     "genInfo": [
       "Early Voting: Oct 19, 2020 - Nov 2, 2020",
@@ -454,7 +454,7 @@
     "earlyVoteLink": ""
   },
   "Montana": {
-    "registerLink": "",
+    "registerLink": "https://sosmt.gov/elections/vote/",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Oct 2, 2020 - Nov 2, 2020"
@@ -513,7 +513,7 @@
     "earlyVoteLink": "https://www.nvsos.gov/sos/elections/voters/early-voting-information"
   },
   "New_Hampshire": {
-    "registerLink": "",
+    "registerLink": "https://sos.nh.gov/elections/voters/register-to-vote/town-or-city-clerk-s-office/",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Not available"
@@ -602,7 +602,7 @@
     "earlyVoteLink": "https://www.ncsbe.gov/voting/vote-early-person"
   },
   "North_Dakota": {
-    "registerLink": "",
+    "registerLink": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=AddressandVotingTimes",
     "genInfo": [
       "Early Voting: Contact your local election office",
       "In-Person Absentee Voting: Not available"
@@ -636,7 +636,7 @@
     "earlyVoteLink": "https://www.ohiosos.gov/elections/voters/toolkit/early-voting/"
   },
   "Oklahoma": {
-    "registerLink": "",
+    "registerLink": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/",
     "genInfo": [
       "Early Voting: Oct 29, 2020 - Oct 31, 2020",
       "In-Person Absentee Voting: Not available"
@@ -723,7 +723,7 @@
     "earlyVoteLink": "https://www.scvotes.gov/absentee-voting"
   },
   "South_Dakota": {
-    "registerLink": "",
+    "registerLink": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Sep 18, 2020 - Nov 2, 2020"
@@ -757,7 +757,7 @@
     "earlyVoteLink": "https://sos.tn.gov/products/elections/early-voting-person"
   },
   "Texas": {
-    "registerLink": "",
+    "registerLink": "https://www.sos.state.tx.us/elections/voter/reqvr.shtml",
     "genInfo": [
       "Early Voting: Oct 13, 2020 - Oct 30, 2020",
       "In-Person Absentee Voting: Not available"
@@ -909,7 +909,7 @@
     "earlyVoteLink": "https://elections.wi.gov/voters/absentee"
   },
   "Wyoming": {
-    "registerLink": "",
+    "registerLink": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "genInfo": [
       "Early Voting: Not available",
       "In-Person Absentee Voting: Sep 24, 2020"
