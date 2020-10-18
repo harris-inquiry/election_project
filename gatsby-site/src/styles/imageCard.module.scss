@@ -12,6 +12,13 @@
     font-weight: 500;
     font-style: italic;
   }
+  @include media-breakpoint-up(md) {
+    &:hover{
+      .image:after {
+        background: rgba(0,0,0,.4);
+      }
+    }
+  }
 }
 
 .image{
@@ -26,13 +33,6 @@
     left:0;
     @include media-breakpoint-up(md) {
       background: rgba(0,0,0,.2);
-    }
-  }
-  @include media-breakpoint-up(md) {
-    &:hover{
-      &:after {
-        background: rgba(0,0,0,.4);
-      }
     }
   }
 }

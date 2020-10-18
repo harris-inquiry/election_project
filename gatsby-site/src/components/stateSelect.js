@@ -55,7 +55,7 @@ const StateSelect = ({onChange, style}) => {
             </Form.Control>
           </Form.Group>
         </Form>
-        <Button variant="success" size="lg" href={getStateLink(usState)} target="_blank" style={{display:(usState !== NO_STATE ? "inherit" : "none"), border:"2px solid #76bf8c"}} >Vote {getStateInitials(usState)}</Button>
+        <Button variant="success" size="lg" href={getStateLink(usState)} target="_blank" style={{height:"100%", display:(usState !== NO_STATE ? "inherit" : "none"), border:"2px solid #76bf8c"}} >Vote {getStateInitials(usState)}</Button>
       </div>
       <StateMapSelect style={(usState === NO_STATE ? {} : {display:"none"})} onClick={(state) => changeUSState(state)} />
     </div>

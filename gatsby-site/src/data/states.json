@@ -3,7 +3,7 @@
     "registerLink": "https://www.alabamavotes.gov/olvr/default.aspx",
     "initials": "AL",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 9, 2020 - Oct 29, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -21,7 +21,7 @@
     "registerLink": "https://voterregistration.alaska.gov",
     "initials": "AK",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 19, 2020 - Nov 1, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -39,7 +39,7 @@
     "initials": "AZ",
     "genInfo": [
       "Early Voting: Oct 7, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -56,7 +56,7 @@
     "initials": "AR",
     "genInfo": [
       "Early Voting: Oct 19, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Postmarked by Mon Oct 5, 2020",
@@ -74,7 +74,7 @@
     "initials": "CA",
     "genInfo": [
       "Early Voting: Dates Vary by Locality - Contact your local election office",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Mon Oct 19, 2020",
@@ -93,7 +93,7 @@
     "initials": "CO",
     "genInfo": [
       "Early Voting: Oct 26, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Request for Postal Ballot by Mon Oct 26, 2020",
@@ -109,8 +109,8 @@
   "Connecticut": {
     "registerLink": "https://voterregistration.ct.gov/OLVR/",
     "genInfo": [
-      "Early Voting: Not available",
-      "In-Person Absentee Voting: Not available"
+      "Early Voting: Check with your state",
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Received by Tue Oct 27, 2020",
@@ -129,7 +129,7 @@
   "Delaware": {
     "registerLink": "https://ivote.de.gov/voterlogin.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 30, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -147,7 +147,7 @@
     "registerLink": "https://registertovoteflorida.gov/home",
     "genInfo": [
       "Early Voting: Oct 24, 2020 - Oct 31, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -164,7 +164,7 @@
     "registerLink": "https://registertovote.sos.ga.gov/GAOLVR/#no-back-button",
     "genInfo": [
       "Early Voting: Oct 12, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -181,7 +181,7 @@
     "registerLink": "https://olvr.hawaii.gov/register.aspx",
     "genInfo": [
       "Early Voting: Oct 20, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -217,7 +217,7 @@
     "registerLink": "https://ova.elections.il.gov",
     "genInfo": [
       "Early Voting: Oct 19, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 6, 2020",
@@ -236,7 +236,7 @@
   "Indiana": {
     "registerLink": "https://indianavoters.in.gov/",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -253,7 +253,7 @@
   "Iowa": {
     "registerLink": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -272,7 +272,7 @@
     "registerLink": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
     "genInfo": [
       "Early Voting: Oct 14, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Tue Oct 13, 2020",
@@ -307,7 +307,7 @@
     "registerLink": "http://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
     "genInfo": [
       "Early Voting: Oct 20, 2020 - Oct 27, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Tue Oct 13, 2020",
@@ -325,7 +325,7 @@
   "Maine": {
     "registerLink": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 12, 2020 - Oct 29, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -347,7 +347,7 @@
     "registerLink": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/VoterType",
     "genInfo": [
       "Early Voting: Oct 26, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Tue Oct 13, 2020 9:00PM EDT",
@@ -365,7 +365,7 @@
     "registerLink": "https://www.sec.state.ma.us/OVR/Pages/MinRequirements.aspx?RMVId=True",
     "genInfo": [
       "Early Voting: Oct 17, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Sat Oct 24, 2020 8:00PM EDT",
@@ -382,7 +382,7 @@
   "Michigan": {
     "registerLink": "https://mvic.sos.state.mi.us/RegisterVoter",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 24, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -403,7 +403,7 @@
     "registerLink": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationStep1.aspx",
     "genInfo": [
       "Early Voting: Sep 18, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 13, 2020",
@@ -421,7 +421,7 @@
   "Mississippi": {
     "registerLink": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 21, 2019 - Oct 31, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -439,7 +439,7 @@
   "Missouri": {
     "registerLink": "http://www.sos.mo.gov/elections/goVoteMissouri/register.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 22, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -456,7 +456,7 @@
   "Montana": {
     "registerLink": "https://sosmt.gov/elections/vote/",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 2, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -476,7 +476,7 @@
     "registerLink": "https://www.nebraska.gov/apps-sos-voter-registration/eligibility/citizen",
     "genInfo": [
       "Early Voting: Oct 5, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Fri Oct 16, 2020 5:00PM CDT",
@@ -496,7 +496,7 @@
     "registerLink": "http://www.registertovotenv.gov",
     "genInfo": [
       "Early Voting: Oct 17, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Thu Oct 29, 2020",
@@ -515,8 +515,8 @@
   "New_Hampshire": {
     "registerLink": "https://sos.nh.gov/elections/voters/register-to-vote/town-or-city-clerk-s-office/",
     "genInfo": [
-      "Early Voting: Not available",
-      "In-Person Absentee Voting: Not available"
+      "Early Voting: Check with your state",
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 27, 2020",
@@ -533,8 +533,8 @@
   "New_Jersey": {
     "registerLink": "",
     "genInfo": [
-      "Early Voting: Not available",
-      "In-Person Absentee Voting: Not available"
+      "Early Voting: Check with your state",
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 13, 2020"
@@ -568,7 +568,7 @@
     "registerLink": "http://dmv.ny.gov/org/more-info/electronic-voter-registration-application",
     "genInfo": [
       "Early Voting: Oct 24, 2020 - Nov 1, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Postmarked by Fri Oct 9, 2020",
@@ -587,7 +587,7 @@
     "registerLink": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
     "genInfo": [
       "Early Voting: Oct 15, 2020 - Oct 31, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Fri Oct 9, 2020",
@@ -605,7 +605,7 @@
     "registerLink": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=AddressandVotingTimes",
     "genInfo": [
       "Early Voting: Contact your local election office",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Not Required"
@@ -621,7 +621,7 @@
   "Ohio": {
     "registerLink": "https://olvr.ohiosos.gov/",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 6, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -639,7 +639,7 @@
     "registerLink": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/",
     "genInfo": [
       "Early Voting: Oct 29, 2020 - Oct 31, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Fri Oct 9, 2020"
@@ -655,8 +655,8 @@
   "Oregon": {
     "registerLink": "https://secure.sos.state.or.us/orestar/vr/register.do?lang=eng&amp;source=RTV",
     "genInfo": [
-      "Early Voting: Not available",
-      "In-Person Absentee Voting: Not available"
+      "Early Voting: Check with your state",
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 13, 2020"
@@ -672,7 +672,7 @@
   "Pennsylvania": {
     "registerLink": "https://www.pavoterservices.state.pa.us/Pages/VoterRegistrationApplication.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 14, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -690,7 +690,7 @@
     "registerLink": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
     "genInfo": [
       "Early Voting: Oct 14, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Sun Oct 4, 2020"
@@ -706,7 +706,7 @@
   "South_Carolina": {
     "registerLink": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Oct 5, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -725,7 +725,7 @@
   "South_Dakota": {
     "registerLink": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 18, 2020 - Nov 2, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -743,7 +743,7 @@
     "registerLink": "https://ovr.govote.tn.gov/",
     "genInfo": [
       "Early Voting: Oct 14, 2020 - Oct 29, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -760,7 +760,7 @@
     "registerLink": "https://www.sos.state.tx.us/elections/voter/reqvr.shtml",
     "genInfo": [
       "Early Voting: Oct 13, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Mon Oct 5, 2020"
@@ -777,7 +777,7 @@
     "registerLink": "https://secure.utah.gov/voterreg/login.html?selection=REGISTER",
     "genInfo": [
       "Early Voting: Oct 20, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Fri Oct 23, 2020",
@@ -798,7 +798,7 @@
     "registerLink": "https://sos.vermont.gov/elections/voters/registration/",
     "genInfo": [
       "Early Voting: Sep 20, 2020 - Nov 2, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Election Day Registration & Voting Tue Nov 3, 2020",
@@ -815,7 +815,7 @@
   "Virginia": {
     "registerLink": "https://vote.elections.virginia.gov/VoterInformation",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 18, 2020 - Oct 31, 2020"
     ],
     "voterRegistrationDeadlines": [
@@ -836,7 +836,7 @@
     "registerLink": "https://www.sos.wa.gov/elections/register.aspx",
     "genInfo": [
       "Early Voting: Oct 14, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Mon Oct 26, 2020",
@@ -855,7 +855,7 @@
     "registerLink": "https://www.vote4dc.com/ApplyInstructions/Register",
     "genInfo": [
       "Early Voting: Oct 17, 2020 - Oct 30, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Post received by Tue Oct 13, 2020",
@@ -874,7 +874,7 @@
     "registerLink": "https://ovr.sos.wv.gov/Register#Qualifications",
     "genInfo": [
       "Early Voting: Oct 21, 2020 - Oct 31, 2020",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Tue Oct 13, 2020",
@@ -892,7 +892,7 @@
     "registerLink": "https://myvote.wi.gov/en-us/RegisterToVote",
     "genInfo": [
       "Early Voting: Dates Vary by Locality - Contact your local election office",
-      "In-Person Absentee Voting: Not available"
+      "In-Person Absentee Voting: Check with your state"
     ],
     "voterRegistrationDeadlines": [
       "Online by Wed Oct 14, 2020",
@@ -911,7 +911,7 @@
   "Wyoming": {
     "registerLink": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "genInfo": [
-      "Early Voting: Not available",
+      "Early Voting: Check with your state",
       "In-Person Absentee Voting: Sep 24, 2020"
     ],
     "voterRegistrationDeadlines": [
