@@ -142,10 +142,17 @@ body {
   color:white;
   h2 {
     font-weight: 700;
+    fontSize: 3rem;
   }
-  p {
-    font-weight:600;
-    font-size: 1.2rem;
+  h3 {
+    fontSize: 2.1rem;
+    font-family: "Poppins";
+  }
+  li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    list-style: square;
+    font-family: "Poppins";
   }
 }
 
